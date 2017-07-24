@@ -1,0 +1,174 @@
+{
+data: [
+{
+xbrl_tag: "NetIncomeLoss",
+domain_tag: null,
+value: 45687000000
+},
+{
+xbrl_tag: "DepreciationAmortizationAndAccretionNet",
+domain_tag: null,
+value: 10505000000
+},
+{
+xbrl_tag: "ShareBasedCompensation",
+domain_tag: null,
+value: 4210000000
+},
+{
+xbrl_tag: "DeferredIncomeTaxExpenseBenefit",
+domain_tag: null,
+value: 4938000000
+},
+{
+xbrl_tag: "IncreaseDecreaseInAccountsReceivable",
+domain_tag: null,
+value: -1095000000
+},
+{
+xbrl_tag: "IncreaseDecreaseInInventories",
+domain_tag: null,
+value: -217000000
+},
+{
+xbrl_tag: "IncreaseDecreaseInOtherReceivables",
+domain_tag: null,
+value: 51000000
+},
+{
+xbrl_tag: "IncreaseDecreaseInOtherOperatingAssets",
+domain_tag: null,
+value: -1090000000
+},
+{
+xbrl_tag: "IncreaseDecreaseInAccountsPayable",
+domain_tag: null,
+value: 1791000000
+},
+{
+xbrl_tag: "IncreaseDecreaseInDeferredRevenue",
+domain_tag: null,
+value: -1554000000
+},
+{
+xbrl_tag: "IncreaseDecreaseInOtherOperatingLiabilities",
+domain_tag: null,
+value: -2104000000
+},
+{
+xbrl_tag: "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+domain_tag: null,
+value: 65824000000
+},
+{
+xbrl_tag: "PaymentsToAcquireAvailableForSaleSecurities",
+domain_tag: null,
+value: 142428000000
+},
+{
+xbrl_tag: "ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities",
+domain_tag: null,
+value: 21258000000
+},
+{
+xbrl_tag: "ProceedsFromSaleOfAvailableForSaleSecurities",
+domain_tag: null,
+value: 90536000000
+},
+{
+xbrl_tag: "PaymentsToAcquireBusinessesNetOfCashAcquired",
+domain_tag: null,
+value: 297000000
+},
+{
+xbrl_tag: "PaymentsToAcquirePropertyPlantAndEquipment",
+domain_tag: null,
+value: 12734000000
+},
+{
+xbrl_tag: "PaymentsToAcquireIntangibleAssets",
+domain_tag: null,
+value: 814000000
+},
+{
+xbrl_tag: "PaymentsToAcquireOtherInvestments",
+domain_tag: null,
+value: 1388000000
+},
+{
+xbrl_tag: "PaymentsForProceedsFromOtherInvestingActivities",
+domain_tag: null,
+value: 110000000
+},
+{
+xbrl_tag: "NetCashProvidedByUsedInInvestingActivitiesContinuingOperations",
+domain_tag: null,
+value: -45977000000
+},
+{
+xbrl_tag: "ProceedsFromIssuanceOfCommonStock",
+domain_tag: null,
+value: 495000000
+},
+{
+xbrl_tag: "ExcessTaxBenefitFromShareBasedCompensationFinancingActivities",
+domain_tag: null,
+value: 407000000
+},
+{
+xbrl_tag: "PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
+domain_tag: null,
+value: 1570000000
+},
+{
+xbrl_tag: "PaymentsOfDividendsAndDividendEquivalentsOnCommonStockAndRestrictedStockUnits",
+domain_tag: null,
+value: 12150000000
+},
+{
+xbrl_tag: "PaymentsForRepurchaseOfCommonStock",
+domain_tag: null,
+value: 29722000000
+},
+{
+xbrl_tag: "ProceedsFromIssuanceOfLongTermDebt",
+domain_tag: null,
+value: 24954000000
+},
+{
+xbrl_tag: "RepaymentsOfLongTermDebt",
+domain_tag: null,
+value: 2500000000
+},
+{
+xbrl_tag: "ProceedsFromRepaymentsOfCommercialPaper",
+domain_tag: null,
+value: -397000000
+},
+{
+xbrl_tag: "NetCashProvidedByUsedInFinancingActivitiesContinuingOperations",
+domain_tag: null,
+value: -20483000000
+},
+{
+xbrl_tag: "CashAndCashEquivalentsPeriodIncreaseDecrease",
+domain_tag: null,
+value: -636000000
+},
+{
+xbrl_tag: "IncomeTaxesPaidNet",
+domain_tag: null,
+value: 10444000000
+},
+{
+xbrl_tag: "InterestPaid",
+domain_tag: null,
+value: 1316000000
+}
+],
+result_count: 33,
+page_size: 100,
+current_page: 1,
+total_pages: 1,
+api_call_credits: 1
+}

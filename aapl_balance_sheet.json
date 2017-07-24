@@ -1,0 +1,154 @@
+{
+data: [
+{
+xbrl_tag: "CashAndCashEquivalentsAtCarryingValue",
+domain_tag: null,
+value: 20484000000
+},
+{
+xbrl_tag: "AvailableForSaleSecuritiesCurrent",
+domain_tag: null,
+value: 46671000000
+},
+{
+xbrl_tag: "AccountsReceivableNetCurrent",
+domain_tag: null,
+value: 15754000000
+},
+{
+xbrl_tag: "InventoryNet",
+domain_tag: null,
+value: 2132000000
+},
+{
+xbrl_tag: "NontradeReceivablesCurrent",
+domain_tag: null,
+value: 13545000000
+},
+{
+xbrl_tag: "OtherAssetsCurrent",
+domain_tag: null,
+value: 8283000000
+},
+{
+xbrl_tag: "AssetsCurrent",
+domain_tag: null,
+value: 106869000000
+},
+{
+xbrl_tag: "AvailableForSaleSecuritiesNoncurrent",
+domain_tag: null,
+value: 170430000000
+},
+{
+xbrl_tag: "PropertyPlantAndEquipmentNet",
+domain_tag: null,
+value: 27010000000
+},
+{
+xbrl_tag: "Goodwill",
+domain_tag: null,
+value: 5414000000
+},
+{
+xbrl_tag: "IntangibleAssetsNetExcludingGoodwill",
+domain_tag: null,
+value: 3206000000
+},
+{
+xbrl_tag: "OtherAssetsNoncurrent",
+domain_tag: null,
+value: 8757000000
+},
+{
+xbrl_tag: "Assets",
+domain_tag: null,
+value: 321686000000
+},
+{
+xbrl_tag: "AccountsPayableCurrent",
+domain_tag: null,
+value: 37294000000
+},
+{
+xbrl_tag: "AccruedLiabilitiesCurrent",
+domain_tag: null,
+value: 22027000000
+},
+{
+xbrl_tag: "DeferredRevenueCurrent",
+domain_tag: null,
+value: 8080000000
+},
+{
+xbrl_tag: "CommercialPaper",
+domain_tag: null,
+value: 8105000000
+},
+{
+xbrl_tag: "LongTermDebtCurrent",
+domain_tag: null,
+value: 3500000000
+},
+{
+xbrl_tag: "LiabilitiesCurrent",
+domain_tag: null,
+value: 79006000000
+},
+{
+xbrl_tag: "DeferredRevenueNoncurrent",
+domain_tag: null,
+value: 2930000000
+},
+{
+xbrl_tag: "LongTermDebtNoncurrent",
+domain_tag: null,
+value: 75427000000
+},
+{
+xbrl_tag: "OtherLiabilitiesNoncurrent",
+domain_tag: null,
+value: 36074000000
+},
+{
+xbrl_tag: "Liabilities",
+domain_tag: null,
+value: 193437000000
+},
+{
+xbrl_tag: "CommitmentsAndContingencies",
+domain_tag: null,
+value: 0
+},
+{
+xbrl_tag: "CommonStocksIncludingAdditionalPaidInCapital",
+domain_tag: null,
+value: 31251000000
+},
+{
+xbrl_tag: "RetainedEarningsAccumulatedDeficit",
+domain_tag: null,
+value: 96364000000
+},
+{
+xbrl_tag: "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+domain_tag: null,
+value: 634000000
+},
+{
+xbrl_tag: "StockholdersEquity",
+domain_tag: null,
+value: 128249000000
+},
+{
+xbrl_tag: "LiabilitiesAndStockholdersEquity",
+domain_tag: null,
+value: 321686000000
+}
+],
+result_count: 29,
+page_size: 100,
+current_page: 1,
+total_pages: 1,
+api_call_credits: 1
+}
