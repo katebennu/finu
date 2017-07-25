@@ -1,0 +1,105 @@
+{
+  "industries": [
+    {
+      "Electronics": [
+        {
+          "ticker": "HPE"
+        },
+        {
+          "ticker": "AAPL"
+        },
+        {
+          "ticker": "DVMT",
+          "name": "Dell Technologies Inc"
+        },
+        {
+          "ticker": "INTC"
+        },
+        {
+          "ticker": "CSCO",
+          "name": "Cisco Systems Inc"
+        },
+        {
+          "ticker": "ORCL",
+          "name": "Oracle Corp"
+        },
+        {
+          "ticker": "QCOM",
+          "name": "Qualcomm Inc"
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft Corp"
+        }
+      ],
+      "Internet": [
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet Inc"
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon.com Inc"
+        }
+      ],
+      "Food": [
+        {
+          "ticker": "COKE",
+          "name": "Coca Cola Bottling Co Consolidated"
+        },
+        {
+          "ticker": "PEP",
+          "name": "PepsiCo Inc"
+        },
+        {
+          "ticker": "KHC",
+          "name": "Kraft Heinz Co"
+        },
+        {
+          "ticker": "TSN",
+          "name": "Tyson Foods Inc"
+        },
+        {
+          "ticker": "BG",
+          "name": "Bunge Ltd"
+        },
+        {
+          "ticker": "ADM",
+          "name": "Archer Daniels Midland Co"
+        }
+      ],
+      "Pharma": [
+        {
+          "ticker": "PFE",
+          "name": "Pfizer Inc"
+        },
+        {
+          "ticker": "MRK",
+          "name": "Merck & Co Inc"
+        },
+        {
+          "ticker": "CAH",
+          "name": "Cardinal Health Inc"
+        },
+        {
+          "ticker": "ABT",
+          "name": "Abbott Laboratories"
+        }
+      ],
+      "Auto": [
+                {
+          "ticker": "TSLA",
+          "name": "Tesla Inc"
+        },
+        {
+          "ticker": "F",
+          "name": "Ford Motor Co"
+        },
+        {
+          "ticker": "GM",
+          "name": "General Motors Co"
+        }
+      ]
+    }
+  ]
+}
