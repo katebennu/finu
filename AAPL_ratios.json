@@ -1,1 +1,24 @@
-{"Activity": {"ReceivablesTurnover": 0.670340021014281, "InventoryTurnover": 61.62101313320826, "AssetTurnover": 0.670340021014281}, "CapitalMarket": {}, "CapitalStructure": {"DebtToEquity": 1.5082924623193943}, "Liquidity": {"NetWorkingCapital": 0.08661551948173063, "QuickRatio": 1.3256841252563096, "CurrentRatio": 1.352669417512594}, "ROA": {}, "Profitability": {"ReturnOnAssets": 0.14202358821956815, "ProfitMargin": 0.211867983064288, "EPS": 8.35, "ReturnOnEquity": 0.3562366958026963, "dilutedEPS": 8.31}}
+{
+  "Activity": {
+    "ReceivablesTurnover": 0.670340021014281,
+    "InventoryTurnover": 61.62101313320826,
+    "AssetTurnover": 0.670340021014281
+  },
+  "CapitalMarket": {},
+  "CapitalStructure": {
+    "DebtToEquity": 1.5082924623193943
+  },
+  "Liquidity": {
+    "NetWorkingCapital": 0.08661551948173063,
+    "QuickRatio": 1.3256841252563096,
+    "CurrentRatio": 1.352669417512594
+  },
+  "ROA": {},
+  "Profitability": {
+    "ReturnOnAssets": 0.14202358821956815,
+    "ProfitMargin": 0.211867983064288,
+    "EPS": 8.35,
+    "ReturnOnEquity": 0.3562366958026963,
+    "dilutedEPS": 8.31
+  }
+}

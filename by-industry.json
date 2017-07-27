@@ -1,7 +1,8 @@
 {
   "industries": [
     {
-      "Electronics": [
+      "name": "Electronics",
+      "companies": [
         {
           "ticker": "HPE"
         },
@@ -31,8 +32,11 @@
           "ticker": "MSFT",
           "name": "Microsoft Corp"
         }
-      ],
-      "Internet": [
+      ]
+    },
+    {
+      "name": "Internet",
+      "companies": [
         {
           "ticker": "GOOGL",
           "name": "Alphabet Inc"
@@ -41,8 +45,11 @@
           "ticker": "AMZN",
           "name": "Amazon.com Inc"
         }
-      ],
-      "Food": [
+      ]
+    },
+    {
+      "name": "Food",
+      "companies": [
         {
           "ticker": "COKE",
           "name": "Coca Cola Bottling Co Consolidated"
@@ -67,8 +74,11 @@
           "ticker": "ADM",
           "name": "Archer Daniels Midland Co"
         }
-      ],
-      "Pharma": [
+      ]
+    },
+    {
+      "name": "Pharma",
+      "companies": [
         {
           "ticker": "PFE",
           "name": "Pfizer Inc"
@@ -85,9 +95,12 @@
           "ticker": "ABT",
           "name": "Abbott Laboratories"
         }
-      ],
-      "Auto": [
-                {
+      ]
+    },
+    {
+      "name": "Auto",
+      "companies": [
+        {
           "ticker": "TSLA",
           "name": "Tesla Inc"
         },
