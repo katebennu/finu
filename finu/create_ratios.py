@@ -13,26 +13,31 @@ def process_statement(statement):
         'CapitalMarket': {},
         'ROA': {}
     }
+    try:
+        ratios['Liquidity']['CurrentRatio'] = data['AssetsCurrent'] / data['LiabilitiesCurrent']
+        ratios['Liquidity']['QuickRatio'] = (data['AssetsCurrent'] - data['InventoryNet']) / data['LiabilitiesCurrent']
+        ratios['Liquidity']['NetWorkingCapital'] = (data['AssetsCurrent'] - data['LiabilitiesCurrent']) / data['Assets']
 
-    ratios['Liquidity']['CurrentRatio'] = data['AssetsCurrent'] / data['LiabilitiesCurrent']
-    ratios['Liquidity']['QuickRatio'] = (data['AssetsCurrent'] - data['InventoryNet']) / data['LiabilitiesCurrent']
-    ratios['Liquidity']['NetWorkingCapital'] = (data['AssetsCurrent'] - data['LiabilitiesCurrent']) / data['Assets']
-    
-    ratios['Profitability']['ReturnOnAssets'] = data['NetIncomeLoss'] / data['Assets']
-    ratios['Profitability']['ReturnOnEquity'] = data['NetIncomeLoss'] / data['StockholdersEquity']
-    # ratios['Profitability']['ReturnOnCommonEequity']
-    ratios['Profitability']['ProfitMargin'] = data['NetIncomeLoss'] / data['SalesRevenueNet']
-    ratios['Profitability']['EPS'] = data['EarningsPerShareBasic']
-    ratios['Profitability']['dilutedEPS'] = data['EarningsPerShareDiluted']
-    
-    ratios['Activity']['AssetTurnover'] = data['SalesRevenueNet'] / data['Assets']
-    ratios['Activity']['ReceivablesTurnover'] = data['SalesRevenueNet'] / data['Assets']
-    ratios['Activity']['InventoryTurnover'] = data['CostOfGoodsAndServicesSold'] / data['InventoryNet']
-    
-    ratios['CapitalStructure']['DebtToEquity'] = data['Liabilities'] / data['StockholdersEquity']
-    
-    # ratios['CapitalMarket']['PE']
-    # ratios['CapitalMarket']['MarketToBook']
+        ratios['Profitability']['ReturnOnAssets'] = data['NetIncomeLoss'] / data['Assets']
+        ratios['Profitability']['ReturnOnEquity'] = data['NetIncomeLoss'] / data['StockholdersEquity']
+        # ratios['Profitability']['ReturnOnCommonEequity']
+        ratios['Profitability']['ProfitMargin'] = data['NetIncomeLoss'] / data['SalesRevenueNet']
+        ratios['Profitability']['EPS'] = data['EarningsPerShareBasic']
+        ratios['Profitability']['dilutedEPS'] = data['EarningsPerShareDiluted']
+
+        ratios['Activity']['AssetTurnover'] = data['SalesRevenueNet'] / data['Assets']
+
+        ratios['Activity']['ReceivablesTurnover'] = data['SalesRevenueNet'] / data['Assets']
+        ratios['Activity']['InventoryTurnover'] = data['CostOfGoodsAndServicesSold'] / data['InventoryNet']
+
+        ratios['CapitalStructure']['DebtToEquity'] = data['Liabilities'] / data['StockholdersEquity']
+
+        # ratios['CapitalMarket']['PE']
+        # ratios['CapitalMarket']['MarketToBook']
+    except KeyError:
+        pass
+
+    print(ratios)
 
     yield {
         'company': statement['company'],
