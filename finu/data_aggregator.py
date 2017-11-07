@@ -7,43 +7,63 @@ import requests
 URL_BASE = 'https://api.intrinio.com/financials/reported?identifier='
 YEARS = ['2014', '2015', '2016']
 STATEMENTS = ['income_statement', 'balance_sheet', 'cash_flow_statement']
-AUTH = ('4ea8ae0d11d482806d10558597cff3f5', '2db2b3521aef5cda7717c5bd9f8cb05b')
+
+with open('auth', 'r') as fh:
+    AUTH = tuple(fh.read().split(','))
 
 
-def process_company(company):
+def process_company(company, industry):
     for y in YEARS:
         for s in STATEMENTS:
+            """
             url = "&".join([
-                URL_BASE + company['ticker'],
+                URL_BASE + company,
                 'state',
                 'statement={}'.format(s),
                 'fiscal_year={}'.format(y),
                 'fiscal_period=FY'
             ])
-            statement_data = json.loads(requests.get(url, auth=AUTH).text)
-            data = {}
+            """
+            statement_data = requests.get(
+                URL_BASE + company,
+                auth=AUTH,
+                params=dict(
+                    state="true",
+                    statement=s,
+                    fiscal_year=y,
+                    fiscal_period="FY"
+                )
+            ).json()
+
+            data = {
+                'industry': industry,
+                'company': company,
+                'year': y,
+                'data': {}
+            }
 
             for i in statement_data["data"]:
-                data[i['xbrl_tag']] = i['value']
+                data['data'][i['xbrl_tag']] = i['value']
 
             yield data
 
 
 def main():
-
-    out = {}
+    print('started')
+    out = []
 
     with open('by-industry.json') as fh:
         industries = json.load(fh)["industries"]
 
     for i in industries:
         for c in i["companies"]:
-            out[c['ticker']] = list(process_company(c))
+            out += list(process_company(c['ticker'], i['name']))
 
     with open('api-data.json', 'w') as fil:
         json.dump(out, fil)
 
-if __name__ == 'main':
+
+if __name__ == '__main__':
     main()
 
 
