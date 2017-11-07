@@ -1,6 +1,5 @@
 [
   {
-    "industry": "Electronics",
     "company": "HPE",
     "year": "2014",
     "data": {
@@ -32,14 +31,7 @@
       "EarningsPerShareDiluted": 0.9,
       "CommonStockDividendsPerShareDeclared": 0.0,
       "NumberOfSharesOutstandingBasic": 1804000000.0,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 1834000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "HPE",
-    "year": "2014",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 1834000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 2319000000.0,
       "AccountsReceivableNetCurrent": 8423000000.0,
       "CapitalLeasesLessorBalanceSheetNetInvestmentInDirectFinancingAndSalesTypeLeasesCurrent": 2974000000.0,
@@ -68,24 +60,15 @@
       "StockholdersEquity": 36776000000.0,
       "MinorityInterest": 396000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 37172000000.0,
-      "LiabilitiesAndStockholdersEquity": 65071000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "HPE",
-    "year": "2014",
-    "data": {
+      "LiabilitiesAndStockholdersEquity": 65071000000.0,
       "NetIncomeLoss": 1648000000.0,
       "DepreciationDepletionAndAmortization": 4144000000.0,
       "ShareBasedCompensation": 427000000.0,
       "ProvisionForDoubtfulAccounts": 80000000.0,
       "InventoryWriteDown": 125000000.0,
-      "RestructuringCharges": 1471000000.0,
       "DeferredIncomeTaxExpenseBenefit": -304000000.0,
       "ExcessTaxBenefitFromShareBasedCompensationOperatingActivities": 44000000.0,
       "DiscontinuedOperationGainLossFromDisposalOfDiscontinuedOperationBeforeIncomeTax": 0.0,
-      "IncomeLossFromEquityMethodInvestments": 0.0,
       "OtherNoncashIncomeExpense": -11000000.0,
       "IncreaseDecreaseInAccountsReceivable": -986000000.0,
       "IncreaseDecreaseInFinanceReceivables": -428000000.0,
@@ -121,7 +104,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "HPE",
     "year": "2015",
     "data": {
@@ -153,14 +135,7 @@
       "EarningsPerShareDiluted": 1.34,
       "CommonStockDividendsPerShareDeclared": 0.0,
       "NumberOfSharesOutstandingBasic": 1804000000.0,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 1834000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "HPE",
-    "year": "2015",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 1834000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 9842000000.0,
       "AccountsReceivableNetCurrent": 8538000000.0,
       "CapitalLeasesLessorBalanceSheetNetInvestmentInDirectFinancingAndSalesTypeLeasesCurrent": 2918000000.0,
@@ -193,24 +168,15 @@
       "StockholdersEquity": 33535000000.0,
       "MinorityInterest": 383000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 33918000000.0,
-      "LiabilitiesAndStockholdersEquity": 79916000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "HPE",
-    "year": "2015",
-    "data": {
+      "LiabilitiesAndStockholdersEquity": 79916000000.0,
       "NetIncomeLoss": 2461000000.0,
       "DepreciationDepletionAndAmortization": 3947000000.0,
       "ShareBasedCompensation": 565000000.0,
       "ProvisionForDoubtfulAccounts": 52000000.0,
       "InventoryWriteDown": 155000000.0,
-      "RestructuringCharges": 1000000000.0,
       "DeferredIncomeTaxExpenseBenefit": -2522000000.0,
       "ExcessTaxBenefitFromShareBasedCompensationOperatingActivities": 100000000.0,
       "DiscontinuedOperationGainLossFromDisposalOfDiscontinuedOperationBeforeIncomeTax": 0.0,
-      "IncomeLossFromEquityMethodInvestments": -2000000.0,
       "OtherNoncashIncomeExpense": -374000000.0,
       "IncreaseDecreaseInAccountsReceivable": -9000000.0,
       "IncreaseDecreaseInFinanceReceivables": 393000000.0,
@@ -246,7 +212,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "HPE",
     "year": "2016",
     "data": {
@@ -278,14 +243,7 @@
       "EarningsPerShareDiluted": 1.82,
       "CommonStockDividendsPerShareDeclared": 0.22,
       "NumberOfSharesOutstandingBasic": 1715000000.0,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 1739000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "HPE",
-    "year": "2016",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 1739000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 12987000000.0,
       "AccountsReceivableNetCurrent": 3816000000.0,
       "CapitalLeasesLessorBalanceSheetNetInvestmentInDirectFinancingAndSalesTypeLeasesCurrent": 3360000000.0,
@@ -322,24 +280,15 @@
       "StockholdersEquityAttributabletoNoncontrollingInterestContinuingOperations": 40000000.0,
       "StockholdersEquityAttributabletoNoncontrollingInterestDiscontinuedOperations": 30000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 31518000000.0,
-      "LiabilitiesAndStockholdersEquity": 79629000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "HPE",
-    "year": "2016",
-    "data": {
+      "LiabilitiesAndStockholdersEquity": 79629000000.0,
       "NetIncomeLoss": 3161000000.0,
       "DepreciationDepletionAndAmortization": 3775000000.0,
       "ShareBasedCompensation": 558000000.0,
       "ProvisionForDoubtfulAccounts": 61000000.0,
       "InventoryWriteDown": 171000000.0,
-      "RestructuringCharges": 1200000000.0,
       "DeferredIncomeTaxExpenseBenefit": -1345000000.0,
       "ExcessTaxBenefitFromShareBasedCompensationOperatingActivities": 20000000.0,
       "DiscontinuedOperationGainLossFromDisposalOfDiscontinuedOperationBeforeIncomeTax": 2420000000.0,
-      "IncomeLossFromEquityMethodInvestments": -76000000.0,
       "OtherNoncashIncomeExpense": -195000000.0,
       "IncreaseDecreaseInAccountsReceivable": -991000000.0,
       "IncreaseDecreaseInFinanceReceivables": 301000000.0,
@@ -375,7 +324,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "AAPL",
     "year": "2014",
     "data": {
@@ -394,14 +342,7 @@
       "EarningsPerShareDiluted": 6.45,
       "WeightedAverageNumberOfSharesOutstandingBasic": 6085572000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 6122663000.0,
-      "CommonStockDividendsPerShareDeclared": 1.82
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "AAPL",
-    "year": "2014",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 1.82,
       "CashAndCashEquivalentsAtCarryingValue": 13844000000.0,
       "AvailableForSaleSecuritiesCurrent": 11233000000.0,
       "AccountsReceivableNetCurrent": 17460000000.0,
@@ -431,15 +372,7 @@
       "RetainedEarningsAccumulatedDeficit": 87152000000.0,
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": 1082000000.0,
       "StockholdersEquity": 111547000000.0,
-      "LiabilitiesAndStockholdersEquity": 231839000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "AAPL",
-    "year": "2014",
-    "data": {
-      "NetIncomeLoss": 39510000000.0,
+      "LiabilitiesAndStockholdersEquity": 231839000000.0,
       "DepreciationAmortizationAndAccretionNet": 7946000000.0,
       "ShareBasedCompensation": 2863000000.0,
       "DeferredIncomeTaxExpenseBenefit": 2347000000.0,
@@ -475,7 +408,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "AAPL",
     "year": "2015",
     "data": {
@@ -494,14 +426,7 @@
       "EarningsPerShareDiluted": 9.22,
       "WeightedAverageNumberOfSharesOutstandingBasic": 5753421000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 5793069000.0,
-      "CommonStockDividendsPerShareDeclared": 1.98
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "AAPL",
-    "year": "2015",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 1.98,
       "CashAndCashEquivalentsAtCarryingValue": 21120000000.0,
       "AvailableForSaleSecuritiesCurrent": 20481000000.0,
       "AccountsReceivableNetCurrent": 16849000000.0,
@@ -530,15 +455,7 @@
       "RetainedEarningsAccumulatedDeficit": 92284000000.0,
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": -345000000.0,
       "StockholdersEquity": 119355000000.0,
-      "LiabilitiesAndStockholdersEquity": 290345000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "AAPL",
-    "year": "2015",
-    "data": {
-      "NetIncomeLoss": 53394000000.0,
+      "LiabilitiesAndStockholdersEquity": 290345000000.0,
       "DepreciationAmortizationAndAccretionNet": 11257000000.0,
       "ShareBasedCompensation": 3586000000.0,
       "DeferredIncomeTaxExpenseBenefit": 1382000000.0,
@@ -575,7 +492,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "AAPL",
     "year": "2016",
     "data": {
@@ -594,14 +510,7 @@
       "EarningsPerShareDiluted": 8.31,
       "WeightedAverageNumberOfSharesOutstandingBasic": 5470820000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 5500281000.0,
-      "CommonStockDividendsPerShareDeclared": 2.18
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "AAPL",
-    "year": "2016",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 2.18,
       "CashAndCashEquivalentsAtCarryingValue": 20484000000.0,
       "AvailableForSaleSecuritiesCurrent": 46671000000.0,
       "AccountsReceivableNetCurrent": 15754000000.0,
@@ -630,15 +539,7 @@
       "RetainedEarningsAccumulatedDeficit": 96364000000.0,
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": 634000000.0,
       "StockholdersEquity": 128249000000.0,
-      "LiabilitiesAndStockholdersEquity": 321686000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "AAPL",
-    "year": "2016",
-    "data": {
-      "NetIncomeLoss": 45687000000.0,
+      "LiabilitiesAndStockholdersEquity": 321686000000.0,
       "DepreciationAmortizationAndAccretionNet": 10505000000.0,
       "ShareBasedCompensation": 4210000000.0,
       "DeferredIncomeTaxExpenseBenefit": 4938000000.0,
@@ -675,25 +576,11 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "DVMT",
     "year": "2014",
     "data": {}
   },
   {
-    "industry": "Electronics",
-    "company": "DVMT",
-    "year": "2014",
-    "data": {}
-  },
-  {
-    "industry": "Electronics",
-    "company": "DVMT",
-    "year": "2014",
-    "data": {}
-  },
-  {
-    "industry": "Electronics",
     "company": "DVMT",
     "year": "2015",
     "data": {
@@ -719,21 +606,7 @@
       "IncomeLossFromContinuingOperationsPerBasicShare": -2.74,
       "IncomeLossFromContinuingOperationsPerDilutedShare": -2.74,
       "IncomeLossFromDiscontinuedOperationsNetOfTaxPerBasicShare": -0.28,
-      "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": -0.28
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "DVMT",
-    "year": "2015",
-    "data": {}
-  },
-  {
-    "industry": "Electronics",
-    "company": "DVMT",
-    "year": "2015",
-    "data": {
-      "ProfitLoss": -1221000000.0,
+      "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": -0.28,
       "DepreciationDepletionAndAmortization": 2977000000.0,
       "ShareBasedCompensation": 72000000.0,
       "ForeignCurrencyTransactionGainLossRealized": -90000000.0,
@@ -778,7 +651,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "DVMT",
     "year": "2016",
     "data": {
@@ -804,14 +676,7 @@
       "IncomeLossFromContinuingOperationsPerBasicShare": -2.88,
       "IncomeLossFromContinuingOperationsPerDilutedShare": -2.88,
       "IncomeLossFromDiscontinuedOperationsNetOfTaxPerBasicShare": 0.16,
-      "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": 0.16
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "DVMT",
-    "year": "2016",
-    "data": {
+      "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": 0.16,
       "CashAndCashEquivalentsAtCarryingValue": 6322000000.0,
       "AvailableForSaleSecuritiesDebtSecuritiesCurrent": 0.0,
       "AccountsReceivableNetCurrent": 4887000000.0,
@@ -846,15 +711,7 @@
       "StockholdersEquity": 1466000000.0,
       "MinorityInterest": 0.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 1466000000.0,
-      "LiabilitiesAndStockholdersEquity": 45122000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "DVMT",
-    "year": "2016",
-    "data": {
-      "ProfitLoss": -1104000000.0,
+      "LiabilitiesAndStockholdersEquity": 45122000000.0,
       "DepreciationDepletionAndAmortization": 2872000000.0,
       "ShareBasedCompensation": 72000000.0,
       "ForeignCurrencyTransactionGainLossRealized": -122000000.0,
@@ -899,7 +756,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "INTC",
     "year": "2014",
     "data": {
@@ -920,14 +776,7 @@
       "EarningsPerShareBasic": 2.39,
       "EarningsPerShareDiluted": 2.31,
       "WeightedAverageNumberOfSharesOutstandingBasic": 4901000000.0,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 5056000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "INTC",
-    "year": "2014",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 5056000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 2561000000.0,
       "AvailableForSaleSecuritiesDebtSecuritiesCurrent": 2430000000.0,
       "TradingSecurities": 9063000000.0,
@@ -960,19 +809,10 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": 666000000.0,
       "RetainedEarningsAccumulatedDeficit": 33418000000.0,
       "StockholdersEquity": 55865000000.0,
-      "LiabilitiesAndStockholdersEquity": 91900000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "INTC",
-    "year": "2014",
-    "data": {
-      "NetIncomeLoss": 11704000000.0,
+      "LiabilitiesAndStockholdersEquity": 91900000000.0,
       "Depreciation": 7380000000.0,
       "ShareBasedCompensation": 1148000000.0,
       "ExcessTaxBenefitFromShareBasedCompensationOperatingActivities": 122000000.0,
-      "RestructuringSettlementAndImpairmentProvisions": 295000000.0,
       "AmortizationOfIntangibleAssets": 1169000000.0,
       "NonCashGainsLossesOnEquityInvestmentsNet": 354000000.0,
       "DeferredIncomeTaxesAndTaxCredits": -703000000.0,
@@ -1016,7 +856,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "INTC",
     "year": "2015",
     "data": {
@@ -1037,14 +876,7 @@
       "EarningsPerShareBasic": 2.41,
       "EarningsPerShareDiluted": 2.33,
       "WeightedAverageNumberOfSharesOutstandingBasic": 4742000000.0,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 4894000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "INTC",
-    "year": "2015",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 4894000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 15308000000.0,
       "AvailableForSaleSecuritiesDebtSecuritiesCurrent": 2682000000.0,
       "TradingSecurities": 7323000000.0,
@@ -1078,19 +910,10 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": 60000000.0,
       "RetainedEarningsAccumulatedDeficit": 37614000000.0,
       "StockholdersEquity": 61085000000.0,
-      "LiabilitiesAndStockholdersEquity": 101459000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "INTC",
-    "year": "2015",
-    "data": {
-      "NetIncomeLoss": 11420000000.0,
+      "LiabilitiesAndStockholdersEquity": 101459000000.0,
       "Depreciation": 7821000000.0,
       "ShareBasedCompensation": 1305000000.0,
       "ExcessTaxBenefitFromShareBasedCompensationOperatingActivities": 159000000.0,
-      "RestructuringSettlementAndImpairmentProvisions": 354000000.0,
       "AmortizationOfIntangibleAssets": 890000000.0,
       "NonCashGainsLossesOnEquityInvestmentsNet": 263000000.0,
       "DeferredIncomeTaxesAndTaxCredits": -1270000000.0,
@@ -1134,7 +957,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "INTC",
     "year": "2016",
     "data": {
@@ -1155,14 +977,7 @@
       "EarningsPerShareBasic": 2.18,
       "EarningsPerShareDiluted": 2.12,
       "WeightedAverageNumberOfSharesOutstandingBasic": 4730000000.0,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 4875000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "INTC",
-    "year": "2016",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 4875000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 5560000000.0,
       "AvailableForSaleSecuritiesDebtSecuritiesCurrent": 3225000000.0,
       "TradingSecurities": 8314000000.0,
@@ -1196,19 +1011,10 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": 106000000.0,
       "RetainedEarningsAccumulatedDeficit": 40747000000.0,
       "StockholdersEquity": 66226000000.0,
-      "LiabilitiesAndStockholdersEquity": 113327000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "INTC",
-    "year": "2016",
-    "data": {
-      "NetIncomeLoss": 10316000000.0,
+      "LiabilitiesAndStockholdersEquity": 113327000000.0,
       "Depreciation": 6266000000.0,
       "ShareBasedCompensation": 1444000000.0,
       "ExcessTaxBenefitFromShareBasedCompensationOperatingActivities": 121000000.0,
-      "RestructuringSettlementAndImpairmentProvisions": 1886000000.0,
       "AmortizationOfIntangibleAssets": 1524000000.0,
       "NonCashGainsLossesOnEquityInvestmentsNet": 432000000.0,
       "DeferredIncomeTaxesAndTaxCredits": 257000000.0,
@@ -1252,7 +1058,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "CSCO",
     "year": "2014",
     "data": {
@@ -1281,14 +1086,7 @@
       "EarningsPerShareDiluted": 1.49,
       "WeightedAverageNumberOfSharesOutstandingBasic": 5234000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 5281000000.0,
-      "CommonStockDividendsPerShareCashPaid": 0.72
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "CSCO",
-    "year": "2014",
-    "data": {
+      "CommonStockDividendsPerShareCashPaid": 0.72,
       "CashAndCashEquivalentsAtCarryingValue": 6726000000.0,
       "AvailableForSaleSecuritiesCurrent": 45348000000.0,
       "AccountsReceivableNetCurrent": 5157000000.0,
@@ -1323,15 +1121,7 @@
       "StockholdersEquity": 56654000000.0,
       "MinorityInterest": 7000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 56661000000.0,
-      "LiabilitiesAndStockholdersEquity": 105070000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "CSCO",
-    "year": "2014",
-    "data": {
-      "NetIncomeLoss": 7853000000.0,
+      "LiabilitiesAndStockholdersEquity": 105070000000.0,
       "DepreciationAmortizationAndOther": 2439000000.0,
       "ShareBasedCompensation": 1348000000.0,
       "ProvisionForDoubtfulAccounts": 79000000.0,
@@ -1375,7 +1165,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "CSCO",
     "year": "2015",
     "data": {
@@ -1404,14 +1193,7 @@
       "EarningsPerShareDiluted": 1.75,
       "WeightedAverageNumberOfSharesOutstandingBasic": 5104000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 5146000000.0,
-      "CommonStockDividendsPerShareCashPaid": 0.8
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "CSCO",
-    "year": "2015",
-    "data": {
+      "CommonStockDividendsPerShareCashPaid": 0.8,
       "CashAndCashEquivalentsAtCarryingValue": 6877000000.0,
       "AvailableForSaleSecuritiesCurrent": 53539000000.0,
       "AccountsReceivableNetCurrent": 5344000000.0,
@@ -1446,15 +1228,7 @@
       "StockholdersEquity": 59698000000.0,
       "MinorityInterest": 9000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 59707000000.0,
-      "LiabilitiesAndStockholdersEquity": 113373000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "CSCO",
-    "year": "2015",
-    "data": {
-      "NetIncomeLoss": 8981000000.0,
+      "LiabilitiesAndStockholdersEquity": 113373000000.0,
       "DepreciationAmortizationAndOther": 2442000000.0,
       "ShareBasedCompensation": 1440000000.0,
       "ProvisionForDoubtfulAccounts": 134000000.0,
@@ -1498,7 +1272,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "CSCO",
     "year": "2016",
     "data": {
@@ -1527,14 +1300,7 @@
       "EarningsPerShareDiluted": 2.11,
       "WeightedAverageNumberOfSharesOutstandingBasic": 5053000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 5088000000.0,
-      "CommonStockDividendsPerShareCashPaid": 0.94
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "CSCO",
-    "year": "2016",
-    "data": {
+      "CommonStockDividendsPerShareCashPaid": 0.94,
       "CashAndCashEquivalentsAtCarryingValue": 7631000000.0,
       "AvailableForSaleSecuritiesCurrent": 58125000000.0,
       "AccountsReceivableNetCurrent": 5847000000.0,
@@ -1569,15 +1335,7 @@
       "StockholdersEquity": 63586000000.0,
       "MinorityInterest": -1000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 63585000000.0,
-      "LiabilitiesAndStockholdersEquity": 121652000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "CSCO",
-    "year": "2016",
-    "data": {
-      "NetIncomeLoss": 10739000000.0,
+      "LiabilitiesAndStockholdersEquity": 121652000000.0,
       "DepreciationAmortizationAndOther": 2150000000.0,
       "ShareBasedCompensation": 1458000000.0,
       "ProvisionForDoubtfulAccounts": -9000000.0,
@@ -1621,7 +1379,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "ORCL",
     "year": "2014",
     "data": {
@@ -1660,14 +1417,7 @@
       "EarningsPerShareDiluted": 2.38,
       "WeightedAverageNumberOfSharesOutstandingBasic": 4528000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 4604000000.0,
-      "CommonStockDividendsPerShareCashPaid": 0.48
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "ORCL",
-    "year": "2014",
-    "data": {
+      "CommonStockDividendsPerShareCashPaid": 0.48,
       "CashAndCashEquivalentsAtCarryingValue": 17769000000.0,
       "AvailableForSaleSecuritiesCurrent": 21050000000.0,
       "AccountsReceivableNetCurrent": 6087000000.0,
@@ -1701,17 +1451,8 @@
       "StockholdersEquity": 46878000000.0,
       "MinorityInterest": 569000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 47447000000.0,
-      "LiabilitiesAndStockholdersEquity": 90266000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "ORCL",
-    "year": "2014",
-    "data": {
-      "NetIncomeLoss": 10955000000.0,
+      "LiabilitiesAndStockholdersEquity": 90266000000.0,
       "Depreciation": 608000000.0,
-      "AmortizationOfIntangibleAssets": 2300000000.0,
       "ProvisionForDoubtfulAccounts": 122000000.0,
       "DeferredIncomeTaxExpenseBenefit": -248000000.0,
       "ShareBasedCompensation": 805000000.0,
@@ -1748,7 +1489,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "ORCL",
     "year": "2015",
     "data": {
@@ -1784,14 +1524,7 @@
       "EarningsPerShareDiluted": 2.21,
       "WeightedAverageNumberOfSharesOutstandingBasic": 4404000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 4503000000.0,
-      "CommonStockDividendsPerShareCashPaid": 0.51
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "ORCL",
-    "year": "2015",
-    "data": {
+      "CommonStockDividendsPerShareCashPaid": 0.51,
       "CashAndCashEquivalentsAtCarryingValue": 21716000000.0,
       "AvailableForSaleSecuritiesCurrent": 32652000000.0,
       "AccountsReceivableNetCurrent": 5618000000.0,
@@ -1823,17 +1556,8 @@
       "StockholdersEquity": 48663000000.0,
       "MinorityInterest": 435000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 49098000000.0,
-      "LiabilitiesAndStockholdersEquity": 110903000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "ORCL",
-    "year": "2015",
-    "data": {
-      "NetIncomeLoss": 9938000000.0,
+      "LiabilitiesAndStockholdersEquity": 110903000000.0,
       "Depreciation": 712000000.0,
-      "AmortizationOfIntangibleAssets": 2149000000.0,
       "ProvisionForDoubtfulAccounts": 56000000.0,
       "DeferredIncomeTaxExpenseBenefit": -548000000.0,
       "ShareBasedCompensation": 933000000.0,
@@ -1868,7 +1592,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "ORCL",
     "year": "2016",
     "data": {
@@ -1904,14 +1627,7 @@
       "EarningsPerShareDiluted": 2.07,
       "WeightedAverageNumberOfSharesOutstandingBasic": 4221000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 4305000000.0,
-      "CommonStockDividendsPerShareCashPaid": 0.6
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "ORCL",
-    "year": "2016",
-    "data": {
+      "CommonStockDividendsPerShareCashPaid": 0.6,
       "CashAndCashEquivalentsAtCarryingValue": 20152000000.0,
       "AvailableForSaleSecuritiesCurrent": 35973000000.0,
       "AccountsReceivableNetCurrent": 5385000000.0,
@@ -1943,17 +1659,8 @@
       "StockholdersEquity": 47289000000.0,
       "MinorityInterest": 501000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 47790000000.0,
-      "LiabilitiesAndStockholdersEquity": 112180000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "ORCL",
-    "year": "2016",
-    "data": {
-      "NetIncomeLoss": 8901000000.0,
+      "LiabilitiesAndStockholdersEquity": 112180000000.0,
       "Depreciation": 871000000.0,
-      "AmortizationOfIntangibleAssets": 1638000000.0,
       "ProvisionForDoubtfulAccounts": 130000000.0,
       "DeferredIncomeTaxExpenseBenefit": -105000000.0,
       "ShareBasedCompensation": 1037000000.0,
@@ -1988,7 +1695,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "QCOM",
     "year": "2014",
     "data": {
@@ -2018,14 +1724,7 @@
       "EarningsPerShareDiluted": 4.65,
       "WeightedAverageNumberOfSharesOutstandingBasic": 1683000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 1714000000.0,
-      "CommonStockDividendsPerShareDeclared": 1.54
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "QCOM",
-    "year": "2014",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 1.54,
       "CashAndCashEquivalentsAtCarryingValue": 7907000000.0,
       "MarketableSecuritiesCurrent": 9658000000.0,
       "AccountsAndOtherReceivablesNetCurrent": 2412000000.0,
@@ -2058,15 +1757,7 @@
       "StockholdersEquity": 39169000000.0,
       "MinorityInterest": -3000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 39166000000.0,
-      "LiabilitiesAndStockholdersEquity": 48574000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "QCOM",
-    "year": "2014",
-    "data": {
-      "ProfitLoss": 7964000000.0,
+      "LiabilitiesAndStockholdersEquity": 48574000000.0,
       "DepreciationDepletionAndAmortization": 1150000000.0,
       "AssetImpairmentCharges": 642000000.0,
       "IncomeTaxProvisionLessThanInExcessOfIncomeTaxPayments": 298000000.0,
@@ -2111,7 +1802,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "QCOM",
     "year": "2015",
     "data": {
@@ -2135,14 +1825,7 @@
       "EarningsPerShareDiluted": 3.22,
       "WeightedAverageNumberOfSharesOutstandingBasic": 1618000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 1639000000.0,
-      "CommonStockDividendsPerShareDeclared": 1.8
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "QCOM",
-    "year": "2015",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 1.8,
       "CashAndCashEquivalentsAtCarryingValue": 7560000000.0,
       "MarketableSecuritiesCurrent": 9761000000.0,
       "AccountsAndOtherReceivablesNetCurrent": 1964000000.0,
@@ -2175,15 +1858,7 @@
       "StockholdersEquity": 31421000000.0,
       "MinorityInterest": -7000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 31414000000.0,
-      "LiabilitiesAndStockholdersEquity": 50796000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "QCOM",
-    "year": "2015",
-    "data": {
-      "ProfitLoss": 5268000000.0,
+      "LiabilitiesAndStockholdersEquity": 50796000000.0,
       "DepreciationDepletionAndAmortization": 1214000000.0,
       "AssetImpairmentCharges": 317000000.0,
       "IncomeTaxProvisionLessThanInExcessOfIncomeTaxPayments": 47000000.0,
@@ -2227,7 +1902,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "QCOM",
     "year": "2016",
     "data": {
@@ -2251,14 +1925,7 @@
       "EarningsPerShareDiluted": 3.81,
       "WeightedAverageNumberOfSharesOutstandingBasic": 1484000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 1498000000.0,
-      "CommonStockDividendsPerShareDeclared": 2.02
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "QCOM",
-    "year": "2016",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 2.02,
       "CashAndCashEquivalentsAtCarryingValue": 5946000000.0,
       "MarketableSecuritiesCurrent": 12702000000.0,
       "AccountsAndOtherReceivablesNetCurrent": 2219000000.0,
@@ -2290,15 +1957,7 @@
       "StockholdersEquity": 31778000000.0,
       "MinorityInterest": -10000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 31768000000.0,
-      "LiabilitiesAndStockholdersEquity": 52359000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "QCOM",
-    "year": "2016",
-    "data": {
-      "ProfitLoss": 5702000000.0,
+      "LiabilitiesAndStockholdersEquity": 52359000000.0,
       "DepreciationDepletionAndAmortization": 1428000000.0,
       "AssetImpairmentCharges": 107000000.0,
       "IncomeTaxProvisionLessThanInExcessOfIncomeTaxPayments": -200000000.0,
@@ -2342,7 +2001,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "MSFT",
     "year": "2014",
     "data": {
@@ -2366,14 +2024,7 @@
       "EarningsPerShareDiluted": 2.63,
       "WeightedAverageNumberOfSharesOutstandingBasic": 8299000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 8399000000.0,
-      "CommonStockDividendsPerShareDeclared": 1.12
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "MSFT",
-    "year": "2014",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 1.12,
       "CashAndCashEquivalentsAtCarryingValue": 8669000000.0,
       "AvailableForSaleSecuritiesCurrent": 77040000000.0,
       "CashCashEquivalentsAndShortTermInvestments": 85709000000.0,
@@ -2407,15 +2058,7 @@
       "RetainedEarningsAccumulatedDeficit": 17710000000.0,
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": 3708000000.0,
       "StockholdersEquity": 89784000000.0,
-      "LiabilitiesAndStockholdersEquity": 172384000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "MSFT",
-    "year": "2014",
-    "data": {
-      "NetIncomeLoss": 22074000000.0,
+      "LiabilitiesAndStockholdersEquity": 172384000000.0,
       "AssetImpairmentCharges": 0.0,
       "DepreciationAmortizationAndOther": 5212000000.0,
       "AllocatedShareBasedCompensationExpense": 2446000000.0,
@@ -2451,7 +2094,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "MSFT",
     "year": "2015",
     "data": {
@@ -2475,14 +2117,7 @@
       "EarningsPerShareDiluted": 1.48,
       "WeightedAverageNumberOfSharesOutstandingBasic": 8177000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 8254000000.0,
-      "CommonStockDividendsPerShareDeclared": 1.24
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "MSFT",
-    "year": "2015",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 1.24,
       "CashAndCashEquivalentsAtCarryingValue": 5595000000.0,
       "AvailableForSaleSecuritiesCurrent": 90931000000.0,
       "CashCashEquivalentsAndShortTermInvestments": 96526000000.0,
@@ -2515,15 +2150,7 @@
       "RetainedEarningsAccumulatedDeficit": 9096000000.0,
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": 2522000000.0,
       "StockholdersEquity": 80083000000.0,
-      "LiabilitiesAndStockholdersEquity": 174472000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "MSFT",
-    "year": "2015",
-    "data": {
-      "NetIncomeLoss": 12193000000.0,
+      "LiabilitiesAndStockholdersEquity": 174472000000.0,
       "AssetImpairmentCharges": 7498000000.0,
       "DepreciationAmortizationAndOther": 5957000000.0,
       "ShareBasedCompensation": 2574000000.0,
@@ -2559,7 +2186,6 @@
     }
   },
   {
-    "industry": "Electronics",
     "company": "MSFT",
     "year": "2016",
     "data": {
@@ -2583,14 +2209,7 @@
       "EarningsPerShareDiluted": 2.1,
       "WeightedAverageNumberOfSharesOutstandingBasic": 7925000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 8013000000.0,
-      "CommonStockDividendsPerShareDeclared": 1.44
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "MSFT",
-    "year": "2016",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 1.44,
       "CashAndCashEquivalentsAtCarryingValue": 6510000000.0,
       "AvailableForSaleSecuritiesCurrent": 106730000000.0,
       "CashCashEquivalentsAndShortTermInvestments": 113240000000.0,
@@ -2623,15 +2242,7 @@
       "RetainedEarningsAccumulatedDeficit": 2282000000.0,
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": 1537000000.0,
       "StockholdersEquity": 71997000000.0,
-      "LiabilitiesAndStockholdersEquity": 193468000000.0
-    }
-  },
-  {
-    "industry": "Electronics",
-    "company": "MSFT",
-    "year": "2016",
-    "data": {
-      "NetIncomeLoss": 16798000000.0,
+      "LiabilitiesAndStockholdersEquity": 193468000000.0,
       "AssetImpairmentCharges": 630000000.0,
       "DepreciationAmortizationAndOther": 6622000000.0,
       "ShareBasedCompensation": 2668000000.0,
@@ -2667,7 +2278,6 @@
     }
   },
   {
-    "industry": "Internet",
     "company": "GOOGL",
     "year": "2014",
     "data": {
@@ -2691,14 +2301,7 @@
       "EarningsPerShareBasic": 20.91,
       "IncomeLossFromContinuingOperationsPerDilutedShare": 19.82,
       "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": 0.75,
-      "EarningsPerShareDiluted": 20.57
-    }
-  },
-  {
-    "industry": "Internet",
-    "company": "GOOGL",
-    "year": "2014",
-    "data": {
+      "EarningsPerShareDiluted": 20.57,
       "CashAndCashEquivalentsAtCarryingValue": 18347000000.0,
       "AvailableForSaleSecuritiesCurrent": 46048000000.0,
       "CashCashEquivalentsAndShortTermInvestments": 64395000000.0,
@@ -2734,15 +2337,7 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": 27000000.0,
       "RetainedEarningsAccumulatedDeficit": 75066000000.0,
       "StockholdersEquity": 103860000000.0,
-      "LiabilitiesAndStockholdersEquity": 129187000000.0
-    }
-  },
-  {
-    "industry": "Internet",
-    "company": "GOOGL",
-    "year": "2014",
-    "data": {
-      "NetIncomeLoss": 14136000000.0,
+      "LiabilitiesAndStockholdersEquity": 129187000000.0,
       "DepreciationandImpairmentonDispositionofPropertyandEquipment": 3523000000.0,
       "AmortizationandImpairmentofIntangibleAssets": 1456000000.0,
       "ShareBasedCompensation": 4279000000.0,
@@ -2782,7 +2377,6 @@
     }
   },
   {
-    "industry": "Internet",
     "company": "GOOGL",
     "year": "2015",
     "data": {
@@ -2806,14 +2400,7 @@
       "EarningsPerShareBasic": 24.63,
       "IncomeLossFromContinuingOperationsPerDilutedShare": 24.34,
       "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": 0.0,
-      "EarningsPerShareDiluted": 24.34
-    }
-  },
-  {
-    "industry": "Internet",
-    "company": "GOOGL",
-    "year": "2015",
-    "data": {
+      "EarningsPerShareDiluted": 24.34,
       "CashAndCashEquivalentsAtCarryingValue": 16549000000.0,
       "AvailableForSaleSecuritiesCurrent": 56517000000.0,
       "CashCashEquivalentsAndShortTermInvestments": 73066000000.0,
@@ -2851,15 +2438,7 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": -1874000000.0,
       "RetainedEarningsAccumulatedDeficit": 89223000000.0,
       "StockholdersEquity": 120331000000.0,
-      "LiabilitiesAndStockholdersEquity": 147461000000.0
-    }
-  },
-  {
-    "industry": "Internet",
-    "company": "GOOGL",
-    "year": "2015",
-    "data": {
-      "NetIncomeLoss": 16348000000.0,
+      "LiabilitiesAndStockholdersEquity": 147461000000.0,
       "DepreciationandImpairmentonDispositionofPropertyandEquipment": 4132000000.0,
       "AmortizationandImpairmentofIntangibleAssets": 931000000.0,
       "ShareBasedCompensation": 5203000000.0,
@@ -2899,7 +2478,6 @@
     }
   },
   {
-    "industry": "Internet",
     "company": "GOOGL",
     "year": "2016",
     "data": {
@@ -2923,14 +2501,7 @@
       "EarningsPerShareBasic": 28.32,
       "IncomeLossFromContinuingOperationsPerDilutedShare": 27.85,
       "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": 0.0,
-      "EarningsPerShareDiluted": 27.85
-    }
-  },
-  {
-    "industry": "Internet",
-    "company": "GOOGL",
-    "year": "2016",
-    "data": {
+      "EarningsPerShareDiluted": 27.85,
       "CashAndCashEquivalentsAtCarryingValue": 12918000000.0,
       "AvailableForSaleSecuritiesCurrent": 73415000000.0,
       "CashCashEquivalentsAndShortTermInvestments": 86333000000.0,
@@ -2965,15 +2536,7 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": -2402000000.0,
       "RetainedEarningsAccumulatedDeficit": 105131000000.0,
       "StockholdersEquity": 139036000000.0,
-      "LiabilitiesAndStockholdersEquity": 167497000000.0
-    }
-  },
-  {
-    "industry": "Internet",
-    "company": "GOOGL",
-    "year": "2016",
-    "data": {
-      "NetIncomeLoss": 19478000000.0,
+      "LiabilitiesAndStockholdersEquity": 167497000000.0,
       "DepreciationandImpairmentonDispositionofPropertyandEquipment": 5267000000.0,
       "AmortizationandImpairmentofIntangibleAssets": 877000000.0,
       "ShareBasedCompensation": 6703000000.0,
@@ -3013,7 +2576,6 @@
     }
   },
   {
-    "industry": "Internet",
     "company": "AMZN",
     "year": "2014",
     "data": {
@@ -3039,14 +2601,7 @@
       "EarningsPerShareBasic": -0.52,
       "EarningsPerShareDiluted": -0.52,
       "WeightedAverageNumberOfSharesOutstandingBasic": 462000000.0,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 462000000.0
-    }
-  },
-  {
-    "industry": "Internet",
-    "company": "AMZN",
-    "year": "2014",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 462000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 14557000000.0,
       "MarketableSecuritiesCurrent": 2859000000.0,
       "InventoryNet": 8299000000.0,
@@ -3070,15 +2625,7 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": -511000000.0,
       "RetainedEarningsAccumulatedDeficit": 1949000000.0,
       "StockholdersEquity": 10741000000.0,
-      "LiabilitiesAndStockholdersEquity": 54505000000.0
-    }
-  },
-  {
-    "industry": "Internet",
-    "company": "AMZN",
-    "year": "2014",
-    "data": {
-      "NetIncomeLoss": -241000000.0,
+      "LiabilitiesAndStockholdersEquity": 54505000000.0,
       "DepreciationAndAmortization": 4746000000.0,
       "ShareBasedCompensation": 1497000000.0,
       "OtherOperatingIncomeExpenseNet": -129000000.0,
@@ -3112,7 +2659,6 @@
     }
   },
   {
-    "industry": "Internet",
     "company": "AMZN",
     "year": "2015",
     "data": {
@@ -3138,14 +2684,7 @@
       "EarningsPerShareBasic": 1.28,
       "EarningsPerShareDiluted": 1.25,
       "WeightedAverageNumberOfSharesOutstandingBasic": 467000000.0,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 477000000.0
-    }
-  },
-  {
-    "industry": "Internet",
-    "company": "AMZN",
-    "year": "2015",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 477000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 15890000000.0,
       "MarketableSecuritiesCurrent": 3918000000.0,
       "InventoryNet": 10243000000.0,
@@ -3168,15 +2707,7 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": -723000000.0,
       "RetainedEarningsAccumulatedDeficit": 2545000000.0,
       "StockholdersEquity": 13384000000.0,
-      "LiabilitiesAndStockholdersEquity": 64747000000.0
-    }
-  },
-  {
-    "industry": "Internet",
-    "company": "AMZN",
-    "year": "2015",
-    "data": {
-      "NetIncomeLoss": 596000000.0,
+      "LiabilitiesAndStockholdersEquity": 64747000000.0,
       "DepreciationAndAmortization": 6281000000.0,
       "ShareBasedCompensation": 2119000000.0,
       "OtherOperatingIncomeExpenseNet": -155000000.0,
@@ -3210,7 +2741,6 @@
     }
   },
   {
-    "industry": "Internet",
     "company": "AMZN",
     "year": "2016",
     "data": {
@@ -3236,14 +2766,7 @@
       "EarningsPerShareBasic": 5.01,
       "EarningsPerShareDiluted": 4.9,
       "WeightedAverageNumberOfSharesOutstandingBasic": 474000000.0,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 484000000.0
-    }
-  },
-  {
-    "industry": "Internet",
-    "company": "AMZN",
-    "year": "2016",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 484000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 19334000000.0,
       "MarketableSecuritiesCurrent": 6647000000.0,
       "InventoryNet": 11461000000.0,
@@ -3267,15 +2790,7 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": -985000000.0,
       "RetainedEarningsAccumulatedDeficit": 4916000000.0,
       "StockholdersEquity": 19285000000.0,
-      "LiabilitiesAndStockholdersEquity": 83402000000.0
-    }
-  },
-  {
-    "industry": "Internet",
-    "company": "AMZN",
-    "year": "2016",
-    "data": {
-      "NetIncomeLoss": 2371000000.0,
+      "LiabilitiesAndStockholdersEquity": 83402000000.0,
       "DepreciationAndAmortization": 8116000000.0,
       "ShareBasedCompensation": 2975000000.0,
       "OtherOperatingIncomeExpenseNet": -160000000.0,
@@ -3309,7 +2824,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "COKE",
     "year": "2014",
     "data": {
@@ -3328,14 +2842,7 @@
       "EarningsPerShareBasic": 3.38,
       "WeightedAverageNumberOfSharesOutstandingBasic": 2126000.0,
       "EarningsPerShareDiluted": 3.35,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 2166000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "COKE",
-    "year": "2014",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 2166000.0,
       "CashAndCashEquivalentsAtCarryingValue": 9095000.0,
       "AccountsReceivableNetCurrent": 125726000.0,
       "AccountsReceivableRelatedPartiesCurrent": 22741000.0,
@@ -3374,15 +2881,7 @@
       "LiabilitiesAndStockholdersEquity": 1433076000.0,
       "PreferredStockValue": 0.0,
       "CommonStockValue": 0.0,
-      "TreasuryStockValue": 409000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "COKE",
-    "year": "2014",
-    "data": {
-      "ProfitLoss": 36082000.0,
+      "TreasuryStockValue": 409000.0,
       "Depreciation": 60397000.0,
       "AmortizationOfIntangibleAssets": 733000.0,
       "DeferredIncomeTaxExpenseBenefit": 4220000.0,
@@ -3415,7 +2914,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "COKE",
     "year": "2015",
     "data": {
@@ -3437,14 +2935,7 @@
       "EarningsPerShareBasic": 6.35,
       "WeightedAverageNumberOfSharesOutstandingBasic": 2147000.0,
       "EarningsPerShareDiluted": 6.31,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 2187000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "COKE",
-    "year": "2015",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 2187000.0,
       "CashAndCashEquivalentsAtCarryingValue": 55498000.0,
       "AccountsReceivableGrossCurrent": 186126000.0,
       "AllowanceForDoubtfulAccountsReceivableCurrent": 2117000.0,
@@ -3483,23 +2974,12 @@
       "LiabilitiesAndStockholdersEquity": 1846565000.0,
       "PreferredStockValue": 0.0,
       "CommonStockValue": 0.0,
-      "TreasuryStockValue": 409000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "COKE",
-    "year": "2015",
-    "data": {
-      "ProfitLoss": 65044000.0,
+      "TreasuryStockValue": 409000.0,
       "Depreciation": 78096000.0,
       "AmortizationOfIntangibleAssets": 2800000.0,
       "DeferredIncomeTaxExpenseBenefit": 10408000.0,
       "GainLossOnSaleOfPropertyPlantEquipment": -1268000.0,
       "ImpairmentOfLongLivedAssetsToBeDisposedOf": 148000.0,
-      "DisposalGroupNotDiscontinuedOperationGainLossOnDisposal": 8807000.0,
-      "GainLossOnSaleOfBusiness": 22651000.0,
-      "BusinessCombinationBargainPurchaseGainRecognizedAmount": 2011000.0,
       "AmortizationOfFinancingCostsAndDiscounts": 2011000.0,
       "ShareBasedCompensation": 7300000.0,
       "BusinessCombinationContingentConsiderationArrangementsChangeInFairValueOfContingentConsiderationLiability": 3576000.0,
@@ -3530,7 +3010,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "COKE",
     "year": "2016",
     "data": {
@@ -3550,14 +3029,7 @@
       "EarningsPerShareBasic": 5.39,
       "WeightedAverageNumberOfSharesOutstandingBasic": 2168000.0,
       "EarningsPerShareDiluted": 5.35,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 2208000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "COKE",
-    "year": "2016",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 2208000.0,
       "CashAndCashEquivalentsAtCarryingValue": 21850000.0,
       "AccountsReceivableGrossCurrent": 271661000.0,
       "AllowanceForDoubtfulAccountsReceivableCurrent": 4448000.0,
@@ -3595,21 +3067,12 @@
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": -409000.0,
       "LiabilitiesAndStockholdersEquity": 2449484000.0,
       "CommonStockValue": 2798000.0,
-      "TreasuryStockValue": 409000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "COKE",
-    "year": "2016",
-    "data": {
-      "ProfitLoss": 56663000.0,
+      "TreasuryStockValue": 409000.0,
       "Depreciation": 111613000.0,
       "AmortizationOfIntangibleAssets": 5010000.0,
       "DeferredIncomeTaxExpenseBenefit": 42942000.0,
       "GainLossOnSaleOfPropertyPlantEquipment": -2892000.0,
       "ImpairmentOfLongLivedAssetsToBeDisposedOf": 382000.0,
-      "DisposalGroupNotDiscontinuedOperationGainLossOnDisposal": -692000.0,
       "AmortizationOfFinancingCostsAndDiscounts": 1855000.0,
       "ShareBasedCompensation": 7154000.0,
       "BusinessCombinationContingentConsiderationArrangementsChangeInFairValueOfContingentConsiderationLiability": -1910000.0,
@@ -3639,7 +3102,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "PEP",
     "year": "2014",
     "data": {
@@ -3661,14 +3123,7 @@
       "EarningsPerShareDiluted": 4.27,
       "WeightedAverageNumberOfSharesOutstandingBasic": 1509000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 1527000000.0,
-      "CommonStockDividendsPerShareDeclared": 2.5325
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "PEP",
-    "year": "2014",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 2.5325,
       "CashAndCashEquivalentsAtCarryingValue": 6134000000.0,
       "ShortTermInvestments": 2592000000.0,
       "AccountsNotesAndLoansReceivableNetCurrent": 6651000000.0,
@@ -3700,21 +3155,12 @@
       "MinorityInterest": 110000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 17548000000.0,
       "LiabilitiesAndStockholdersEquity": 70509000000.0,
-      "TreasuryStockValue": 24985000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "PEP",
-    "year": "2014",
-    "data": {
-      "ProfitLoss": 6558000000.0,
+      "TreasuryStockValue": 24985000000.0,
       "DepreciationDepletionAndAmortization": 2625000000.0,
       "ShareBasedCompensation": 297000000.0,
       "RestructuringCostsAndAssetImpairmentCharges": 418000000.0,
       "PaymentsForRestructuring": 266000000.0,
       "TingyiCharge": 0.0,
-      "Venezuelaimpairmentcharges": 0.0,
       "NoncashForeignExchangeLossRelatedToVenezuelaDevaluation": 105000000.0,
       "ExcessTaxBenefitFromShareBasedCompensationOperatingActivities": 114000000.0,
       "PensionAndOtherPostretirementBenefitExpense": 667000000.0,
@@ -3755,7 +3201,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "PEP",
     "year": "2015",
     "data": {
@@ -3777,14 +3222,7 @@
       "EarningsPerShareDiluted": 3.67,
       "WeightedAverageNumberOfSharesOutstandingBasic": 1469000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 1485000000.0,
-      "CommonStockDividendsPerShareDeclared": 2.7625
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "PEP",
-    "year": "2015",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 2.7625,
       "CashAndCashEquivalentsAtCarryingValue": 9096000000.0,
       "ShortTermInvestments": 2913000000.0,
       "AccountsNotesAndLoansReceivableNetCurrent": 6437000000.0,
@@ -3815,21 +3253,12 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": -13319000000.0,
       "MinorityInterest": 107000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 12030000000.0,
-      "LiabilitiesAndStockholdersEquity": 69667000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "PEP",
-    "year": "2015",
-    "data": {
-      "ProfitLoss": 5501000000.0,
+      "LiabilitiesAndStockholdersEquity": 69667000000.0,
       "DepreciationDepletionAndAmortization": 2416000000.0,
       "ShareBasedCompensation": 295000000.0,
       "RestructuringCostsAndAssetImpairmentCharges": 230000000.0,
       "PaymentsForRestructuring": 208000000.0,
       "TingyiCharge": 73000000.0,
-      "Venezuelaimpairmentcharges": 1400000000.0,
       "NoncashForeignExchangeLossRelatedToVenezuelaDevaluation": 0.0,
       "ExcessTaxBenefitFromShareBasedCompensationOperatingActivities": 133000000.0,
       "PensionAndOtherPostretirementBenefitExpense": 467000000.0,
@@ -3870,7 +3299,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "PEP",
     "year": "2016",
     "data": {
@@ -3892,14 +3320,7 @@
       "EarningsPerShareDiluted": 4.36,
       "WeightedAverageNumberOfSharesOutstandingBasic": 1439000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 1452000000.0,
-      "CommonStockDividendsPerShareDeclared": 2.96
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "PEP",
-    "year": "2016",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 2.96,
       "CashAndCashEquivalentsAtCarryingValue": 9158000000.0,
       "ShortTermInvestments": 6967000000.0,
       "AccountsNotesAndLoansReceivableNetCurrent": 6694000000.0,
@@ -3934,21 +3355,12 @@
       "StockholdersEquity": -31468000000.0,
       "MinorityInterest": 104000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 11199000000.0,
-      "LiabilitiesAndStockholdersEquity": 73490000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "PEP",
-    "year": "2016",
-    "data": {
-      "ProfitLoss": 6379000000.0,
+      "LiabilitiesAndStockholdersEquity": 73490000000.0,
       "DepreciationDepletionAndAmortization": 2368000000.0,
       "ShareBasedCompensation": 284000000.0,
       "RestructuringCostsAndAssetImpairmentCharges": 160000000.0,
       "PaymentsForRestructuring": 125000000.0,
       "TingyiCharge": 373000000.0,
-      "Venezuelaimpairmentcharges": 0.0,
       "NoncashForeignExchangeLossRelatedToVenezuelaDevaluation": 0.0,
       "ExcessTaxBenefitFromShareBasedCompensationOperatingActivities": 139000000.0,
       "PensionAndOtherPostretirementBenefitExpense": 501000000.0,
@@ -3989,7 +3401,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "KHC",
     "year": "2014",
     "data": {
@@ -4009,14 +3420,7 @@
       "NetIncomeLossAvailableToCommonStockholdersBasic": -63000000.0,
       "EarningsPerShareBasic": -0.17,
       "EarningsPerShareDiluted": -0.17,
-      "CommonStockDividendsPerShareDeclared": 0.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "KHC",
-    "year": "2014",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 0.0,
       "CashAndCashEquivalentsAtCarryingValue": 2298000000.0,
       "AccountsReceivableNetCurrent": 690000000.0,
       "Soldreceivables": 161000000.0,
@@ -4053,15 +3457,7 @@
       "StockholdersEquity": 7117000000.0,
       "MinorityInterest": 219000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 7336000000.0,
-      "LiabilitiesAndStockholdersEquity": 36571000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "KHC",
-    "year": "2014",
-    "data": {
-      "ProfitLoss": 672000000.0,
+      "LiabilitiesAndStockholdersEquity": 36571000000.0,
       "DepreciationDepletionAndAmortization": 530000000.0,
       "DefinedBenefitPlanAmortizationOfPriorServiceCostCredit": -6000000.0,
       "Businesscombinationsinventoryfairvalueadjustment": 0.0,
@@ -4102,7 +3498,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "KHC",
     "year": "2015",
     "data": {
@@ -4122,14 +3517,7 @@
       "NetIncomeLossAvailableToCommonStockholdersBasic": -266000000.0,
       "EarningsPerShareBasic": -0.34,
       "EarningsPerShareDiluted": -0.34,
-      "CommonStockDividendsPerShareDeclared": 1.7
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "KHC",
-    "year": "2015",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 1.7,
       "CashAndCashEquivalentsAtCarryingValue": 4837000000.0,
       "AccountsReceivableNetCurrent": 871000000.0,
       "Soldreceivables": 583000000.0,
@@ -4167,15 +3555,7 @@
       "StockholdersEquity": 57685000000.0,
       "MinorityInterest": 208000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 57893000000.0,
-      "LiabilitiesAndStockholdersEquity": 122973000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "KHC",
-    "year": "2015",
-    "data": {
-      "ProfitLoss": 647000000.0,
+      "LiabilitiesAndStockholdersEquity": 122973000000.0,
       "DepreciationDepletionAndAmortization": 740000000.0,
       "DefinedBenefitPlanAmortizationOfPriorServiceCostCredit": -112000000.0,
       "Businesscombinationsinventoryfairvalueadjustment": 347000000.0,
@@ -4216,7 +3596,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "KHC",
     "year": "2016",
     "data": {
@@ -4236,14 +3615,7 @@
       "NetIncomeLossAvailableToCommonStockholdersBasic": 3452000000.0,
       "EarningsPerShareBasic": 2.84,
       "EarningsPerShareDiluted": 2.81,
-      "CommonStockDividendsPerShareDeclared": 2.35
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "KHC",
-    "year": "2016",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 2.35,
       "CashAndCashEquivalentsAtCarryingValue": 4204000000.0,
       "AccountsReceivableNetCurrent": 769000000.0,
       "Soldreceivables": 129000000.0,
@@ -4278,15 +3650,7 @@
       "StockholdersEquity": 57358000000.0,
       "MinorityInterest": 216000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 57574000000.0,
-      "LiabilitiesAndStockholdersEquity": 120480000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "KHC",
-    "year": "2016",
-    "data": {
-      "ProfitLoss": 3642000000.0,
+      "LiabilitiesAndStockholdersEquity": 120480000000.0,
       "DepreciationDepletionAndAmortization": 1337000000.0,
       "DefinedBenefitPlanAmortizationOfPriorServiceCostCredit": -333000000.0,
       "Businesscombinationsinventoryfairvalueadjustment": 0.0,
@@ -4327,7 +3691,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "TSN",
     "year": "2014",
     "data": {
@@ -4349,14 +3712,7 @@
       "EarningsPerShareDiluted": 2.37,
       "WeightedAverageNumberOfSharesOutstandingBasic": 70000000.0,
       "EarningsPerShareBasic": 2.26,
-      "CommonStockDividendsPerShareDeclared": 0.294
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "TSN",
-    "year": "2014",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 0.294,
       "CashAndCashEquivalentsAtCarryingValue": 438000000.0,
       "AccountsReceivableNetCurrent": 1684000000.0,
       "InventoryNet": 3274000000.0,
@@ -4385,15 +3741,7 @@
       "MinorityInterest": 14000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 8904000000.0,
       "LiabilitiesAndStockholdersEquity": 23956000000.0,
-      "CommonStockValue": 7000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "TSN",
-    "year": "2014",
-    "data": {
-      "ProfitLoss": 856000000.0,
+      "CommonStockValue": 7000000.0,
       "Depreciation": 494000000.0,
       "AdjustmentForAmortization": 36000000.0,
       "DeferredIncomeTaxExpenseBenefit": -105000000.0,
@@ -4433,7 +3781,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "TSN",
     "year": "2015",
     "data": {
@@ -4455,14 +3802,7 @@
       "EarningsPerShareDiluted": 2.95,
       "WeightedAverageNumberOfSharesOutstandingBasic": 70000000.0,
       "EarningsPerShareBasic": 2.79,
-      "CommonStockDividendsPerShareDeclared": 0.383
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "TSN",
-    "year": "2015",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 0.383,
       "CashAndCashEquivalentsAtCarryingValue": 688000000.0,
       "AccountsReceivableNetCurrent": 1620000000.0,
       "InventoryNet": 2878000000.0,
@@ -4489,15 +3829,7 @@
       "MinorityInterest": 15000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 9706000000.0,
       "LiabilitiesAndStockholdersEquity": 22969000000.0,
-      "CommonStockValue": 7000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "TSN",
-    "year": "2015",
-    "data": {
-      "ProfitLoss": 1224000000.0,
+      "CommonStockValue": 7000000.0,
       "Depreciation": 609000000.0,
       "AdjustmentForAmortization": 102000000.0,
       "DeferredIncomeTaxExpenseBenefit": 38000000.0,
@@ -4537,7 +3869,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "TSN",
     "year": "2016",
     "data": {
@@ -4559,14 +3890,7 @@
       "EarningsPerShareDiluted": 4.53,
       "WeightedAverageNumberOfSharesOutstandingBasic": 70000000.0,
       "EarningsPerShareBasic": 4.24,
-      "CommonStockDividendsPerShareDeclared": 0.585
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "TSN",
-    "year": "2016",
-    "data": {
+      "CommonStockDividendsPerShareDeclared": 0.585,
       "CashAndCashEquivalentsAtCarryingValue": 349000000.0,
       "AccountsReceivableNetCurrent": 1542000000.0,
       "InventoryNet": 2732000000.0,
@@ -4595,15 +3919,7 @@
       "MinorityInterest": 16000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 9624000000.0,
       "LiabilitiesAndStockholdersEquity": 22373000000.0,
-      "CommonStockValue": 7000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "TSN",
-    "year": "2016",
-    "data": {
-      "ProfitLoss": 1772000000.0,
+      "CommonStockValue": 7000000.0,
       "Depreciation": 617000000.0,
       "AdjustmentForAmortization": 88000000.0,
       "DeferredIncomeTaxExpenseBenefit": 84000000.0,
@@ -4643,7 +3959,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "BG",
     "year": "2014",
     "data": {
@@ -4669,14 +3984,7 @@
       "EarningsPerShareBasic": 3.2,
       "IncomeLossFromContinuingOperationsPerDilutedShare": 2.96,
       "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": 0.21,
-      "EarningsPerShareDiluted": 3.17
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "BG",
-    "year": "2014",
-    "data": {
+      "EarningsPerShareDiluted": 3.17,
       "CashCashEquivalentsAndShortTermInvestments": 362000000.0,
       "TimeDepositsUnderTradeStructuredFinanceProgramAtCarryingAmount": 1343000000.0,
       "AccountsReceivableNetCurrent": 1840000000.0,
@@ -4712,15 +4020,7 @@
       "StockholdersEquity": 8446000000.0,
       "MinorityInterest": 244000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 8690000000.0,
-      "LiabilitiesAndStockholdersEquity": 21432000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "BG",
-    "year": "2014",
-    "data": {
-      "ProfitLoss": 517000000.0,
+      "LiabilitiesAndStockholdersEquity": 21432000000.0,
       "AssetImpairmentCharges": 130000000.0,
       "ForeignCurrencyTransactionGainLossUnrealized": 215000000.0,
       "ProvisionForDoubtfulAccounts": 30000000.0,
@@ -4766,7 +4066,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "BG",
     "year": "2015",
     "data": {
@@ -4794,14 +4093,7 @@
       "EarningsPerShareBasic": 5.14,
       "IncomeLossFromContinuingOperationsPerDilutedShare": 4.84,
       "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": 0.23,
-      "EarningsPerShareDiluted": 5.07
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "BG",
-    "year": "2015",
-    "data": {
+      "EarningsPerShareDiluted": 5.07,
       "CashCashEquivalentsAndShortTermInvestments": 411000000.0,
       "CurrentTimeDepositsUnderTradeStructuredFinanceProgramAtCarryingAmount": 325000000.0,
       "AccountsReceivableNetCurrent": 1607000000.0,
@@ -4837,15 +4129,7 @@
       "StockholdersEquity": 6441000000.0,
       "MinorityInterest": 211000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 6652000000.0,
-      "LiabilitiesAndStockholdersEquity": 17914000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "BG",
-    "year": "2015",
-    "data": {
-      "ProfitLoss": 790000000.0,
+      "LiabilitiesAndStockholdersEquity": 17914000000.0,
       "AssetImpairmentCharges": 57000000.0,
       "ForeignCurrencyTransactionGainLossUnrealized": 213000000.0,
       "GainLossOnDispositionOfAssets1": 47000000.0,
@@ -4894,7 +4178,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "BG",
     "year": "2016",
     "data": {
@@ -4923,14 +4206,7 @@
       "EarningsPerShareBasic": 5.07,
       "IncomeLossFromContinuingOperationsPerDilutedShare": 5.07,
       "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": -0.06,
-      "EarningsPerShareDiluted": 5.01
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "BG",
-    "year": "2016",
-    "data": {
+      "EarningsPerShareDiluted": 5.01,
       "CashAndCashEquivalentsAtCarryingValue": 934000000.0,
       "CurrentTimeDepositsUnderTradeStructuredFinanceProgramAtCarryingAmount": 64000000.0,
       "AccountsReceivableNetCurrent": 1676000000.0,
@@ -4964,15 +4240,7 @@
       "StockholdersEquity": 7144000000.0,
       "MinorityInterest": 199000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 7343000000.0,
-      "LiabilitiesAndStockholdersEquity": 19188000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "BG",
-    "year": "2016",
-    "data": {
-      "ProfitLoss": 767000000.0,
+      "LiabilitiesAndStockholdersEquity": 19188000000.0,
       "AssetImpairmentCharges": 87000000.0,
       "ForeignCurrencyTransactionGainLossUnrealized": -80000000.0,
       "GainLossOnDispositionOfAssets1": 122000000.0,
@@ -5020,7 +4288,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "ADM",
     "year": "2014",
     "data": {
@@ -5041,14 +4308,7 @@
       "WeightedAverageNumberOfSharesOutstandingBasic": 653000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 656000000.0,
       "EarningsPerShareBasic": 3.44,
-      "EarningsPerShareDiluted": 3.43
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "ADM",
-    "year": "2014",
-    "data": {
+      "EarningsPerShareDiluted": 3.43,
       "CashAndCashEquivalentsAtCarryingValue": 1099000000.0,
       "AvailableForSaleSecuritiesCurrent": 515000000.0,
       "RestrictedCashAndInvestmentsCurrent": 4877000000.0,
@@ -5086,15 +4346,7 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": -1241000000.0,
       "MinorityInterest": 55000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 19630000000.0,
-      "LiabilitiesAndStockholdersEquity": 43997000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "ADM",
-    "year": "2014",
-    "data": {
-      "ProfitLoss": 2253000000.0,
+      "LiabilitiesAndStockholdersEquity": 43997000000.0,
       "DepreciationDepletionAndAmortization": 894000000.0,
       "ImpairmentOfLongLivedAssetsHeldForUse": 41000000.0,
       "DeferredIncomeTaxExpenseBenefit": -59000000.0,
@@ -5135,7 +4387,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "ADM",
     "year": "2015",
     "data": {
@@ -5156,14 +4407,7 @@
       "WeightedAverageNumberOfSharesOutstandingBasic": 618000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 621000000.0,
       "EarningsPerShareBasic": 2.99,
-      "EarningsPerShareDiluted": 2.98
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "ADM",
-    "year": "2015",
-    "data": {
+      "EarningsPerShareDiluted": 2.98,
       "CashAndCashEquivalentsAtCarryingValue": 910000000.0,
       "AvailableForSaleSecuritiesCurrent": 438000000.0,
       "CashAndSecuritiesSegregatedUnderFederalAndOtherRegulations": 5214000000.0,
@@ -5200,15 +4444,7 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": -2146000000.0,
       "MinorityInterest": 16000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 17915000000.0,
-      "LiabilitiesAndStockholdersEquity": 40157000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "ADM",
-    "year": "2015",
-    "data": {
-      "ProfitLoss": 1846000000.0,
+      "LiabilitiesAndStockholdersEquity": 40157000000.0,
       "DepreciationDepletionAndAmortization": 882000000.0,
       "ImpairmentOfLongLivedAssetsHeldForUse": 129000000.0,
       "DeferredIncomeTaxExpenseBenefit": -7000000.0,
@@ -5249,7 +4485,6 @@
     }
   },
   {
-    "industry": "Food",
     "company": "ADM",
     "year": "2016",
     "data": {
@@ -5270,14 +4505,7 @@
       "WeightedAverageNumberOfSharesOutstandingBasic": 588000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 591000000.0,
       "EarningsPerShareBasic": 2.18,
-      "EarningsPerShareDiluted": 2.16
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "ADM",
-    "year": "2016",
-    "data": {
+      "EarningsPerShareDiluted": 2.16,
       "CashAndCashEquivalentsAtCarryingValue": 619000000.0,
       "AvailableForSaleSecuritiesCurrent": 296000000.0,
       "RestrictedCashAndInvestmentsCurrent": 5011000000.0,
@@ -5314,15 +4542,7 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": -2598000000.0,
       "MinorityInterest": 8000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 17181000000.0,
-      "LiabilitiesAndStockholdersEquity": 39769000000.0
-    }
-  },
-  {
-    "industry": "Food",
-    "company": "ADM",
-    "year": "2016",
-    "data": {
-      "ProfitLoss": 1288000000.0,
+      "LiabilitiesAndStockholdersEquity": 39769000000.0,
       "DepreciationDepletionAndAmortization": 900000000.0,
       "ImpairmentOfLongLivedAssetsHeldForUse": 34000000.0,
       "DeferredIncomeTaxExpenseBenefit": 56000000.0,
@@ -5363,7 +4583,6 @@
     }
   },
   {
-    "industry": "Pharma",
     "company": "PFE",
     "year": "2014",
     "data": {
@@ -5391,14 +4610,7 @@
       "EarningsPerShareDiluted": 1.42,
       "WeightedAverageNumberOfSharesOutstandingBasic": 6346000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 6424000000.0,
-      "CommonStockDividendsPerShareCashPaid": 1.04
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "PFE",
-    "year": "2014",
-    "data": {
+      "CommonStockDividendsPerShareCashPaid": 1.04,
       "CashAndCashEquivalentsAtCarryingValue": 3343000000.0,
       "ShortTermInvestments": 32779000000.0,
       "AccountsReceivableNetCurrent": 8401000000.0,
@@ -5437,15 +4649,7 @@
       "StockholdersEquity": 71301000000.0,
       "MinorityInterest": 321000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 71622000000.0,
-      "LiabilitiesAndStockholdersEquity": 167566000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "PFE",
-    "year": "2014",
-    "data": {
-      "ProfitLoss": 9168000000.0,
+      "LiabilitiesAndStockholdersEquity": 167566000000.0,
       "DepreciationDepletionAndAmortizationIncludingDiscontinuedOperationDepreciationandAmortization": 5537000000.0,
       "AssetWriteOffsAndAssetImpairmentCharges": 531000000.0,
       "ForeignCurrencyTransactionGainLossUnrealized": 0.0,
@@ -5492,7 +4696,6 @@
     }
   },
   {
-    "industry": "Pharma",
     "company": "PFE",
     "year": "2015",
     "data": {
@@ -5520,14 +4723,7 @@
       "EarningsPerShareDiluted": 1.11,
       "WeightedAverageNumberOfSharesOutstandingBasic": 6176000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 6257000000.0,
-      "CommonStockDividendsPerShareCashPaid": 1.12
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "PFE",
-    "year": "2015",
-    "data": {
+      "CommonStockDividendsPerShareCashPaid": 1.12,
       "CashAndCashEquivalentsAtCarryingValue": 3641000000.0,
       "ShortTermInvestments": 19649000000.0,
       "AccountsReceivableNetCurrent": 8176000000.0,
@@ -5567,15 +4763,7 @@
       "StockholdersEquity": 64720000000.0,
       "MinorityInterest": 278000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 64998000000.0,
-      "LiabilitiesAndStockholdersEquity": 167381000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "PFE",
-    "year": "2015",
-    "data": {
-      "ProfitLoss": 6986000000.0,
+      "LiabilitiesAndStockholdersEquity": 167381000000.0,
       "DepreciationDepletionAndAmortizationIncludingDiscontinuedOperationDepreciationandAmortization": 5157000000.0,
       "AssetWriteOffsAndAssetImpairmentCharges": 1119000000.0,
       "ForeignCurrencyTransactionGainLossUnrealized": -806000000.0,
@@ -5622,7 +4810,6 @@
     }
   },
   {
-    "industry": "Pharma",
     "company": "PFE",
     "year": "2016",
     "data": {
@@ -5650,14 +4837,7 @@
       "EarningsPerShareDiluted": 1.17,
       "WeightedAverageNumberOfSharesOutstandingBasic": 6089000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 6159000000.0,
-      "CommonStockDividendsPerShareCashPaid": 1.2
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "PFE",
-    "year": "2016",
-    "data": {
+      "CommonStockDividendsPerShareCashPaid": 1.2,
       "CashAndCashEquivalentsAtCarryingValue": 2595000000.0,
       "ShortTermInvestments": 15255000000.0,
       "AccountsReceivableNetCurrent": 8225000000.0,
@@ -5697,15 +4877,7 @@
       "StockholdersEquity": 59544000000.0,
       "MinorityInterest": 296000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 59840000000.0,
-      "LiabilitiesAndStockholdersEquity": 171615000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "PFE",
-    "year": "2016",
-    "data": {
-      "ProfitLoss": 7246000000.0,
+      "LiabilitiesAndStockholdersEquity": 171615000000.0,
       "DepreciationDepletionAndAmortizationIncludingDiscontinuedOperationDepreciationandAmortization": 5757000000.0,
       "AssetWriteOffsAndAssetImpairmentCharges": 1613000000.0,
       "ForeignCurrencyTransactionGainLossUnrealized": 0.0,
@@ -5752,7 +4924,6 @@
     }
   },
   {
-    "industry": "Pharma",
     "company": "MRK",
     "year": "2014",
     "data": {
@@ -5769,14 +4940,7 @@
       "NetIncomeLossAttributableToNoncontrollingInterest": 14000000.0,
       "NetIncomeLoss": 11920000000.0,
       "EarningsPerShareBasic": 4.12,
-      "EarningsPerShareDiluted": 4.07
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "MRK",
-    "year": "2014",
-    "data": {
+      "EarningsPerShareDiluted": 4.07,
       "CashAndCashEquivalentsAtCarryingValue": 7441000000.0,
       "MarketableSecuritiesCurrent": 8278000000.0,
       "AccountsReceivableNetCurrent": 6626000000.0,
@@ -5813,15 +4977,7 @@
       "StockholdersEquity": 48647000000.0,
       "MinorityInterest": 144000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 48791000000.0,
-      "LiabilitiesAndStockholdersEquity": 98167000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "MRK",
-    "year": "2014",
-    "data": {
-      "ProfitLoss": 11934000000.0,
+      "LiabilitiesAndStockholdersEquity": 98167000000.0,
       "DepreciationDepletionAndAmortization": 6691000000.0,
       "AssetImpairmentCharges": 1222000000.0,
       "GainLossRelatedToLitigationSettlement": 0.0,
@@ -5870,7 +5026,6 @@
     }
   },
   {
-    "industry": "Pharma",
     "company": "MRK",
     "year": "2015",
     "data": {
@@ -5887,14 +5042,7 @@
       "NetIncomeLossAttributableToNoncontrollingInterest": 17000000.0,
       "NetIncomeLoss": 4442000000.0,
       "EarningsPerShareBasic": 1.58,
-      "EarningsPerShareDiluted": 1.56
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "MRK",
-    "year": "2015",
-    "data": {
+      "EarningsPerShareDiluted": 1.56,
       "CashAndCashEquivalentsAtCarryingValue": 8524000000.0,
       "MarketableSecuritiesCurrent": 4903000000.0,
       "AccountsReceivableNetCurrent": 6484000000.0,
@@ -5931,15 +5079,7 @@
       "StockholdersEquity": 44676000000.0,
       "MinorityInterest": 91000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 44767000000.0,
-      "LiabilitiesAndStockholdersEquity": 101677000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "MRK",
-    "year": "2015",
-    "data": {
-      "ProfitLoss": 4459000000.0,
+      "LiabilitiesAndStockholdersEquity": 101677000000.0,
       "DepreciationDepletionAndAmortization": 6375000000.0,
       "AssetImpairmentCharges": 162000000.0,
       "GainLossRelatedToLitigationSettlement": 0.0,
@@ -5988,7 +5128,6 @@
     }
   },
   {
-    "industry": "Pharma",
     "company": "MRK",
     "year": "2016",
     "data": {
@@ -6005,14 +5144,7 @@
       "NetIncomeLossAttributableToNoncontrollingInterest": 21000000.0,
       "NetIncomeLoss": 3920000000.0,
       "EarningsPerShareBasic": 1.42,
-      "EarningsPerShareDiluted": 1.41
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "MRK",
-    "year": "2016",
-    "data": {
+      "EarningsPerShareDiluted": 1.41,
       "CashAndCashEquivalentsAtCarryingValue": 6515000000.0,
       "MarketableSecuritiesCurrent": 7826000000.0,
       "AccountsReceivableNetCurrent": 7018000000.0,
@@ -6043,15 +5175,7 @@
       "StockholdersEquity": 40088000000.0,
       "MinorityInterest": 220000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 40308000000.0,
-      "LiabilitiesAndStockholdersEquity": 95377000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "MRK",
-    "year": "2016",
-    "data": {
-      "ProfitLoss": 3941000000.0,
+      "LiabilitiesAndStockholdersEquity": 95377000000.0,
       "DepreciationDepletionAndAmortization": 5441000000.0,
       "AssetImpairmentCharges": 3948000000.0,
       "GainLossRelatedToLitigationSettlement": -625000000.0,
@@ -6100,7 +5224,6 @@
     }
   },
   {
-    "industry": "Pharma",
     "company": "CAH",
     "year": "2014",
     "data": {
@@ -6130,14 +5253,7 @@
       "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": 0.01,
       "EarningsPerShareDiluted": 3.38,
       "WeightedAverageNumberOfSharesOutstandingBasic": 341000000.0,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 345000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "CAH",
-    "year": "2014",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 345000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 2865000000.0,
       "ReceivablesNetCurrent": 5380000000.0,
       "InventoryNet": 8266000000.0,
@@ -6159,21 +5275,9 @@
       "TreasuryStockValue": 1423000000.0,
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": 70000000.0,
       "StockholdersEquity": 6401000000.0,
-      "LiabilitiesAndStockholdersEquity": 26033000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "CAH",
-    "year": "2014",
-    "data": {
-      "ProfitLoss": 1166000000.0,
-      "IncomeLossFromDiscontinuedOperationsNetOfTax": 3000000.0,
-      "IncomeLossFromContinuingOperationsIncludingPortionAttributableToNoncontrollingInterest": 1163000000.0,
+      "LiabilitiesAndStockholdersEquity": 26033000000.0,
       "DepreciationDepletionAndAmortization": 459000000.0,
-      "GainsLossesOnExtinguishmentOfDebt": 0.0,
       "GainOnSaleOfInvestments": 32000000.0,
-      "GainLossOnSalesOfAssetsAndAssetImpairmentCharges": -15000000.0,
       "ShareBasedCompensation": 96000000.0,
       "DeferredIncomeTaxExpenseBenefit": 26000000.0,
       "ProvisionForDoubtfulAccounts": 42000000.0,
@@ -6207,7 +5311,6 @@
     }
   },
   {
-    "industry": "Pharma",
     "company": "CAH",
     "year": "2015",
     "data": {
@@ -6237,14 +5340,7 @@
       "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": 0.01,
       "EarningsPerShareDiluted": 3.62,
       "WeightedAverageNumberOfSharesOutstandingBasic": 332000000.0,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 335000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "CAH",
-    "year": "2015",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 335000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 4616000000.0,
       "ReceivablesNetCurrent": 6523000000.0,
       "InventoryNet": 9211000000.0,
@@ -6269,21 +5365,9 @@
       "StockholdersEquity": 6256000000.0,
       "MinorityInterest": 0.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 6256000000.0,
-      "LiabilitiesAndStockholdersEquity": 30142000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "CAH",
-    "year": "2015",
-    "data": {
-      "ProfitLoss": 1215000000.0,
-      "IncomeLossFromDiscontinuedOperationsNetOfTax": 3000000.0,
-      "IncomeLossFromContinuingOperationsIncludingPortionAttributableToNoncontrollingInterest": 1212000000.0,
+      "LiabilitiesAndStockholdersEquity": 30142000000.0,
       "DepreciationDepletionAndAmortization": 451000000.0,
-      "GainsLossesOnExtinguishmentOfDebt": -60000000.0,
       "GainOnSaleOfInvestments": 5000000.0,
-      "GainLossOnSalesOfAssetsAndAssetImpairmentCharges": 19000000.0,
       "ShareBasedCompensation": 110000000.0,
       "DeferredIncomeTaxExpenseBenefit": 219000000.0,
       "ProvisionForDoubtfulAccounts": 52000000.0,
@@ -6318,7 +5402,6 @@
     }
   },
   {
-    "industry": "Pharma",
     "company": "CAH",
     "year": "2016",
     "data": {
@@ -6349,14 +5432,7 @@
       "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": 0.0,
       "EarningsPerShareDiluted": 4.32,
       "WeightedAverageNumberOfSharesOutstandingBasic": 327000000.0,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 330000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "CAH",
-    "year": "2016",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 330000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 2356000000.0,
       "ReceivablesNetCurrent": 7405000000.0,
       "InventoryNet": 10615000000.0,
@@ -6381,21 +5457,9 @@
       "StockholdersEquity": 6554000000.0,
       "MinorityInterest": 17000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 6571000000.0,
-      "LiabilitiesAndStockholdersEquity": 34122000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "CAH",
-    "year": "2016",
-    "data": {
-      "ProfitLoss": 1431000000.0,
-      "IncomeLossFromDiscontinuedOperationsNetOfTax": 0.0,
-      "IncomeLossFromContinuingOperationsIncludingPortionAttributableToNoncontrollingInterest": 1431000000.0,
+      "LiabilitiesAndStockholdersEquity": 34122000000.0,
       "DepreciationDepletionAndAmortization": 641000000.0,
-      "GainsLossesOnExtinguishmentOfDebt": 0.0,
       "GainOnSaleOfInvestments": 0.0,
-      "GainLossOnSalesOfAssetsAndAssetImpairmentCharges": -21000000.0,
       "ShareBasedCompensation": 111000000.0,
       "DeferredIncomeTaxExpenseBenefit": 87000000.0,
       "ProvisionForDoubtfulAccounts": 73000000.0,
@@ -6430,7 +5494,6 @@
     }
   },
   {
-    "industry": "Pharma",
     "company": "ABT",
     "year": "2014",
     "data": {
@@ -6461,14 +5524,7 @@
       "WeightedAverageNumberOfSharesOutstandingBasic": 1516000000.0,
       "IncrementalCommonSharesAttributableToShareBasedPaymentArrangements": 11000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 1527000000.0,
-      "AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount": 1000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "ABT",
-    "year": "2014",
-    "data": {
+      "AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount": 1000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 4063000000.0,
       "ShortTermInvestments": 397000000.0,
       "AccountsReceivableNetCurrent": 3586000000.0,
@@ -6513,20 +5569,11 @@
       "StockholdersEquity": 21526000000.0,
       "MinorityInterest": 113000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 21639000000.0,
-      "LiabilitiesAndStockholdersEquity": 41207000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "ABT",
-    "year": "2014",
-    "data": {
-      "NetIncomeLoss": 2284000000.0,
+      "LiabilitiesAndStockholdersEquity": 41207000000.0,
       "Depreciation": 918000000.0,
       "AmortizationOfIntangibleAssets": 630000000.0,
       "ShareBasedCompensation": 246000000.0,
       "InvestingAndFinancingGainsLossesNet": -69000000.0,
-      "GainsLossesOnExtinguishmentOfDebt": -18000000.0,
       "IncreaseDecreaseInAccountsReceivable": 195000000.0,
       "IncreaseDecreaseInInventories": 297000000.0,
       "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets": -30000000.0,
@@ -6554,7 +5601,6 @@
     }
   },
   {
-    "industry": "Pharma",
     "company": "ABT",
     "year": "2015",
     "data": {
@@ -6585,14 +5631,7 @@
       "WeightedAverageNumberOfSharesOutstandingBasic": 1496000000.0,
       "IncrementalCommonSharesAttributableToShareBasedPaymentArrangements": 10000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 1506000000.0,
-      "AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount": 1000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "ABT",
-    "year": "2015",
-    "data": {
+      "AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount": 1000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 5001000000.0,
       "ShortTermInvestments": 1124000000.0,
       "AccountsReceivableNetCurrent": 3418000000.0,
@@ -6636,15 +5675,7 @@
       "StockholdersEquity": 21211000000.0,
       "MinorityInterest": 115000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 21326000000.0,
-      "LiabilitiesAndStockholdersEquity": 41247000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "ABT",
-    "year": "2015",
-    "data": {
-      "NetIncomeLoss": 4423000000.0,
+      "LiabilitiesAndStockholdersEquity": 41247000000.0,
       "Depreciation": 871000000.0,
       "AmortizationOfIntangibleAssets": 601000000.0,
       "ShareBasedCompensation": 292000000.0,
@@ -6680,7 +5711,6 @@
     }
   },
   {
-    "industry": "Pharma",
     "company": "ABT",
     "year": "2016",
     "data": {
@@ -6711,14 +5741,7 @@
       "WeightedAverageNumberOfSharesOutstandingBasic": 1477000000.0,
       "IncrementalCommonSharesAttributableToShareBasedPaymentArrangements": 6000000.0,
       "WeightedAverageNumberOfDilutedSharesOutstanding": 1483000000.0,
-      "AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount": 5000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "ABT",
-    "year": "2016",
-    "data": {
+      "AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount": 5000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 18620000000.0,
       "ShortTermInvestments": 155000000.0,
       "AccountsReceivableNetCurrent": 3248000000.0,
@@ -6759,15 +5782,7 @@
       "StockholdersEquity": 20538000000.0,
       "MinorityInterest": 179000000.0,
       "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": 20717000000.0,
-      "LiabilitiesAndStockholdersEquity": 52666000000.0
-    }
-  },
-  {
-    "industry": "Pharma",
-    "company": "ABT",
-    "year": "2016",
-    "data": {
-      "NetIncomeLoss": 1400000000.0,
+      "LiabilitiesAndStockholdersEquity": 52666000000.0,
       "Depreciation": 803000000.0,
       "AmortizationOfIntangibleAssets": 550000000.0,
       "ShareBasedCompensation": 310000000.0,
@@ -6805,7 +5820,6 @@
     }
   },
   {
-    "industry": "Auto",
     "company": "TSLA",
     "year": "2014",
     "data": {
@@ -6834,14 +5848,7 @@
       "ProfitLoss": -294040000.0,
       "NetIncomeLossAvailableToCommonStockholdersBasic": -294040000.0,
       "EarningsPerShareBasicAndDiluted": -2.36,
-      "WeightedAverageNumberOfShareOutstandingBasicAndDiluted": 124539000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "TSLA",
-    "year": "2014",
-    "data": {
+      "WeightedAverageNumberOfShareOutstandingBasicAndDiluted": 124539000.0,
       "CashAndCashEquivalentsAtCarryingValue": 1905713000.0,
       "RestrictedCashAndInvestmentsCurrent": 17947000.0,
       "AccountsReceivableNetCurrent": 226604000.0,
@@ -6871,15 +5878,7 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": -22000.0,
       "RetainedEarningsAccumulatedDeficit": -1433660000.0,
       "StockholdersEquity": 911710000.0,
-      "LiabilitiesAndStockholdersEquity": 5830667000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "TSLA",
-    "year": "2014",
-    "data": {
-      "ProfitLoss": -294040000.0,
+      "LiabilitiesAndStockholdersEquity": 5830667000.0,
       "DepreciationAndAmortization": 231931000.0,
       "ShareBasedCompensation": 156496000.0,
       "AmortizationOfDebtDiscountLessCapitalizedInterest": 69734000.0,
@@ -6919,7 +5918,6 @@
     }
   },
   {
-    "industry": "Auto",
     "company": "TSLA",
     "year": "2015",
     "data": {
@@ -6948,14 +5946,7 @@
       "ProfitLoss": -888663000.0,
       "NetIncomeLossAvailableToCommonStockholdersBasic": -888663000.0,
       "EarningsPerShareBasicAndDiluted": -6.93,
-      "WeightedAverageNumberOfShareOutstandingBasicAndDiluted": 128202000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "TSLA",
-    "year": "2015",
-    "data": {
+      "WeightedAverageNumberOfShareOutstandingBasicAndDiluted": 128202000.0,
       "CashAndCashEquivalentsAtCarryingValue": 1196908000.0,
       "RestrictedCashAndCashEquivalentsAtCarryingValue": 22628000.0,
       "AccountsReceivableNetCurrent": 168965000.0,
@@ -6988,15 +5979,7 @@
       "AccumulatedOtherComprehensiveIncomeLossNetOfTax": -3556000.0,
       "RetainedEarningsAccumulatedDeficit": -2322323000.0,
       "StockholdersEquity": 1083704000.0,
-      "LiabilitiesAndStockholdersEquity": 8067939000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "TSLA",
-    "year": "2015",
-    "data": {
-      "ProfitLoss": -888663000.0,
+      "LiabilitiesAndStockholdersEquity": 8067939000.0,
       "DepreciationAndAmortization": 422590000.0,
       "ShareBasedCompensation": 197999000.0,
       "AmortizationOfDebtDiscountLessCapitalizedInterest": 72063000.0,
@@ -7035,7 +6018,6 @@
     }
   },
   {
-    "industry": "Auto",
     "company": "TSLA",
     "year": "2016",
     "data": {
@@ -7065,14 +6047,7 @@
       "NetIncomeLossAttributableToNoncontrollingInterest": -98132000.0,
       "NetIncomeLossAvailableToCommonStockholdersBasic": -674914000.0,
       "EarningsPerShareBasicAndDiluted": -4.68,
-      "WeightedAverageNumberOfShareOutstandingBasicAndDiluted": 144212000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "TSLA",
-    "year": "2016",
-    "data": {
+      "WeightedAverageNumberOfShareOutstandingBasicAndDiluted": 144212000.0,
       "CashAndCashEquivalentsAtCarryingValue": 3393216000.0,
       "RestrictedCashCurrent": 105519000.0,
       "AccountsReceivableNetCurrent": 499142000.0,
@@ -7111,15 +6086,7 @@
       "LiabilitiesAndStockholdersEquity": 22664076000.0,
       "DueToRelatedPartiesCurrent": 165936000.0,
       "DueToRelatedPartiesNoncurrent": 99164000.0,
-      "PropertySubjectToOrAvailableForOperatingLeaseNet": 4618443000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "TSLA",
-    "year": "2016",
-    "data": {
-      "ProfitLoss": -773046000.0,
+      "PropertySubjectToOrAvailableForOperatingLeaseNet": 4618443000.0,
       "DepreciationAndAmortization": 947099000.0,
       "ShareBasedCompensation": 334225000.0,
       "AmortizationOfDebtDiscountLessCapitalizedInterest": 87286000.0,
@@ -7165,7 +6132,6 @@
     }
   },
   {
-    "industry": "Auto",
     "company": "F",
     "year": "2014",
     "data": {
@@ -7186,14 +6152,7 @@
       "EarningsPerShareDiluted": 0.31,
       "CommonStockDividendsPerShareDeclared": 0.5,
       "SalesRevenueNet": 135782000000.0,
-      "NonoperatingIncomeExpense": 348000000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "F",
-    "year": "2014",
-    "data": {
+      "NonoperatingIncomeExpense": 348000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 4567000000.0,
       "MarketableSecurities": 20393000000.0,
       "NotesReceivableNet": 32350000000.0,
@@ -7237,15 +6196,7 @@
       "LiabilitiesCurrent": 40086000000.0,
       "OtherLiabilitiesNoncurrent": 24270000000.0,
       "DeferredTaxLiabilitiesNoncurrent": 367000000.0,
-      "DueToRelatedPartiesNoncurrent": 0.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "F",
-    "year": "2014",
-    "data": {
-      "ProfitLoss": 1230000000.0,
+      "DueToRelatedPartiesNoncurrent": 0.0,
       "DepreciationandAmortizationIncludingDepreciationonOperatingLeases": 7385000000.0,
       "OtherDepreciationandAmortizationandAccretion": 38000000.0,
       "ProvisionForCreditAndInsuranceLosses": 305000000.0,
@@ -7282,7 +6233,6 @@
     }
   },
   {
-    "industry": "Auto",
     "company": "F",
     "year": "2015",
     "data": {
@@ -7303,14 +6253,7 @@
       "EarningsPerShareDiluted": 1.84,
       "CommonStockDividendsPerShareDeclared": 0.6,
       "SalesRevenueNet": 140566000000.0,
-      "NonoperatingIncomeExpense": 372000000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "F",
-    "year": "2015",
-    "data": {
+      "NonoperatingIncomeExpense": 372000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 3949000000.0,
       "MarketableSecuritiesCurrent": 20904000000.0,
       "NotesAndLoansReceivableNetCurrent": 45137000000.0,
@@ -7346,15 +6289,7 @@
       "LongTermDebtAndCapitalLeaseObligations": 11060000000.0,
       "OtherAssets": 85000000.0,
       "OtherLiabilities": 19000000.0,
-      "CommonStockValue": 1000000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "F",
-    "year": "2015",
-    "data": {
-      "ProfitLoss": 7371000000.0,
+      "CommonStockValue": 1000000.0,
       "DepreciationandAmortizationIncludingDepreciationonOperatingLeases": 7993000000.0,
       "OtherDepreciationandAmortizationandAccretion": -27000000.0,
       "ProvisionForCreditAndInsuranceLosses": 418000000.0,
@@ -7391,7 +6326,6 @@
     }
   },
   {
-    "industry": "Auto",
     "company": "F",
     "year": "2016",
     "data": {
@@ -7412,14 +6346,7 @@
       "EarningsPerShareDiluted": 1.15,
       "CommonStockDividendsPerShareDeclared": 0.85,
       "SalesRevenueNet": 141546000000.0,
-      "NonoperatingIncomeExpense": 438000000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "F",
-    "year": "2016",
-    "data": {
+      "NonoperatingIncomeExpense": 438000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 8000000.0,
       "MarketableSecuritiesCurrent": 22922000000.0,
       "NotesAndLoansReceivableNetCurrent": 46266000000.0,
@@ -7455,15 +6382,7 @@
       "DebtAndCapitalLeaseObligations": 127063000000.0,
       "DebtCurrent": 46984000000.0,
       "LongTermDebtAndCapitalLeaseObligations": 80079000000.0,
-      "CommonStockValue": 1000000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "F",
-    "year": "2016",
-    "data": {
-      "ProfitLoss": 4607000000.0,
+      "CommonStockValue": 1000000.0,
       "DepreciationandAmortizationIncludingDepreciationonOperatingLeases": 9023000000.0,
       "OtherDepreciationandAmortizationandAccretion": -306000000.0,
       "ProvisionForCreditAndInsuranceLosses": 672000000.0,
@@ -7500,7 +6419,6 @@
     }
   },
   {
-    "industry": "Auto",
     "company": "GM",
     "year": "2014",
     "data": {
@@ -7526,14 +6444,7 @@
       "EarningsPerShareBasic": 1.75,
       "WeightedAverageNumberOfSharesOutstandingBasic": 1605000000.0,
       "EarningsPerShareDiluted": 1.65,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 1687000000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "GM",
-    "year": "2014",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 1687000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 18954000000.0,
       "MarketableSecuritiesCurrent": 9222000000.0,
       "RestrictedCashAndInvestmentsCurrent": 1110000000.0,
@@ -7572,21 +6483,12 @@
       "NotesAndLoansReceivableNetNoncurrent": 16006000000.0,
       "PropertySubjectToOrAvailableForOperatingLeaseNet": 7060000000.0,
       "DebtCurrent": 497000000.0,
-      "LongTermDebtAndCapitalLeaseObligations": 8853000000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "GM",
-    "year": "2014",
-    "data": {
-      "ProfitLoss": 4018000000.0,
+      "LongTermDebtAndCapitalLeaseObligations": 8853000000.0,
       "Depreciationamortizationandimpairmentcharges": 7238000000.0,
       "ForeignCurrencyRemeasurementandTransactionGainsLosses": -437000000.0,
       "IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions": 301000000.0,
       "PensionAndOtherPostretirementBenefitContributions": 1315000000.0,
       "PensionAndOtherPostretirementBenefitExpense": 439000000.0,
-      "GainsLossesOnExtinguishmentOfDebt": 202000000.0,
       "DeferredIncomeTaxExpenseBenefit": -574000000.0,
       "IncreaseDecreaseInOtherOperatingCapitalNet": -247000000.0,
       "OtherOperatingActivitiesCashFlowStatement": 74000000.0,
@@ -7616,7 +6518,6 @@
     }
   },
   {
-    "industry": "Auto",
     "company": "GM",
     "year": "2015",
     "data": {
@@ -7642,14 +6543,7 @@
       "EarningsPerShareBasic": 6.11,
       "WeightedAverageNumberOfSharesOutstandingBasic": 1586000000.0,
       "EarningsPerShareDiluted": 5.91,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 1640000000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "GM",
-    "year": "2015",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 1640000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 15238000000.0,
       "MarketableSecuritiesCurrent": 8163000000.0,
       "AccountsNotesAndLoansReceivableNetCurrent": 8337000000.0,
@@ -7684,21 +6578,12 @@
       "NotesAndLoansReceivableNetNoncurrent": 18500000000.0,
       "PropertySubjectToOrAvailableForOperatingLeaseNet": 20172000000.0,
       "DebtCurrent": 817000000.0,
-      "LongTermDebtAndCapitalLeaseObligations": 7948000000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "GM",
-    "year": "2015",
-    "data": {
-      "ProfitLoss": 9615000000.0,
+      "LongTermDebtAndCapitalLeaseObligations": 7948000000.0,
       "Depreciationamortizationandimpairmentcharges": 8017000000.0,
       "ForeignCurrencyRemeasurementandTransactionGainsLosses": -829000000.0,
       "IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions": 147000000.0,
       "PensionAndOtherPostretirementBenefitContributions": 1600000000.0,
       "PensionAndOtherPostretirementBenefitExpense": 321000000.0,
-      "GainsLossesOnExtinguishmentOfDebt": 449000000.0,
       "DeferredIncomeTaxExpenseBenefit": -2757000000.0,
       "IncreaseDecreaseInOtherOperatingCapitalNet": 2025000000.0,
       "OtherOperatingActivitiesCashFlowStatement": -113000000.0,
@@ -7728,7 +6613,6 @@
     }
   },
   {
-    "industry": "Auto",
     "company": "GM",
     "year": "2016",
     "data": {
@@ -7754,14 +6638,7 @@
       "EarningsPerShareBasic": 6.12,
       "WeightedAverageNumberOfSharesOutstandingBasic": 1540000000.0,
       "EarningsPerShareDiluted": 6.0,
-      "WeightedAverageNumberOfDilutedSharesOutstanding": 1570000000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "GM",
-    "year": "2016",
-    "data": {
+      "WeightedAverageNumberOfDilutedSharesOutstanding": 1570000000.0,
       "CashAndCashEquivalentsAtCarryingValue": 12574000000.0,
       "MarketableSecuritiesCurrent": 11841000000.0,
       "AccountsNotesAndLoansReceivableNetCurrent": 8700000000.0,
@@ -7801,21 +6678,12 @@
       "NotesAndLoansReceivableNetCurrent": 16127000000.0,
       "NotesAndLoansReceivableNetNoncurrent": 17001000000.0,
       "DebtCurrent": 1060000000.0,
-      "LongTermDebtAndCapitalLeaseObligations": 9500000000.0
-    }
-  },
-  {
-    "industry": "Auto",
-    "company": "GM",
-    "year": "2016",
-    "data": {
-      "ProfitLoss": 9268000000.0,
+      "LongTermDebtAndCapitalLeaseObligations": 9500000000.0,
       "Depreciationamortizationandimpairmentcharges": 10408000000.0,
       "ForeignCurrencyRemeasurementandTransactionGainsLosses": -358000000.0,
       "IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions": 15000000.0,
       "PensionAndOtherPostretirementBenefitContributions": 3465000000.0,
       "PensionAndOtherPostretirementBenefitExpense": -553000000.0,
-      "GainsLossesOnExtinguishmentOfDebt": 0.0,
       "DeferredIncomeTaxExpenseBenefit": 1886000000.0,
       "IncreaseDecreaseInOtherOperatingCapitalNet": 438000000.0,
       "OtherOperatingActivitiesCashFlowStatement": -904000000.0,

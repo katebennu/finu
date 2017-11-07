@@ -14,16 +14,12 @@ with open('auth', 'r') as fh:
 
 def process_company(company, industry):
     for y in YEARS:
+        data = {
+            'company': company,
+            'year': y,
+            'data': {}
+        }
         for s in STATEMENTS:
-            """
-            url = "&".join([
-                URL_BASE + company,
-                'state',
-                'statement={}'.format(s),
-                'fiscal_year={}'.format(y),
-                'fiscal_period=FY'
-            ])
-            """
             statement_data = requests.get(
                 URL_BASE + company,
                 auth=AUTH,
@@ -35,17 +31,10 @@ def process_company(company, industry):
                 )
             ).json()
 
-            data = {
-                'industry': industry,
-                'company': company,
-                'year': y,
-                'data': {}
-            }
-
             for i in statement_data["data"]:
                 data['data'][i['xbrl_tag']] = i['value']
 
-            yield data
+        yield data
 
 
 def main():
