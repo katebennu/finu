@@ -11,7 +11,7 @@ class AllRates(Resource):
         return json.load(open('ratios.json', 'r'))
 
 
-api.add_resource(AllRates, '/')
+api.add_resource(AllRates, '/all-rates/')
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -1,0 +1,2 @@
+FROM nginx
+COPY finu-frontend /usr/share/nginx/html
