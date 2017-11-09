@@ -1,6 +1,6 @@
 FROM python:3.6-alpine
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install -r /tmp/requirements.txt
-ADD . /code
+ADD finu /code
 WORKDIR /code/finu
 CMD ["python", "api.py"]

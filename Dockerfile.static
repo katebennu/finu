@@ -1,2 +1,2 @@
 FROM nginx
-COPY finu-frontend /usr/share/nginx/html
+COPY frontend/build /usr/share/nginx/html

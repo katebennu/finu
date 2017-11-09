@@ -4,6 +4,20 @@ import json
 from flask_cors import CORS
 
 app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return """
+    <html>
+        <head>
+            <title>INDEX</title>
+        </head>
+       <body>
+           <a href="/all-rates/">HERE</a>
+       </body>
+    </html>
+    """
+
 api = Api(app)
 CORS(app)
 
