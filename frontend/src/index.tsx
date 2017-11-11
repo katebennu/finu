@@ -1,11 +1,12 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 import './index.css';
+import getRates from './utils/fetchRates';
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root') as HTMLElement
-);
-registerServiceWorker();
+async function init() {
+    const data = await getRates();
+    ReactDOM.render(<App data={data} />, document.getElementById('root'));
+}
+
+init();
