@@ -16,7 +16,7 @@ def process_company(company, industry):
     for y in YEARS:
         data = {
             'company': company,
-            'year': y,
+            'year': int(y),
             'data': {}
         }
         for s in STATEMENTS:
