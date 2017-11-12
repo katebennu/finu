@@ -3,24 +3,17 @@ import { connect, PromiseState } from 'react-refetch';
 
 type Fetched = [
     {'data': StatementRatios[]},
-    {'industries': Industry[]}
+    {'companies': Company[]}
 ]
-
-type Industry = {
-    'name': string,
-    'companies': Company[]
-}
-
 type Company = {
     'ticker': string,
+    'industries': string[]
 }
-
 type StatementRatios = {
     company: string,
     year: string,
     ratios: Ratios
 }
-
 type Ratios = {
     Liquidity: Liquidity,
     Profitability: Profitability,
@@ -56,7 +49,6 @@ const Tile = ({value}: { value: StatementRatios}) => (
         </div>
 
     </div>
-
 );
 
 const Tiles = ({data}: {data: StatementRatios[]}) => (
@@ -69,19 +61,19 @@ const Tiles = ({data}: {data: StatementRatios[]}) => (
 
 // const FilterButtonIndustry =
 
-const Menu = ({ industries }: { industries: Industry[]}) => (
+const Menu = ({companies} : {companies: Company[]}) => (
     <div style={{
         border: 'solid 1px',
         marginBottom: '10px'
     }}>
         <div>Menu</div>
         <div>
-            {industries.map(industry => (
+            {companies.map(company => (
                 <div style={{
                     display: 'inline-block',
                     padding: '5px'
-                    }} key={industry.name}>
-                    {industry.name}
+                    }} key={company.ticker}>
+                    {company.ticker}
                 </div>))}
         </div>
     </div>
@@ -95,17 +87,17 @@ const App = ({fetched}: {fetched: Fetched}) => (
     }}>
         <div>
             {/*{JSON.stringify(fetched)}*/}
-            <Menu industries={fetched[1].industries}/>
+            <Menu companies={fetched[1].companies}/>
             <Tiles data={fetched[0].data}/>
         </div>
     </div>
 );
 
-const LoadableApp = ({dataFetch, industriesFetch}: {
+const LoadableApp = ({dataFetch, companiesFetch}: {
     dataFetch: PromiseState<Fetched[0]>,
-    industriesFetch: PromiseState<Fetched[1]>
+    companiesFetch: PromiseState<Fetched[1]>
 }) => {
-    const allFetches = PromiseState.all([dataFetch, industriesFetch]);
+    const allFetches = PromiseState.all([dataFetch, companiesFetch]);
     if (allFetches.rejected) {
         return <p>{allFetches.reason}</p>
     } else if (allFetches.pending) {
@@ -117,5 +109,5 @@ const LoadableApp = ({dataFetch, industriesFetch}: {
 
 export default connect(() => ({
     dataFetch: 'http://localhost:5000/all-rates/',
-    industriesFetch: 'http://localhost:5000/industries/'
+    companiesFetch: 'http://localhost:5000/companies/'
 }))(LoadableApp);

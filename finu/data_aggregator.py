@@ -12,10 +12,9 @@ with open('auth', 'r') as fh:
     AUTH = tuple(fh.read().split(','))
 
 
-def process_company(company, industry):
+def process_company(company):
     for y in YEARS:
         data = {
-            'industry': industry,
             'company': company,
             'year': int(y),
             'data': {}
@@ -42,12 +41,11 @@ def main():
     print('started')
     out = []
 
-    with open('by-industry.json') as fh:
-        industries = json.load(fh)["industries"]
+    with open('companies.json') as fh:
+        companies = json.load(fh)["companies"]
 
-    for i in industries:
-        for c in i["companies"]:
-            out += list(process_company(c['ticker'], i['name']))
+    for c in companies:
+        out += list(process_company(c['ticker']))
 
     with open('api-data.json', 'w') as fil:
         json.dump(out, fil)

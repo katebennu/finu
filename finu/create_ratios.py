@@ -40,7 +40,6 @@ def process_statement(statement):
     print(ratios)
 
     yield {
-        'industry': statement['industry'],
         'company': statement['company'],
         'year': statement['year'],
         'ratios': ratios

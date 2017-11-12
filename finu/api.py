@@ -28,14 +28,14 @@ class AllRates(Resource):
         return json.load(open('ratios.json', 'r'))
 
 
-class Industries(Resource):
+class Companies(Resource):
 
     def get(self):
-        return json.load(open('by-industry.json', 'r'))
+        return json.load(open('companies.json', 'r'))
 
 
 api.add_resource(AllRates, '/all-rates/')
-api.add_resource(Industries, '/industries/')
+api.add_resource(Companies, '/companies/')
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", debug=True)
