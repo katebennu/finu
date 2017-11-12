@@ -15,6 +15,7 @@ with open('auth', 'r') as fh:
 def process_company(company, industry):
     for y in YEARS:
         data = {
+            'industry': industry,
             'company': company,
             'year': int(y),
             'data': {}

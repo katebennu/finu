@@ -43,6 +43,23 @@ const Tile = ({value}: { value: Data}) => (
 
 );
 
+const Tiles = ({data}: {data: Data[]}) => (
+    <div style={{
+        border: 'solid 1px'
+    }}>
+        {data.map(statement => <Tile key={statement.company} value={statement}/>)}
+    </div>
+);
+
+const Menu = () => (
+    <div style={{
+        border: 'solid 1px',
+        marginBottom: '10px'
+    }}>
+        <div>Menu</div>
+    </div>
+);
+
 const App = ({data}: {data: Data[]}) => (
     <div style={{
         textAlign: 'center',
@@ -51,7 +68,8 @@ const App = ({data}: {data: Data[]}) => (
     }}>
         <div>
             {/*{JSON.stringify(data)}*/}
-            {data.map(statement => <Tile key={statement.company} value={statement}/>)}
+            <Menu />
+            <Tiles data={data}/>
         </div>
     </div>
 );
