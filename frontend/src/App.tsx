@@ -1,8 +1,18 @@
 import * as React from 'react';
 import { connect, PromiseState } from 'react-refetch';
 
-type Data = {
-    'data': StatementRatios[]
+type Fetched = [
+    {'data': StatementRatios[]},
+    {'industries': Industry[]}
+]
+
+type Industry = {
+    'name': string,
+    'companies': Company[]
+}
+
+type Company = {
+    'ticker': string,
 }
 
 type StatementRatios = {
@@ -29,69 +39,72 @@ type CapitalStructure = {
     DebtToEquity: number
 }
 
-const Tile = ({value}: { value: StatementRatios}) => (
-    <div style={{
-        display: 'inline-block',
-        width: '30%',
-        minWidth: '200px',
-        maxWidth: '300px',
-        margin: '10px'
-    }}>
-        <div>{value.company} {value.year}</div>
-        <div>Liquidity:
-            <div>Current Ratio: {JSON.stringify(value.ratios.Liquidity.CurrentRatio)}</div>
-        </div>
-        <div>CapitalStructure:
-            <div>Debt to Equity: {value.ratios.CapitalStructure.DebtToEquity}</div>
-        </div>
+// const Tile = ({value}: { value: StatementRatios}) => (
+//     <div style={{
+//         display: 'inline-block',
+//         width: '30%',
+//         minWidth: '200px',
+//         maxWidth: '300px',
+//         margin: '10px'
+//     }}>
+//         <div>{value.company} {value.year}</div>
+//         <div>Liquidity:
+//             <div>Current Ratio: {JSON.stringify(value.ratios.Liquidity.CurrentRatio)}</div>
+//         </div>
+//         <div>CapitalStructure:
+//             <div>Debt to Equity: {value.ratios.CapitalStructure.DebtToEquity}</div>
+//         </div>
+//
+//     </div>
+//
+// );
+//
+// const Tiles = ({data}: {data: StatementRatios[]}) => (
+//     <div style={{
+//         border: 'solid 1px'
+//     }}>
+//         {data.map(statement => <Tile key={statement.company} value={statement}/>)}
+//     </div>
+// );
+//
+// const Menu = () => (
+//     <div style={{
+//         border: 'solid 1px',
+//         marginBottom: '10px'
+//     }}>
+//         <div>Menu</div>
+//     </div>
+// );
 
-    </div>
-
-);
-
-const Tiles = ({data}: {data: StatementRatios[]}) => (
-    <div style={{
-        border: 'solid 1px'
-    }}>
-        {data.map(statement => <Tile key={statement.company} value={statement}/>)}
-    </div>
-);
-
-const Menu = () => (
-    <div style={{
-        border: 'solid 1px',
-        marginBottom: '10px'
-    }}>
-        <div>Menu</div>
-    </div>
-);
-
-const App = ({data}: {data: Data}) => (
+const App = ({fetched}: {fetched: Fetched}) => (
     <div style={{
         textAlign: 'center',
         width: '100%',
         maxWidth: '900px'
     }}>
         <div>
-            {/*{JSON.stringify(data)}*/}
-            <Menu />
-            <Tiles data={data.data}/>
+            {JSON.stringify(fetched)}
+            {/*<Menu />*/}
+            {/*<Tiles data={data.data}/>*/}
         </div>
     </div>
 );
 
-const LoadableApp = ({dataFetch}: {
-    dataFetch: PromiseState<Data>
+const LoadableApp = ({dataFetch, industriesFetch}: {
+    dataFetch: PromiseState<Fetched[0]>,
+    industriesFetch: PromiseState<Fetched[1]>
 }) => {
-    if (dataFetch.rejected) {
-        return <p>{dataFetch.reason}</p>
-    } else if (dataFetch.pending) {
+    const allFetches = PromiseState.all([dataFetch, industriesFetch]);
+    if (allFetches.rejected) {
+        return <p>{allFetches.reason}</p>
+    } else if (allFetches.pending) {
         return <p>Loading...</p>
     } else {
-        return <App data={dataFetch.value} />
+        return <App fetched={allFetches.value} />
     }
 }
 
 export default connect(() => ({
-    dataFetch: 'http://localhost:5000/all-rates/'
+    dataFetch: 'http://localhost:5000/all-rates/',
+    industriesFetch: 'http://localhost:5000/industries/'
 }))(LoadableApp);
