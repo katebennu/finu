@@ -1,10 +1,16 @@
 import * as React from 'react';
+import { connect, PromiseState } from 'react-refetch';
 
 type Data = {
+    'data': StatementRatios[]
+}
+
+type StatementRatios = {
     company: string,
     year: string,
     ratios: Ratios
 }
+
 type Ratios = {
     Liquidity: Liquidity,
     Profitability: Profitability,
@@ -23,7 +29,7 @@ type CapitalStructure = {
     DebtToEquity: number
 }
 
-const Tile = ({value}: { value: Data}) => (
+const Tile = ({value}: { value: StatementRatios}) => (
     <div style={{
         display: 'inline-block',
         width: '30%',
@@ -43,7 +49,7 @@ const Tile = ({value}: { value: Data}) => (
 
 );
 
-const Tiles = ({data}: {data: Data[]}) => (
+const Tiles = ({data}: {data: StatementRatios[]}) => (
     <div style={{
         border: 'solid 1px'
     }}>
@@ -60,7 +66,7 @@ const Menu = () => (
     </div>
 );
 
-const App = ({data}: {data: Data[]}) => (
+const App = ({data}: {data: Data}) => (
     <div style={{
         textAlign: 'center',
         width: '100%',
@@ -69,9 +75,23 @@ const App = ({data}: {data: Data[]}) => (
         <div>
             {/*{JSON.stringify(data)}*/}
             <Menu />
-            <Tiles data={data}/>
+            <Tiles data={data.data}/>
         </div>
     </div>
 );
 
-export default App;
+const LoadableApp = ({dataFetch}: {
+    dataFetch: PromiseState<Data>
+}) => {
+    if (dataFetch.rejected) {
+        return <p>{dataFetch.reason}</p>
+    } else if (dataFetch.pending) {
+        return <p>Loading...</p>
+    } else {
+        return <App data={dataFetch.value} />
+    }
+}
+
+export default connect(() => ({
+    dataFetch: 'http://localhost:5000/all-rates/'
+}))(LoadableApp);

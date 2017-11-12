@@ -49,13 +49,13 @@ def process_statement(statement):
 
 def main():
     print('started creating ratios')
-    out = []
+    out = {'data': []}
 
     with open('api-data.json', 'r') as jh:
         statements = json.load(jh)
 
     for s in statements:
-        out += list(process_statement(s))
+        out['data'] += list(process_statement(s))
 
     with open('ratios.json', 'w') as fil:
         json.dump(out, fil)

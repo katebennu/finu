@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
+    "react-refetch": "^1.0.1",
     "react-scripts-ts": "2.8.0"
   },
   "scripts": {
