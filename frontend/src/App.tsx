@@ -39,42 +39,53 @@ type CapitalStructure = {
     DebtToEquity: number
 }
 
-// const Tile = ({value}: { value: StatementRatios}) => (
-//     <div style={{
-//         display: 'inline-block',
-//         width: '30%',
-//         minWidth: '200px',
-//         maxWidth: '300px',
-//         margin: '10px'
-//     }}>
-//         <div>{value.company} {value.year}</div>
-//         <div>Liquidity:
-//             <div>Current Ratio: {JSON.stringify(value.ratios.Liquidity.CurrentRatio)}</div>
-//         </div>
-//         <div>CapitalStructure:
-//             <div>Debt to Equity: {value.ratios.CapitalStructure.DebtToEquity}</div>
-//         </div>
-//
-//     </div>
-//
-// );
-//
-// const Tiles = ({data}: {data: StatementRatios[]}) => (
-//     <div style={{
-//         border: 'solid 1px'
-//     }}>
-//         {data.map(statement => <Tile key={statement.company} value={statement}/>)}
-//     </div>
-// );
-//
-// const Menu = () => (
-//     <div style={{
-//         border: 'solid 1px',
-//         marginBottom: '10px'
-//     }}>
-//         <div>Menu</div>
-//     </div>
-// );
+const Tile = ({value}: { value: StatementRatios}) => (
+    <div style={{
+        display: 'inline-block',
+        width: '30%',
+        minWidth: '200px',
+        maxWidth: '300px',
+        margin: '10px'
+    }}>
+        <div>{value.company} {value.year}</div>
+        <div>Liquidity:
+            <div>Current Ratio: {JSON.stringify(value.ratios.Liquidity.CurrentRatio)}</div>
+        </div>
+        <div>CapitalStructure:
+            <div>Debt to Equity: {value.ratios.CapitalStructure.DebtToEquity}</div>
+        </div>
+
+    </div>
+
+);
+
+const Tiles = ({data}: {data: StatementRatios[]}) => (
+    <div style={{
+        border: 'solid 1px'
+    }}>
+        {data.map(statement => <Tile key={statement.company} value={statement}/>)}
+    </div>
+);
+
+// const FilterButtonIndustry =
+
+const Menu = ({ industries }: { industries: Industry[]}) => (
+    <div style={{
+        border: 'solid 1px',
+        marginBottom: '10px'
+    }}>
+        <div>Menu</div>
+        <div>
+            {industries.map(industry => (
+                <div style={{
+                    display: 'inline-block',
+                    padding: '5px'
+                    }} key={industry.name}>
+                    {industry.name}
+                </div>))}
+        </div>
+    </div>
+);
 
 const App = ({fetched}: {fetched: Fetched}) => (
     <div style={{
@@ -83,9 +94,9 @@ const App = ({fetched}: {fetched: Fetched}) => (
         maxWidth: '900px'
     }}>
         <div>
-            {JSON.stringify(fetched)}
-            {/*<Menu />*/}
-            {/*<Tiles data={data.data}/>*/}
+            {/*{JSON.stringify(fetched)}*/}
+            <Menu industries={fetched[1].industries}/>
+            <Tiles data={fetched[0].data}/>
         </div>
     </div>
 );
