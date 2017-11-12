@@ -5,7 +5,7 @@ const Tiles = ({data}: {data: StatementRatios[]}) => (
     <div style={{
         border: 'solid 1px'
     }}>
-        {data.map(statement => <Tile key={statement.company} value={statement}/>)}
+        {data.map(statement => <Tile key={statement.company+'-'+statement.year} value={statement}/>)}
     </div>
 );
 

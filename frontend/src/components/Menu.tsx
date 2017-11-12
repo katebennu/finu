@@ -8,12 +8,14 @@ const Menu = ({companies} : {companies: Company[]}) => (
         <div>Menu</div>
         <div>
             {companies.map(company => (
-                <div style={{
+                <button style={{
                     display: 'inline-block',
                     padding: '5px'
-                    }} key={company.ticker}>
+                    }}
+                    key={company.ticker}
+                >
                     {company.ticker}
-                </div>))}
+                </button>))}
         </div>
     </div>
 );
