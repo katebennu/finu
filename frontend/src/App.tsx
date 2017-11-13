@@ -8,19 +8,34 @@ type Fetched = [
     {'companies': Company[]}
 ]
 
-const App = ({fetched}: {fetched: Fetched}) => (
-    <div style={{
-        textAlign: 'center',
-        width: '100%',
-        maxWidth: '900px'
-    }}>
-        <div>
-            {/*{JSON.stringify(fetched)}*/}
-            <Menu companies={fetched[1].companies}/>
-            <Tiles data={fetched[0].data}/>
-        </div>
-    </div>
-);
+class App extends React.Component<Fetched, object> {
+    constructor(fetched: Fetched) {
+        super(fetched);
+        this.state = {
+            selectedCompany: 'all'
+        }
+    }
+    handleClick({c}: {c : Company}) {
+        this.setState({
+            selectedCompany: c
+        })
+    }
+    render () {
+        return (
+            <div style={{
+                textAlign: 'center',
+                width: '100%',
+                maxWidth: '900px'
+            }}>
+                <div>
+                    {/*{JSON.stringify(fetched)}*/}
+                    <Menu companies={this.props[1].companies}/>
+                    <Tiles data={this.props[0].data}/>
+                </div>
+            </div>
+        )
+    }
+}
 
 const LoadableApp = ({dataFetch, companiesFetch}: {
     dataFetch: PromiseState<Fetched[0]>,
