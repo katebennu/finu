@@ -12,17 +12,17 @@ class App extends React.Component<any, any> {
     constructor(props: any) {
         super(props);
         this.state = {
-            selectedCompany: 'all'
+            selectedCompanies: ['all']
         }
     }
 
     handleClick = (c: string) => {
         this.setState({
-            selectedCompany: c
+            selectedCompanies: this.state.selectedCompanies.concat([c])
         });
     };
     render () {
-        let selectedCompany = this.state.selectedCompany;
+        let selectedCompanies = this.state.selectedCompanies;
         let allData = this.props.fetched[0].data;
         return (
             <div style={{
@@ -34,9 +34,8 @@ class App extends React.Component<any, any> {
                     {/*{JSON.stringify(fetched)}*/}
                     <Menu companies={this.props.fetched[1].companies}
                           onClick={c => this.handleClick(c)}/>
-                    <Tiles data={selectedCompany === 'all' ? allData :
-                        allData.filter((statement: StatementRatios) =>
-                        statement.company === selectedCompany)}/>
+                    <Tiles data={selectedCompanies.length === 1 ? allData :
+                        allData.filter((statement: StatementRatios) => selectedCompanies.indexOf(statement.company) > -1)}/>
                 </div>
             </div>
         )
