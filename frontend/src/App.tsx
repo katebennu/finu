@@ -8,9 +8,9 @@ type Fetched = [
     {'companies': Company[]}
 ]
 
-class App extends React.Component<Fetched, object> {
-    constructor(fetched: Fetched) {
-        super(fetched);
+class App extends React.Component<any, any> {
+    constructor(props: any) {
+        super(props);
         this.state = {
             selectedCompany: 'all'
         }
@@ -29,8 +29,8 @@ class App extends React.Component<Fetched, object> {
             }}>
                 <div>
                     {/*{JSON.stringify(fetched)}*/}
-                    <Menu companies={this.props[1].companies}/>
-                    <Tiles data={this.props[0].data}/>
+                    <Menu companies={this.props.fetched[1].companies}/>
+                    <Tiles data={this.props.fetched[0].data}/>
                 </div>
             </div>
         )
