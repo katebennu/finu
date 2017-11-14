@@ -1,36 +1,91 @@
 import * as React from 'react';
+import { Set } from 'immutable';
 
-const Menu = ({companies, onClick}: { companies: Company[], onClick(f: string, type: string, event: any): any }) => (
+const Button = ({
+    value,
+    onClick,
+    isSelected
+}:{
+    value: string,
+    onClick: () => void,
+    isSelected: boolean
+}) => (
+    <button style={{
+            display: 'inline-block',
+            padding: '5px',
+            color: isSelected ? 'red' : 'black'
+        }}
+        key={value}
+        onClick={(e) => onClick()}
+    >
+        {value}
+    </button>
+);
+
+const SelectableOptions = <ItemType extends {}>({
+    options,
+    selectedOptions,
+    selectedOptionsOnChange,
+    stringify
+}:{
+    options: ItemType[],
+    selectedOptions: ItemType[],
+    selectedOptionsOnChange: (selectedOptions: ItemType[]) => void,
+    stringify: (item: ItemType) => string
+}) => (<div>
+    {options.map(option => (
+        <Button
+            value={stringify(option)}
+            onClick={() => {
+                const selection = Set(selectedOptions);
+                if (selection.contains(option)) {
+                    selectedOptionsOnChange(selection.remove(option).toArray());
+                } else {
+                    selectedOptionsOnChange(selection.add(option).toArray());
+                }
+            }}
+            isSelected={selectedOptions.indexOf(option) >= 0}
+        />
+    ))}
+</div>);
+
+const Menu = ({
+    companies,
+    selectedCompanies,
+    selectedCompaniesOnChange,
+    years,
+    selectedYears,
+    selectedYearsOnChange
+}: {
+    companies: Company[],
+    selectedCompanies: Company[],
+    selectedCompaniesOnChange: (selectedCompanies: Company[]) => void,
+    years: string[],
+    selectedYears: string[],
+    selectedYearsOnChange: (selectedYears: string[]) => void
+}) => (
     <div style={{
         border: 'solid 1px',
         marginBottom: '10px'
     }}>
         <div>Menu</div>
         <div>
-            {companies.map(company => (
-                <button style={{
-                            display: 'inline-block',
-                            padding: '5px'
-                        }}
-                        key={company.ticker}
-                        onClick={(e) => onClick(company.ticker, 'selectedCompanies', e)}
-                >
-                    {company.ticker}
-                </button>))}
+            <SelectableOptions
+                options={companies}
+                selectedOptions={selectedCompanies}
+                selectedOptionsOnChange={selectedCompaniesOnChange}
+                stringify={company => company.ticker}
+            />
         </div>
         <div style={{
             margin: '20px'
         }}>
-            {['2014', '2015', '2016'].map(year => (
-                <button style={{
-                            display: 'inline-block',
-                            padding: '5px'
-                        }}
-                        key={year}
-                        onClick={(e) => onClick(year, 'selectedYears', e)}
-                >
-                    {year}
-                </button>))}
+        <SelectableOptions
+            options={years}
+            selectedOptions={selectedYears}
+            selectedOptionsOnChange={selectedYearsOnChange}
+            stringify={year => year}
+        />
         </div>
     </div>
 );
