@@ -12,8 +12,8 @@ class App extends React.Component<any, any> {
     constructor(props: any) {
         super(props);
         this.state = {
-            selectedCompanies: ['all'],
-            selectedYears: ['all']
+            selectedCompanies: [],
+            selectedYears: []
         }
     }
 
@@ -33,8 +33,8 @@ class App extends React.Component<any, any> {
     render () {
         const selectedCompanies = this.state.selectedCompanies;
         const selectedYears = this.state.selectedYears;
-        const allCompanies = selectedCompanies.length === 1;
-        const allYears = selectedYears.length === 1;
+        const allCompanies = selectedCompanies.length === 0;
+        const allYears = selectedYears.length === 0;
         const allData = this.props.fetched[0].data;
         return (
             <div style={{
