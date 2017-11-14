@@ -9,17 +9,24 @@ type Fetched = [
     {'companies': Company[]}
 ]
 
+type Props = {
+    fetched: Fetched
+}
+
 type State = {
     selectedCompanies: Company[],
     selectedYears: string[]
 }
 
-class App extends React.Component<any, State> {
+const allYears = ['2014', '2015', '2016'];
+
+class App extends React.Component<Props, State> {
+
     constructor(props: any) {
         super(props);
         this.state = {
-            selectedCompanies: [],
-            selectedYears: []
+            selectedCompanies: this.props.fetched[1].companies,
+            selectedYears: allYears
         }
     }
 
@@ -40,7 +47,7 @@ class App extends React.Component<any, State> {
                         selectedCompaniesOnChange={newValues => this.setState({
                             selectedCompanies: newValues
                         })}
-                        years={['2014', '2015', '2016']}
+                        years={allYears}
                         selectedYears={selectedYears}
                         selectedYearsOnChange={newValues => this.setState({
                             selectedYears: newValues
@@ -51,7 +58,7 @@ class App extends React.Component<any, State> {
                             !isUndefined(
                                 selectedCompanies.find(
                                     (company: Company) => company.ticker === statement.company
-                            )) && 
+                            )) &&
                             !isUndefined(
                                 selectedYears.find(
                                     (year: string) => year === statement.year.toString()))
