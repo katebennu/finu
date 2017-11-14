@@ -17,13 +17,15 @@ class App extends React.Component<any, any> {
         }
     }
 
-    handleClick = (f: string, type: string) => {
+    handleClick = (f: string, type: string, e: any) => {
         let stateItem = this.state[type];
         let i = stateItem.indexOf(f);
-        if (i > 0) {
+        if (i > -1) {
             stateItem.splice(i, 1);
+            e.target.style.color = 'black';
         } else {
             stateItem.push(f);
+            e.target.style.color = 'red';
         }
         this.setState({
             [type]: stateItem
@@ -45,7 +47,7 @@ class App extends React.Component<any, any> {
                 <div>
                     {/*{JSON.stringify(fetched)}*/}
                     <Menu companies={this.props.fetched[1].companies}
-                          onClick={(f, type) => this.handleClick(f, type)}/>
+                          onClick={(f, type, event) => this.handleClick(f, type, event)}/>
                     <Tiles data={allCompanies && allYears? allData :
                         allData.filter((statement: StatementRatios) =>
                             (selectedCompanies.indexOf(statement.company) > -1 || allCompanies) &&
