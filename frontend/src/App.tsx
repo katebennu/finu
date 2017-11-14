@@ -20,8 +20,10 @@ class App extends React.Component<any, any> {
         this.setState({
             selectedCompany: c
         });
-    }
+    };
     render () {
+        let selectedCompany = this.state.selectedCompany;
+        let allData = this.props.fetched[0].data;
         return (
             <div style={{
                 textAlign: 'center',
@@ -32,7 +34,9 @@ class App extends React.Component<any, any> {
                     {/*{JSON.stringify(fetched)}*/}
                     <Menu companies={this.props.fetched[1].companies}
                           onClick={c => this.handleClick(c)}/>
-                    <Tiles data={this.props.fetched[0].data.filter((statement: StatementRatios) => statement.company === this.state.selectedCompany)}/>
+                    <Tiles data={selectedCompany === 'all' ? allData :
+                        allData.filter((statement: StatementRatios) =>
+                        statement.company === selectedCompany)}/>
                 </div>
             </div>
         )
@@ -51,7 +55,7 @@ const LoadableApp = ({dataFetch, companiesFetch}: {
     } else {
         return <App fetched={allFetches.value} />
     }
-}
+};
 
 export default connect(() => ({
     dataFetch: 'http://localhost:5000/all-rates/',
