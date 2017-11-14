@@ -17,9 +17,20 @@ class App extends React.Component<any, any> {
     }
 
     handleClick = (c: string) => {
-        this.setState({
-            selectedCompanies: this.state.selectedCompanies.concat([c])
-        });
+        let selectedCompanies = this.state.selectedCompanies;
+        let i = selectedCompanies.indexOf(c);
+        if (i > 0) {
+            selectedCompanies.splice(i, 1);
+            this.setState({
+                selectedCompanies: selectedCompanies
+            });
+        } else {
+            selectedCompanies.push(c);
+            this.setState({
+                selectedCompanies: selectedCompanies
+            });
+        }
+
     };
     render () {
         let selectedCompanies = this.state.selectedCompanies;
