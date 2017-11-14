@@ -17,29 +17,25 @@ class App extends React.Component<any, any> {
         }
     }
 
-    filter = () => {
-
-    }
-
     handleClick = (f: string, type: string) => {
         let stateItem = this.state[type];
         let i = stateItem.indexOf(f);
         if (i > 0) {
             stateItem.splice(i, 1);
-            this.setState({
-                [type]: stateItem
-            });
         } else {
             stateItem.push(f);
-            this.setState({
-                [type]: stateItem
-            });
         }
+        this.setState({
+            [type]: stateItem
+        });
 
     };
     render () {
-        let selectedCompanies = this.state.selectedCompanies;
-        let allData = this.props.fetched[0].data;
+        const selectedCompanies = this.state.selectedCompanies;
+        const selectedYears = this.state.selectedYears;
+        const allCompanies = selectedCompanies.length === 1;
+        const allYears = selectedYears.length === 1;
+        const allData = this.props.fetched[0].data;
         return (
             <div style={{
                 textAlign: 'center',
@@ -50,8 +46,10 @@ class App extends React.Component<any, any> {
                     {/*{JSON.stringify(fetched)}*/}
                     <Menu companies={this.props.fetched[1].companies}
                           onClick={(f, type) => this.handleClick(f, type)}/>
-                    <Tiles data={selectedCompanies.length === 1 ? allData :
-                        allData.filter((statement: StatementRatios) => selectedCompanies.indexOf(statement.company) > -1)}/>
+                    <Tiles data={allCompanies && allYears? allData :
+                        allData.filter((statement: StatementRatios) =>
+                            (selectedCompanies.indexOf(statement.company) > -1 || allCompanies) &&
+                            (selectedYears.indexOf(String(statement.year)) > -1 || allYears))} />
                 </div>
             </div>
         )
