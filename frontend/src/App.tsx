@@ -15,7 +15,7 @@ class App extends React.Component<any, any> {
             selectedCompany: 'all'
         }
     }
-    handleClick({c}: {c : Company}) {
+    handleClick(c: string) : void {
         this.setState({
             selectedCompany: c
         })
@@ -29,7 +29,8 @@ class App extends React.Component<any, any> {
             }}>
                 <div>
                     {/*{JSON.stringify(fetched)}*/}
-                    <Menu companies={this.props.fetched[1].companies}/>
+                    <Menu companies={this.props.fetched[1].companies}
+                          onClick={c => this.handleClick(c)}/>
                     <Tiles data={this.props.fetched[0].data}/>
                 </div>
             </div>

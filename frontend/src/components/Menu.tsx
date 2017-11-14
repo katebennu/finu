@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const Menu = ({companies} : {companies: Company[]}) => (
+const Menu = ({companies, onClick}: { companies: Company[], onClick(c: string): any }) => (
     <div style={{
         border: 'solid 1px',
         marginBottom: '10px'
@@ -9,10 +9,11 @@ const Menu = ({companies} : {companies: Company[]}) => (
         <div>
             {companies.map(company => (
                 <button style={{
-                    display: 'inline-block',
-                    padding: '5px'
-                    }}
-                    key={company.ticker}
+                            display: 'inline-block',
+                            padding: '5px'
+                        }}
+                        key={company.ticker}
+                        onClick={() => onClick(company.ticker)}
                 >
                     {company.ticker}
                 </button>))}
