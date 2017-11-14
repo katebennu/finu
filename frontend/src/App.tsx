@@ -15,10 +15,11 @@ class App extends React.Component<any, any> {
             selectedCompany: 'all'
         }
     }
-    handleClick(c: string) : void {
+
+    handleClick = (c: string) => {
         this.setState({
             selectedCompany: c
-        })
+        });
     }
     render () {
         return (
@@ -31,7 +32,7 @@ class App extends React.Component<any, any> {
                     {/*{JSON.stringify(fetched)}*/}
                     <Menu companies={this.props.fetched[1].companies}
                           onClick={c => this.handleClick(c)}/>
-                    <Tiles data={this.props.fetched[0].data}/>
+                    <Tiles data={this.props.fetched[0].data.filter((statement: StatementRatios) => statement.company === this.state.selectedCompany)}/>
                 </div>
             </div>
         )
