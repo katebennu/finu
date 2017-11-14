@@ -12,22 +12,27 @@ class App extends React.Component<any, any> {
     constructor(props: any) {
         super(props);
         this.state = {
-            selectedCompanies: ['all']
+            selectedCompanies: ['all'],
+            selectedYears: ['all']
         }
     }
 
-    handleClick = (c: string) => {
-        let selectedCompanies = this.state.selectedCompanies;
-        let i = selectedCompanies.indexOf(c);
+    filter = () => {
+
+    }
+
+    handleClick = (f: string, type: string) => {
+        let stateItem = this.state[type];
+        let i = stateItem.indexOf(f);
         if (i > 0) {
-            selectedCompanies.splice(i, 1);
+            stateItem.splice(i, 1);
             this.setState({
-                selectedCompanies: selectedCompanies
+                [type]: stateItem
             });
         } else {
-            selectedCompanies.push(c);
+            stateItem.push(f);
             this.setState({
-                selectedCompanies: selectedCompanies
+                [type]: stateItem
             });
         }
 
@@ -44,7 +49,7 @@ class App extends React.Component<any, any> {
                 <div>
                     {/*{JSON.stringify(fetched)}*/}
                     <Menu companies={this.props.fetched[1].companies}
-                          onClick={c => this.handleClick(c)}/>
+                          onClick={(f, type) => this.handleClick(f, type)}/>
                     <Tiles data={selectedCompanies.length === 1 ? allData :
                         allData.filter((statement: StatementRatios) => selectedCompanies.indexOf(statement.company) > -1)}/>
                 </div>
