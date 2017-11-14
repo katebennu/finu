@@ -2,13 +2,19 @@ import * as React from 'react';
 import { connect, PromiseState } from 'react-refetch';
 import Menu from './components/Menu'
 import Tiles from './components/Tiles'
+import {isUndefined} from "util";
 
 type Fetched = [
     {'data': StatementRatios[]},
     {'companies': Company[]}
 ]
 
-class App extends React.Component<any, any> {
+type State = {
+    selectedCompanies: Company[],
+    selectedYears: string[]
+}
+
+class App extends React.Component<any, State> {
     constructor(props: any) {
         super(props);
         this.state = {
@@ -20,8 +26,6 @@ class App extends React.Component<any, any> {
     render () {
         const selectedCompanies = this.state.selectedCompanies;
         const selectedYears = this.state.selectedYears;
-        const allCompanies = selectedCompanies.length === 0;
-        const allYears = selectedYears.length === 0;
         const allData = this.props.fetched[0].data;
         return (
             <div style={{
@@ -30,7 +34,6 @@ class App extends React.Component<any, any> {
                 maxWidth: '900px'
             }}>
                 <div>
-                    {/*{JSON.stringify(fetched)}*/}
                     <Menu
                         companies={this.props.fetched[1].companies}
                         selectedCompanies={selectedCompanies}
@@ -43,10 +46,17 @@ class App extends React.Component<any, any> {
                             selectedYears: newValues
                         })}
                     />
-                    <Tiles data={allCompanies && allYears? allData :
+                    <Tiles data={
                         allData.filter((statement: StatementRatios) =>
-                            (selectedCompanies.indexOf(statement.company) > -1 || allCompanies) &&
-                            (selectedYears.indexOf(String(statement.year)) > -1 || allYears))} />
+                            !isUndefined(
+                                selectedCompanies.find(
+                                    (company: Company) => company.ticker === statement.company
+                            )) && 
+                            !isUndefined(
+                                selectedYears.find(
+                                    (year: string) => year === statement.year.toString()))
+                        )
+                    } />
                 </div>
             </div>
         )
