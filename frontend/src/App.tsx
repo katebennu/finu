@@ -19,6 +19,7 @@ type State = {
 }
 
 const allYears = ['2014', '2015', '2016'];
+// const sortOptions = []
 
 class App extends React.Component<Props, State> {
 
