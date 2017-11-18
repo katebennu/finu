@@ -5,6 +5,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def index():
     return """
@@ -25,13 +26,13 @@ CORS(app)
 class AllRates(Resource):
 
     def get(self):
-        return json.load(open('ratios.json', 'r'))
+        return json.load(open('json-data/ratios.json', 'r'))
 
 
 class Companies(Resource):
 
     def get(self):
-        return json.load(open('companies.json', 'r'))
+        return json.load(open('json-data/companies.json', 'r'))
 
 
 api.add_resource(AllRates, '/all-rates/')

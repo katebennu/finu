@@ -38,13 +38,13 @@ def main():
     print('started')
     out = []
 
-    with open('companies.json') as fh:
+    with open('json-data/companies.json') as fh:
         companies = json.load(fh)["companies"]
 
     for c in companies:
         out += list(process_company(c['ticker']))
 
-    with open('api-data.json', 'w') as fil:
+    with open('json-data/api-data.json', 'w') as fil:
         json.dump(out, fil)
 
 
