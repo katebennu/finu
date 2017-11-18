@@ -1,7 +1,4 @@
-import requests
 import json
-import json
-
 import requests
 
 URL_BASE = 'https://api.intrinio.com/financials/reported?identifier='

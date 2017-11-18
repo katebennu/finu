@@ -14,6 +14,7 @@ const RatiosSubGroup = ({title, items}: { title: string, items: object }) => (
     </div>
 );
 
+
 const Tile = ({value}: { value: StatementRatios }) => (
     <div style={{
         display: 'inline-block',
@@ -24,6 +25,7 @@ const Tile = ({value}: { value: StatementRatios }) => (
         border: 'solid 2px black'
     }}>
         <div>{value.company} {value.year}</div>
+
         <div>
             {Object.keys(value.ratios).map((ratio: string) =>
                 <RatiosSubGroup title={ratio} items={value.ratios[ratio]}/>
