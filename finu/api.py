@@ -35,8 +35,8 @@ class Companies(Resource):
         return json.load(open('json-data/companies.json', 'r'))
 
 
-api.add_resource(AllRates, '/all-rates/')
 api.add_resource(Companies, '/companies/')
+api.add_resource(AllRates, '/all-rates/')
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", debug=True)

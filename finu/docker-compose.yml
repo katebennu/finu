@@ -1,0 +1,16 @@
+version: '3'
+services:
+#  frontend:
+#    build:
+#      context: .
+#      dockerfile: Dockerfile.static
+#    ports:
+#     - "8080:80"
+  api:
+    build: .
+    ports:
+     - "5000:5000"
+    volumes:
+      - .:/code
+  redis:
+    image: "redis:alpine"
