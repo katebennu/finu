@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_restful import Resource, Api
+from flask_restful import Resource, Api, reqparse
 import json
 from flask_cors import CORS
 from redis import Redis
@@ -7,6 +7,10 @@ from redis import Redis
 
 redis = Redis(host='redis', port=6379, db=0)
 app = Flask(__name__)
+
+parser = reqparse.RequestParser()
+parser.add_argument('ticker')
+# parser.add_argument('price')
 
 
 @app.route('/')
@@ -43,9 +47,12 @@ class Price(Resource):
 
 
 class SetPrice(Resource):
-    def post(self):
-        redis.set('AAPL', 77)
-        return 'success'
+    def put(self):
+        args = parser.parse_args()
+        ticker = args['ticker']
+        # price = args['price']
+        # redis.set(ticker, price)
+        return 'success: ' + ticker
 
 
 api.add_resource(Companies, '/companies/')
