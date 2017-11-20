@@ -1,5 +1,7 @@
 import json
 import requests
+from datetime import date
+
 
 URL_BASE = 'https://api.intrinio.com/prices?identifier='
 
@@ -10,12 +12,17 @@ with open('auth', 'r') as fh:
 def process_company(company):
     print(company)
 
+    t = date.today()
+    today_str = str(t.year) + '-' + str(t.month) + '-' + str(t.day - 1)
+
+    print(today_str)
+
     response_data = requests.get(
         URL_BASE + company,
         auth=AUTH,
         params=dict(
-            start_date=2017 - 11 - 17,
-            end_date=2017 - 11 - 17
+            start_date=today_str,
+            end_date=today_str
         )
     ).json()
     print(response_data)
