@@ -1,7 +1,3 @@
-from redis import Redis
-
-redis = Redis(host='redis', port=6379, db=0)
-
 import json
 import requests
 
@@ -36,7 +32,7 @@ def main():
 
     for c in companies:
         print(process_company(c['ticker']))
-        redis.set(c['ticker'], float(process_company(c['ticker'])))
+        requests.post('c['ticker'], float(process_company(c['ticker'])))
 
 
 if __name__ == '__main__':

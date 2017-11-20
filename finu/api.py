@@ -9,8 +9,8 @@ redis = Redis(host='redis', port=6379, db=0)
 app = Flask(__name__)
 
 parser = reqparse.RequestParser()
-parser.add_argument('ticker')
-# parser.add_argument('price')
+parser.add_argument('ticker', location='args')
+parser.add_argument('price', location='args')
 
 
 @app.route('/')
@@ -42,7 +42,7 @@ class Companies(Resource):
 
 class Price(Resource):
     def get(self):
-        a = redis.get('AAPL')
+        a = redis.get('HPE')
         return str(a)
 
 
@@ -50,9 +50,9 @@ class SetPrice(Resource):
     def put(self):
         args = parser.parse_args()
         ticker = args['ticker']
-        # price = args['price']
-        # redis.set(ticker, price)
-        return 'success: ' + ticker
+        price = args['price']
+        redis.set(ticker, price)
+        return 'success: ' + ticker + ' ' + price
 
 
 api.add_resource(Companies, '/companies/')
