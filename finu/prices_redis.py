@@ -14,8 +14,8 @@ def process_company(company):
         URL_BASE + company,
         auth=AUTH,
         params=dict(
-            start_date=2017-11-17,
-            end_date=2017-11-17
+            start_date=2017 - 11 - 17,
+            end_date=2017 - 11 - 17
         )
     ).json()
     print(response_data)
@@ -32,9 +32,12 @@ def main():
 
     for c in companies:
         print(process_company(c['ticker']))
-        requests.post('c['ticker'], float(process_company(c['ticker'])))
+        requests.put('http://localhost:5000/set-price/',
+                     params=dict(
+                         ticker=c['ticker'],
+                         price=float(process_company(c['ticker']))
+                     ))
 
 
 if __name__ == '__main__':
     main()
-
