@@ -40,12 +40,16 @@ class Companies(Resource):
         return json.load(open('json-data/companies.json', 'r'))
 
 
+# curl 'http://localhost:5000/price/?ticker=MSFT'
 class Price(Resource):
     def get(self):
-        a = redis.get('HPE')
-        return str(a)
+        args = parser.parse_args()
+        ticker = args['ticker']
+        price = redis.get(ticker)
+        return 'success: ' + ticker + ' ' + str(price)
 
 
+# curl -X PUT 'http://localhost:5000/set-price/?ticker=MSFT&price=42'
 class SetPrice(Resource):
     def put(self):
         args = parser.parse_args()
