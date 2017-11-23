@@ -2,10 +2,9 @@ from flask import Flask
 from flask_restful import Resource, Api, reqparse
 import json
 from flask_cors import CORS
-from redis import Redis
+from models import Price
 
 
-redis = Redis(host='redis', port=6379, db=0)
 app = Flask(__name__)
 
 parser = reqparse.RequestParser()
@@ -45,7 +44,7 @@ class Price(Resource):
     def get(self):
         args = parser.parse_args()
         ticker = args['ticker']
-        price = redis.get(ticker)
+        price = Price(ticker='AAPL')
         return 'success: ' + ticker + ' ' + str(price)
 
 
