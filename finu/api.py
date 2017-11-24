@@ -43,26 +43,26 @@ class Companies(Resource):
 # curl 'http://localhost:5000/price/?ticker=MSFT'
 class Price(Resource):
     def get(self):
-        price = 0
         args = parser.parse_args()
-        # ticker = args['ticker']
-        for p, in db_session.query(Stock.price). \
-                filter(Stock.ticker == 'AAPL'):
+        price = 0
+        ticker = args['ticker']
+        for p in db_session.query(Stock.price). \
+                filter(Stock.ticker == ticker):
             price = p
 
-        return 'success: ' + ' ' + str(price)
+        return 'success! ' + ticker + ' ' + str(price)
 
 
 # curl -X PUT 'http://localhost:5000/set-price/?ticker=MSFT&price=42'
 class SetPrice(Resource):
     def get(self):
-        # args = parser.parse_args()
-        # ticker = args['ticker']
-        # price = args['price']
-        price = Stock(ticker='AAPL', price=10.5)
-        db_session.add(price)
+        args = parser.parse_args()
+        ticker = args['ticker']
+        price = args['price']
+        stock = Stock(ticker=ticker, price=price)
+        db_session.add(stock)
         db_session.commit()
-        return 'success: ' + 'AAPL' + ' ' + str(price.price)
+        return 'success: ' + ticker + ' ' + str(stock.price)
 
 
 api.add_resource(Companies, '/companies/')
