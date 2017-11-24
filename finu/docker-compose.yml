@@ -8,9 +8,15 @@ services:
 #     - "8080:80"
   api:
     build: .
+    env_file:
+      - env_file
     ports:
      - "5000:5000"
     volumes:
       - .:/code
-  redis:
-    image: "redis:alpine"
+  db:
+    image: postgres
+    env_file:
+      - env_file
+    ports:
+    - "5432:5432"

@@ -2,10 +2,10 @@ from flask import Flask
 from flask_restful import Resource, Api, reqparse
 import json
 from flask_cors import CORS
-from redis import Redis
+from models import Stock
+from database import db_session
 
 
-redis = Redis(host='redis', port=6379, db=0)
 app = Flask(__name__)
 
 parser = reqparse.RequestParser()
@@ -44,19 +44,29 @@ class Companies(Resource):
 class Price(Resource):
     def get(self):
         args = parser.parse_args()
+        price = 0
         ticker = args['ticker']
-        price = redis.get(ticker)
-        return 'success: ' + ticker + ' ' + str(price)
+        stock = db_session.query(Stock.price).filter_by(ticker=ticker).first()
+        price = stock.price
+        return 'success! ' + ticker + ' ' + str(price)
 
 
 # curl -X PUT 'http://localhost:5000/set-price/?ticker=MSFT&price=42'
 class SetPrice(Resource):
-    def put(self):
+    def get(self):
         args = parser.parse_args()
         ticker = args['ticker']
         price = args['price']
-        redis.set(ticker, price)
-        return 'success: ' + ticker + ' ' + price
+        stock = db_session.query(Stock).filter_by(ticker=ticker).first()
+        from pprint import pprint
+        pprint(stock)
+        if stock:
+            stock.price = price
+        else:
+            stock = Stock(ticker=ticker, price=float(price))
+            db_session.add(stock)
+        db_session.commit()
+        return 'success: ' + ticker + ' ' + str(stock.price)
 
 
 api.add_resource(Companies, '/companies/')

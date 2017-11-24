@@ -19,11 +19,11 @@ def process_company(company):
 
     response_data = requests.get(
         URL_BASE + company,
-        auth=AUTH,
-        params=dict(
-            start_date=today_str,
-            end_date=today_str
-        )
+        auth=AUTH
+        # params=dict(
+        #     start_date=today_str,
+        #     end_date=today_str
+        # )
     ).json()
     print(response_data)
 
@@ -38,8 +38,7 @@ def main():
         companies = json.load(fh)["companies"]
 
     for c in companies:
-        print(process_company(c['ticker']))
-        requests.put('http://localhost:5000/set-price/',
+        requests.get('http://localhost:5000/set-price/',
                      params=dict(
                          ticker=c['ticker'],
                          price=float(process_company(c['ticker']))
