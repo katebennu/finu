@@ -35,9 +35,35 @@ class AllRates(Resource):
         return json.load(open('json-data/ratios.json', 'r'))
 
 
-class Companies(Resource):
+class AllCompanies(Resource):
+    def get(self):
+        return
+
+
+class RatesSet(Resource):
+    def get(self):
+        return
+
+
+class StatementSet(Resource):
+    def get(self):
+        return
+
+
+class Company(Resource):
     def get(self):
         return json.load(open('json-data/companies.json', 'r'))
+
+    def post(self):
+        return
+
+
+class Entry(Resource):
+    def get(self):
+        return
+
+    def put(self):
+        return
 
 
 # curl 'http://localhost:5000/price/?ticker=MSFT'
@@ -50,10 +76,8 @@ class Price(Resource):
         price = stock.price
         return 'success! ' + ticker + ' ' + str(price)
 
-
 # curl -X PUT 'http://localhost:5000/set-price/?ticker=MSFT&price=42'
-class SetPrice(Resource):
-    def get(self):
+    def put(self):
         args = parser.parse_args()
         ticker = args['ticker']
         price = args['price']
@@ -69,10 +93,15 @@ class SetPrice(Resource):
         return 'success: ' + ticker + ' ' + str(stock.price)
 
 
-api.add_resource(Companies, '/companies/')
+
+
 api.add_resource(AllRates, '/all-rates/')
+api.add_resource(AllCompanies, '/companies/')
+api.add_resource(RatesSet, '/rates-set/')
+api.add_resource(StatementSet, '/statement-set/')
+api.add_resource(Company, '/company/')
+api.add_resource(Entry, '/entry/')
 api.add_resource(Price, '/price/')
-api.add_resource(SetPrice, '/set-price/')
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", debug=True)

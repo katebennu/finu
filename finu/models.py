@@ -6,6 +6,7 @@ from sqlalchemy.types import DateTime
 class Company(Base):
     __tablename__ = 'companies'
     ticker = Column(String(256), primary_key=True)
+    name = Column(String(256), primary_key=True)
     # industries =
 
 
