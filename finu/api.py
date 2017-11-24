@@ -46,10 +46,8 @@ class Price(Resource):
         args = parser.parse_args()
         price = 0
         ticker = args['ticker']
-        for p in db_session.query(Stock.price). \
-                filter(Stock.ticker == ticker):
-            price = p
-
+        stock = db_session.query(Stock.price).filter_by(ticker=ticker).first()
+        price = stock.price
         return 'success! ' + ticker + ' ' + str(price)
 
 
@@ -59,8 +57,14 @@ class SetPrice(Resource):
         args = parser.parse_args()
         ticker = args['ticker']
         price = args['price']
-        stock = Stock(ticker=ticker, price=price)
-        db_session.add(stock)
+        stock = db_session.query(Stock).filter_by(ticker=ticker).first()
+        from pprint import pprint
+        pprint(stock)
+        if stock:
+            stock.price = price
+        else:
+            stock = Stock(ticker=ticker, price=float(price))
+            db_session.add(stock)
         db_session.commit()
         return 'success: ' + ticker + ' ' + str(stock.price)
 
