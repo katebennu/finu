@@ -2,12 +2,14 @@
   "companies": [
     {
       "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
       "industries": [
         "Electronics"
       ]
     },
     {
       "ticker": "AAPL",
+      "name": "Apple Inc.",
       "industries": [
         "Electronics"
       ]
@@ -21,6 +23,7 @@
     },
     {
       "ticker": "INTC",
+      "name": "Intel Corporation",
       "industries": [
         "Electronics"
       ]

@@ -1,5 +1,5 @@
 from database import Base
-from sqlalchemy import Column, Float, Integer, String, ForeignKey
+from sqlalchemy import Column, Float, Integer, String, Boolean, ForeignKey
 from sqlalchemy.types import DateTime
 
 
@@ -10,12 +10,13 @@ class Company(Base):
     # industries =
 
 
-class StatementEntry(Base):
+class Entry(Base):
     __tablename__ = 'statements'
     company = Column(String, ForeignKey("company.ticker"), primary_key=True)
     year = Column(Integer, primary_key=True)
     name = Column(String(256), primary_key=True)
     value = Column(Float)
+    reported = Column(Boolean)
 
 
 class Stock(Base):

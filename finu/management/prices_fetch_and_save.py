@@ -38,7 +38,7 @@ def main():
         companies = json.load(fh)["companies"]
 
     for c in companies:
-        requests.get('http://localhost:5000/set-price/',
+        requests.put('http://localhost:5000/set-price/',
                      params=dict(
                          ticker=c['ticker'],
                          price=float(process_company(c['ticker']))
