@@ -10,13 +10,22 @@ class Company(Base):
     # industries =
 
 
-class Entry(Base):
-    __tablename__ = 'entries'
+class StatementEntry(Base):
+    __tablename__ = 'statemententries'
     company = Column(String, ForeignKey("company.ticker"), primary_key=True)
     year = Column(Integer, primary_key=True)
     name = Column(String(256), primary_key=True)
     value = Column(Float)
-    reported = Column(Boolean)
+    statement = Column(String(256))
+
+class AnalyticEntry(Base):
+    __tablename__ = 'analyticentries'
+    company = Column(String, ForeignKey("company.ticker"), primary_key=True)
+    year = Column(Integer, primary_key=True)
+    name = Column(String(256), primary_key=True)
+    value = Column(Float)
+    type = Column(String(256))
+    description = Column(String(500))
 
 
 class Stock(Base):
