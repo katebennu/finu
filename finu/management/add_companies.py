@@ -10,7 +10,7 @@ def main():
         r = requests.put('http://localhost:5000/company/',
                          params=dict(
                              ticker=c['ticker'],
-                             name=c['name']
+                             name=str(c['name'])
                          )
                      )
         print(c['ticker'], r.status_code)

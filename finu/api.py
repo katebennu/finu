@@ -11,6 +11,7 @@ app = Flask(__name__)
 parser = reqparse.RequestParser()
 parser.add_argument('ticker', location='args')
 parser.add_argument('price', location='args')
+parser.add_argument('name', location='args')
 
 
 @app.route('/')
@@ -37,7 +38,10 @@ class AllRates(Resource):
 
 class AllCompanies(Resource):
     def get(self):
-        return
+        tickers = []
+        for ticker in db_session.query(Company.ticker):
+            tickers.append(ticker)
+        return tickers
 
 
 class RatesSet(Resource):
@@ -52,9 +56,14 @@ class StatementSet(Resource):
 
 class CompanyReq(Resource):
     def get(self):
-        return json.load(open('json-data/companies.json', 'r'))
+        args = parser.parse_args()
+        ticker = args['ticker']
+        company = db_session.query(Company).filter_by(ticker=ticker).first()
+        if company:
+            return company.name
+        return 'not found'
 
-    def post(self):
+    def put(self):
         args = parser.parse_args()
         ticker = args['ticker']
         name = args['name']
@@ -63,9 +72,13 @@ class CompanyReq(Resource):
             company.name = name
         else:
             company = Company(ticker=ticker, name=name)
+        try:
             db_session.add(company)
-        db_session.commit()
-        return
+            db_session.commit()
+        except:
+            db_session.rollback()
+
+        return 'success ' + str(company.ticker)
 
 
 class EntryReq(Resource):
@@ -101,10 +114,8 @@ class PriceReq(Resource):
         return 'success: ' + ticker + ' ' + str(stock.price)
 
 
-
-
 api.add_resource(AllRates, '/all-rates/')
-api.add_resource(AllCompanies, '/companies/')
+api.add_resource(AllCompanies, '/all-companies/')
 api.add_resource(RatesSet, '/rates-set/')
 api.add_resource(StatementSet, '/statement-set/')
 api.add_resource(CompanyReq, '/company/')

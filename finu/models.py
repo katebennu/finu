@@ -6,12 +6,12 @@ from sqlalchemy.types import DateTime
 class Company(Base):
     __tablename__ = 'companies'
     ticker = Column(String(256), primary_key=True)
-    name = Column(String(256), primary_key=True)
+    name = Column(String(256))
     # industries =
 
 
 class Entry(Base):
-    __tablename__ = 'statements'
+    __tablename__ = 'entries'
     company = Column(String, ForeignKey("company.ticker"), primary_key=True)
     year = Column(Integer, primary_key=True)
     name = Column(String(256), primary_key=True)
@@ -20,7 +20,7 @@ class Entry(Base):
 
 
 class Stock(Base):
-    __tablename__ = 'prices'
+    __tablename__ = 'stocks'
     ticker = Column(String(256), primary_key=True)
     price = Column(Float)
     # date = Column(DateTime())
