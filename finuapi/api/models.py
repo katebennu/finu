@@ -1,4 +1,4 @@
-from django.db.models import Model, CharField, ForeignKey, IntegerField, DecimalField
+from django.db.models import Model, CharField, ForeignKey, OneToOneField, IntegerField, DecimalField
 
 
 class Company(Model):
@@ -9,22 +9,22 @@ class Company(Model):
 
 class StatementEntry(Model):
     company = ForeignKey('Company')
-    year = IntegerField(primary_key=True)
-    name = CharField(max_length=256, primary_key=True)
-    value = DecimalField()
+    year = IntegerField()
+    name = CharField(max_length=256)
+    value = DecimalField(decimal_places=5, max_digits=20)
     statement = CharField(max_length=256)
 
 
 class AnalyticEntry(Model):
-    company = ForeignKey('Company', primary_key=True)
-    year = IntegerField(primary_key=True)
-    name = CharField(max_length=256, primary_key=True)
-    value = DecimalField()
+    company = ForeignKey('Company')
+    year = IntegerField()
+    name = CharField(max_length=256)
+    value = DecimalField(decimal_places=5, max_digits=20)
     type = CharField(max_length=256)
     description = CharField(max_length=500)
 
 
 class Stock(Model):
-    ticker = ForeignKey('Company', primary_key=True)
-    price = DecimalField()
+    ticker = ForeignKey('Company')
+    price = DecimalField(decimal_places=5, max_digits=20)
     # date = Column(DateTime())
