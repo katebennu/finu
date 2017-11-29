@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from .models import Company
+from api.models import Company, Stock
 
 
 def index(request):
@@ -19,3 +19,17 @@ def company(request):
         c.save()
         return HttpResponse("PUT success: " + ticker + ' ' + name)
 
+
+def price(request):
+    if request.method == 'GET':
+        ticker = request.GET.get('ticker')
+        c = Company.objects.get(ticker=ticker)
+        stock = Stock.objects.get(ticker=c).price
+        return HttpResponse('GET success: ' + ticker + ' ' + str(stock))
+    elif request.method == 'PUT':
+        ticker = request.GET.get('ticker')
+        stock = request.GET.get('price')
+        c = Company.objects.get(ticker=ticker)
+        s = Stock.objects.get_or_create(ticker=c, price=stock)
+        c.save()
+        return HttpResponse("PUT success: " + ticker + ' ' + stock)

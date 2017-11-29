@@ -9,7 +9,7 @@
 out
 gen
 
-finu/auth
+finuapi/api/management/commands/fixtures/auth
 
 .DS_Store
 
@@ -37,4 +37,3 @@ yarn-error.log*
 __pycache__/
 .Python
 /lib
-
