@@ -1,5 +1,5 @@
+from api.models import Company, Stock, ReportedEntry
 from django.http import HttpResponse
-from api.models import Company, Stock
 
 
 def index(request):
@@ -24,12 +24,35 @@ def price(request):
     if request.method == 'GET':
         ticker = request.GET.get('ticker')
         c = Company.objects.get(ticker=ticker)
-        stock = Stock.objects.get(ticker=c).price
+        stock = Stock.objects.get(company=c).price
         return HttpResponse('GET success: ' + ticker + ' ' + str(stock))
     elif request.method == 'PUT':
         ticker = request.GET.get('ticker')
-        stock = request.GET.get('price')
+        p = request.GET.get('price')
         c = Company.objects.get(ticker=ticker)
-        s = Stock.objects.get_or_create(ticker=c, price=stock)
-        c.save()
-        return HttpResponse("PUT success: " + ticker + ' ' + stock)
+        s, _ = Stock.objects.get_or_create(company=c, price=p)
+        s.save()
+        return HttpResponse("PUT success: " + ticker + ' ' + p)
+
+
+def statement_entry(request):
+    if request.method == 'GET':
+        c = Company.objects.get(ticker=request.GET.get('ticker'))
+        year = request.GET.get('year')
+        name = request.GET.get('name')
+        value = ReportedEntry.objects.get(company=c, year=year, name=name).value
+        return HttpResponse('GET success: ' + c + ' ' + value)
+    elif request.method == 'PUT':
+        c = Company.objects.get(ticker=request.GET.get('ticker'))
+        year = request.GET.get('year')
+        name = request.GET.get('name')
+        value = request.GET.get('value')
+        statement = request.GET.get('statement')
+        entry, _ = ReportedEntry.objects.get_or_create(company=c,
+                                                    year=year,
+                                                    name=name,
+                                                    value=value,
+                                                    statement=statement)
+        print(entry)
+        entry.save()
+        return HttpResponse('GET success: ' + c + ' ' + name)
