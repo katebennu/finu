@@ -35,13 +35,13 @@ def price(request):
         return HttpResponse("PUT success: " + ticker + ' ' + p)
 
 
-def statement_entry(request):
+def reported_entry(request):
     if request.method == 'GET':
         c = Company.objects.get(ticker=request.GET.get('ticker'))
         year = request.GET.get('year')
         name = request.GET.get('name')
         value = ReportedEntry.objects.get(company=c, year=year, name=name).value
-        return HttpResponse('GET success: ' + c + ' ' + value)
+        return HttpResponse('GET success: ' + c.ticker + ' ' + str(value))
     elif request.method == 'PUT':
         c = Company.objects.get(ticker=request.GET.get('ticker'))
         year = request.GET.get('year')
@@ -55,4 +55,4 @@ def statement_entry(request):
                                                     statement=statement)
         print(entry)
         entry.save()
-        return HttpResponse('GET success: ' + c + ' ' + name)
+        return HttpResponse('GET success: ' + c.ticker + ' ' + name)

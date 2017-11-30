@@ -27,5 +27,5 @@ class AnalyticEntry(Model):
 
 
 class Stock(Model):
-    company = ForeignKey('Company')
+    company = ForeignKey('Company', unique=True)
     price = DecimalField(decimal_places=5, max_digits=20)

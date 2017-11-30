@@ -34,7 +34,7 @@ class Command(BaseCommand):
                     ).json()
 
                     for i in statement_data["data"]:
-                        requests.put('http://localhost:8000/statement-entry/',
+                        requests.put('http://localhost:8000/reported-entry/',
                                      params=dict(
                                          ticker=company,
                                          year=int(y),
