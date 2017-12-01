@@ -9,11 +9,11 @@ prod: frontend/build
 	docker-compose up
 
 api-image:
-	docker build -f Dockerfile -t api-image .
+	docker build -f Dockerfile.api -t api-image .
 
 dev: frontend/node_modules api-image
 	cd frontend && yarn start &
-	docker-compose up
+	docker run -p 5000:5000 -v $(CURDIR):/code --rm -it api-image
 
 clean:
 	rm -rf frontend/node_modules

@@ -12,3 +12,9 @@ services:
       - "8000:8000"
     depends_on:
       - db
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.static
+    ports:
+     - "8080:80"

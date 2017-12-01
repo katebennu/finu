@@ -1,6 +1,6 @@
 from api.models import Company, Stock, ReportedEntry
 from django.http import HttpResponse
-
+import json
 
 def index(request):
     return HttpResponse("Hello, world. You're at the index.")
@@ -19,6 +19,8 @@ def company(request):
         c.save()
         return HttpResponse("PUT success: " + ticker + ' ' + name)
 
+def all_companies(request):
+    return HttpResponse(json.dumps({'companies': [c.ticker for c in Company.objects.all()]}))
 
 def price(request):
     if request.method == 'GET':

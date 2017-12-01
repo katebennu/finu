@@ -53,31 +53,6 @@ class Command(BaseCommand):
                 pass
 
 
-
-
-                #
-                # ratios['Liquidity']['QuickRatio'] = (b_s['AssetsCurrent'] - b_s['InventoryNet']) / b_s['LiabilitiesCurrent']
-                # ratios['Liquidity']['NetWorkingCapital'] = (b_s['AssetsCurrent'] - b_s['LiabilitiesCurrent']) / b_s['Assets']
-                #
-                # ratios['Profitability']['ReturnOnAssets'] = i_s['NetIncomeLoss'] / b_s['Assets']
-                # ratios['Profitability']['ReturnOnEquity'] = i_s['NetIncomeLoss'] / b_s['StockholdersEquity']
-                # # ratios['Profitability']['ReturnOnCommonEequity']
-                # ratios['Profitability']['ProfitMargin'] = i_s['NetIncomeLoss'] / i_s['SalesRevenueNet']
-                # ratios['Profitability']['EPS'] = i_s['EarningsPerShareBasic']
-                # ratios['Profitability']['dilutedEPS'] = i_s['EarningsPerShareDiluted']
-                #
-                # ratios['Activity']['AssetTurnover'] = i_s['SalesRevenueNet'] / b_s['Assets']
-                # ratios['Activity']['ReceivablesTurnover'] = i_s['SalesRevenueNet'] / b_s['Assets']
-                # ratios['Activity']['InventoryTurnover'] = i_s['CostOfGoodsAndServicesSold'] / b_s['InventoryNet']
-                #
-                # ratios['CapitalStructure']['DebtToEquity'] = b_s['Liabilities'] / b_s['StockholdersEquity']
-                #
-                # # ratios['CapitalMarket']['PE']
-                # # ratios['CapitalMarket']['MarketToBook']
-                #
-                # print(ratios)
-                #
-
         def main():
             companies = Company.objects.all()
 
