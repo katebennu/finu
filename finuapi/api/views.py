@@ -40,8 +40,8 @@ def reported_entry(request):
         c = Company.objects.get(ticker=request.GET.get('ticker'))
         year = request.GET.get('year')
         name = request.GET.get('name')
-        value = ReportedEntry.objects.get(company=c, year=year, name=name).value
-        return HttpResponse('GET success: ' + c.ticker + ' ' + str(value))
+        entry = ReportedEntry.objects.get(company=c, year=year, name=name)
+        return HttpResponse('GET success: ' + c.ticker + ' ' + str(entry.value) + entry.statement)
     elif request.method == 'PUT':
         c = Company.objects.get(ticker=request.GET.get('ticker'))
         year = request.GET.get('year')

@@ -7,7 +7,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         self.run()
-        self.stdout.write(self.style.SUCCESS('Successfully inserted real consumption data'))
+        self.stdout.write(self.style.SUCCESS('Successfully added companies to db'))
 
     def run(self):
         module_dir = os.path.dirname(os.path.abspath(__file__))

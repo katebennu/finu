@@ -48,7 +48,6 @@ def process_statement(statement):
 
 def main():
     print('started creating ratios')
-    out = {'data': []}
 
     with open('json-data/api-data.json', 'r') as jh:
         statements = json.load(jh)
