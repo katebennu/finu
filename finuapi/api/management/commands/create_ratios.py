@@ -29,35 +29,54 @@ class Command(BaseCommand):
 
             try:
                 create_ratio('CurrentRatio', 'Liquidity', report['AssetsCurrent'] / report['LiabilitiesCurrent'])
-                create_ratio('QuickRatio', 'Liquidity', (report['AssetsCurrent'] - report['InventoryNet']) / report['LiabilitiesCurrent'])
+                create_ratio('QuickRatio', 'Liquidity',
+                             (report['AssetsCurrent'] - report['InventoryNet']) / report['LiabilitiesCurrent'])
+                create_ratio('NetWorkingCapital', 'Liquidity', (report['AssetsCurrent'] - report['LiabilitiesCurrent']) / report['Assets'])
+
+                create_ratio('ReturnOnAssets', 'Profitability', report['NetIncomeLoss'] / report['Assets'])
+                create_ratio('ReturnOnEquity', 'Profitability', report['NetIncomeLoss'] / report['StockholdersEquity'])
+                # create_ratio(['Profitability']['ReturnOnCommonEequity']
+                create_ratio('ProfitMargin', 'Profitability', report['NetIncomeLoss'] / report['SalesRevenueNet'])
+                create_ratio('EPS', 'Profitability', report['EarningsPerShareBasic'])
+                create_ratio('dilutedEPS', 'Profitability', report['EarningsPerShareDiluted'])
+
+                create_ratio('AssetTurnover', 'Activity', report['SalesRevenueNet'] / report['Assets'])
+                create_ratio('ReceivablesTurnover', 'Activity', report['SalesRevenueNet'] / report['Assets'])
+                create_ratio('InventoryTurnover', 'Activity',
+                             report['CostOfGoodsAndServicesSold'] / report['InventoryNet'])
+
+                create_ratio('DebtToEquity', 'CapitalStructure', report['Liabilities'] / report['StockholdersEquity'])
+
+                # ratios['CapitalMarket']['PE']
+                # ratios['CapitalMarket']['MarketToBook']
             except:
                 pass
 
 
 
 
-            #
-            # ratios['Liquidity']['QuickRatio'] = (b_s['AssetsCurrent'] - b_s['InventoryNet']) / b_s['LiabilitiesCurrent']
-            # ratios['Liquidity']['NetWorkingCapital'] = (b_s['AssetsCurrent'] - b_s['LiabilitiesCurrent']) / b_s['Assets']
-            #
-            # ratios['Profitability']['ReturnOnAssets'] = i_s['NetIncomeLoss'] / b_s['Assets']
-            # ratios['Profitability']['ReturnOnEquity'] = i_s['NetIncomeLoss'] / b_s['StockholdersEquity']
-            # # ratios['Profitability']['ReturnOnCommonEequity']
-            # ratios['Profitability']['ProfitMargin'] = i_s['NetIncomeLoss'] / i_s['SalesRevenueNet']
-            # ratios['Profitability']['EPS'] = i_s['EarningsPerShareBasic']
-            # ratios['Profitability']['dilutedEPS'] = i_s['EarningsPerShareDiluted']
-            #
-            # ratios['Activity']['AssetTurnover'] = i_s['SalesRevenueNet'] / b_s['Assets']
-            # ratios['Activity']['ReceivablesTurnover'] = i_s['SalesRevenueNet'] / b_s['Assets']
-            # ratios['Activity']['InventoryTurnover'] = i_s['CostOfGoodsAndServicesSold'] / b_s['InventoryNet']
-            #
-            # ratios['CapitalStructure']['DebtToEquity'] = b_s['Liabilities'] / b_s['StockholdersEquity']
-            #
-            # # ratios['CapitalMarket']['PE']
-            # # ratios['CapitalMarket']['MarketToBook']
-            #
-            # print(ratios)
-            #
+                #
+                # ratios['Liquidity']['QuickRatio'] = (b_s['AssetsCurrent'] - b_s['InventoryNet']) / b_s['LiabilitiesCurrent']
+                # ratios['Liquidity']['NetWorkingCapital'] = (b_s['AssetsCurrent'] - b_s['LiabilitiesCurrent']) / b_s['Assets']
+                #
+                # ratios['Profitability']['ReturnOnAssets'] = i_s['NetIncomeLoss'] / b_s['Assets']
+                # ratios['Profitability']['ReturnOnEquity'] = i_s['NetIncomeLoss'] / b_s['StockholdersEquity']
+                # # ratios['Profitability']['ReturnOnCommonEequity']
+                # ratios['Profitability']['ProfitMargin'] = i_s['NetIncomeLoss'] / i_s['SalesRevenueNet']
+                # ratios['Profitability']['EPS'] = i_s['EarningsPerShareBasic']
+                # ratios['Profitability']['dilutedEPS'] = i_s['EarningsPerShareDiluted']
+                #
+                # ratios['Activity']['AssetTurnover'] = i_s['SalesRevenueNet'] / b_s['Assets']
+                # ratios['Activity']['ReceivablesTurnover'] = i_s['SalesRevenueNet'] / b_s['Assets']
+                # ratios['Activity']['InventoryTurnover'] = i_s['CostOfGoodsAndServicesSold'] / b_s['InventoryNet']
+                #
+                # ratios['CapitalStructure']['DebtToEquity'] = b_s['Liabilities'] / b_s['StockholdersEquity']
+                #
+                # # ratios['CapitalMarket']['PE']
+                # # ratios['CapitalMarket']['MarketToBook']
+                #
+                # print(ratios)
+                #
 
         def main():
             companies = Company.objects.all()
