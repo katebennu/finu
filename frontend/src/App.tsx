@@ -13,10 +13,15 @@ type Props = {
 
 type State = {
     selectedCompanies: Company[],
-    selectedYears: string[]
+    selectedYears: string[],
+    selectedIndustries: string[]
 }
 
 const allYears = ['2014', '2015', '2016'];
+
+// TODO: fetch together with companies data
+const allIndustries = ['Electronics', 'Software', 'Internet', 'Food', 'Pharma', 'Auto'];
+
 // const sortOptions = []
 
 export default class App extends React.Component<Props, State> {
@@ -25,13 +30,15 @@ export default class App extends React.Component<Props, State> {
         super(props);
         this.state = {
             selectedCompanies: this.props.companies,
-            selectedYears: allYears
+            selectedYears: allYears,
+            selectedIndustries: allIndustries
         }
     }
 
     render () {
         const selectedCompanies = this.state.selectedCompanies;
         const selectedYears = this.state.selectedYears;
+        const selectedIndustries = this.state.selectedIndustries;
         // const allData = this.props.fetched[0].data;
         return (
             <div style={{
@@ -51,6 +58,12 @@ export default class App extends React.Component<Props, State> {
                         selectedYears={selectedYears}
                         selectedYearsOnChange={newValues => this.setState({
                             selectedYears: newValues
+                        })}
+
+                        industries={allIndustries}
+                        selectedIndustries={selectedIndustries}
+                        selectedIndustriesOnChange={newValues => this.setState({
+                            selectedIndustries: newValues
                         })}
                     />
                     <Tiles selectedCompanies={selectedCompanies} selectedYears={selectedYears}/>
