@@ -1,11 +1,11 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import App from './App';
-// import getRates from './utils/fetchRates';
+import fetchData from './utils/fetchData';
 
 async function init() {
-    // const data = await getRates();
-    ReactDOM.render(<App />, document.getElementById('root'));
+    const data = await fetchData();
+    ReactDOM.render(<App companies={data}/>, document.getElementById('root'));
 }
 
 init();

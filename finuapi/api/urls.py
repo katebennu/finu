@@ -7,4 +7,5 @@ urlpatterns = [
     url(r'^company/$', views.company, name='company'),
     url(r'^price/$', views.price, name='price'),
     url(r'^reported-entry/$', views.reported_entry, name='reported-entry'),
+    url(r'^all-companies/$', views.all_companies, name='all-companies'),
 ]
