@@ -24,7 +24,7 @@ type Props = {
 
 type State = {
     isLoading: boolean,
-    price: number
+    price: ''
 }
 
 
@@ -33,7 +33,7 @@ class YearTile extends React.Component<Props, State> {
         super(props);
         this.state = {
             isLoading: false,
-            price: 0
+            price: ''
         }
     }
 
@@ -59,7 +59,7 @@ class YearTile extends React.Component<Props, State> {
                     border: 'solid 2px black'
                 }}>
                     <div>{this.props.year}</div>
-                    <div>{this.state.price}</div>
+                    {/*<div>{this.state.price}</div>*/}
                     {/*<div>*/}
                     {/*{Object.keys(value.ratios).map((ratio: string) =>*/}
                     {/*<RatiosSubGroup title={ratio} items={value.ratios[ratio]}/>*/}

@@ -29,7 +29,7 @@ def price(request):
         ticker = request.GET.get('ticker')
         c = Company.objects.get(ticker=ticker)
         p = Stock.objects.get(company=c).price
-        return HttpResponse(json.dumps({'ticker': ticker, 'price': float(p)}))
+        return HttpResponse(json.dumps({'ticker': ticker, 'price': str(float(p))}))
     elif request.method == 'PUT':
         ticker = request.GET.get('ticker')
         p = request.GET.get('price')
