@@ -13,8 +13,13 @@ class Company(Model):
 
     def get_rates(self, year):
         rates = {}
-        for entry in AnalyticEntry.objects.filter(company=self, year=year):
-            rates[entry.name] = str(float(entry.value))
+        query = AnalyticEntry.objects.filter(company=self, year=year)
+        types = set([entry.type for entry in query])
+        for t in types:
+            rates[t] = {}
+            entries = query.filter(type=t)
+            for entry in entries:
+                rates[t][entry.name] = str(float(entry.value))
         return rates
 
 

@@ -2,19 +2,19 @@ import * as React from 'react';
 import fetchData from '../utils/fetchData';
 
 
-// const RatiosSubGroup = ({title, items}: { title: string, items: object }) => (
-//     <div style={{
-//             border: 'solid 1px gray'
-//         }}>
-//         <b>{title}</b>
-//         <ul>
-//             {Object.keys(items).map((item: string) => (
-//                     <li>{item}: {items[item].toFixed(2)}</li>
-//                 )
-//             )}
-//         </ul>
-//     </div>
-// );
+const RatiosSubGroup = ({title, items}: { title: string, items: object }) => (
+    <div style={{
+            border: 'solid 1px gray'
+        }}>
+        <b>{title}</b>
+        <ul>
+            {Object.keys(items).map((item: string) => (
+                    <li>{item}: {items[item]}</li>
+                )
+            )}
+        </ul>
+    </div>
+);
 
 type Props = {
     company: Company,
@@ -60,12 +60,12 @@ class YearTile extends React.Component<Props, State> {
                     border: 'solid 2px black'
                 }}>
                     <div>{this.props.year}</div>
-                    <div>{JSON.stringify(this.state.rates)}</div>
-                    {/*<div>*/}
-                    {/*{Object.keys(value.ratios).map((ratio: string) =>*/}
-                    {/*<RatiosSubGroup title={ratio} items={value.ratios[ratio]}/>*/}
-                    {/*)}*/}
-                    {/*</div>*/}
+                    {/*<div>{JSON.stringify(this.state.rates)}</div>*/}
+                    <div>
+                    {Object.keys(this.state.rates).map((ratio: string) =>
+                    <RatiosSubGroup title={ratio} items={this.state.rates[ratio]}/>
+                    )}
+                    </div>
                 </div>
 
             )

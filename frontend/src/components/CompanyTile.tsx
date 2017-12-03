@@ -3,20 +3,6 @@ import YearTile from './YearTile'
 import fetchData from '../utils/fetchData';
 
 
-// const RatiosSubGroup = ({title, items}: { title: string, items: object }) => (
-//     <div style={{
-//             border: 'solid 1px gray'
-//         }}>
-//         <b>{title}</b>
-//         <ul>
-//             {Object.keys(items).map((item: string) => (
-//                     <li>{item}: {items[item].toFixed(2)}</li>
-//                 )
-//             )}
-//         </ul>
-//     </div>
-// );
-
 type Props = {
     company: Company,
     selectedYears: string[],
@@ -52,14 +38,15 @@ class CompanyTile extends React.Component<Props, State> {
             return (
                 <div style={{
                     display: 'inline-block',
-                    width: '95%',
-                    minWidth: '400px',
+                    // width: '95%',
+                    // minWidth: '400px',
                     // maxWidth: '300px',
                     margin: '10px',
-                    border: 'solid 2px black'
+                    border: 'solid 2px black',
+                    verticalAlign: 'top'
                 }}>
                     <div>{this.props.company.ticker} - {this.props.company.name} </div>
-                    <div>{this.state.price}</div>
+                    <div>Price: ${this.state.price}</div>
                     <div>
                         {this.props.selectedYears.map(year => (
                             <YearTile
