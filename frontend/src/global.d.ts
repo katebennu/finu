@@ -1,6 +1,7 @@
 type Company = {
     'ticker': string,
-    'name': string
+    'name': string,
+    'industries': string[]
 }
 type Ratios = {
     Liquidity: Liquidity,

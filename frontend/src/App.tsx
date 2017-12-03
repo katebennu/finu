@@ -66,7 +66,9 @@ export default class App extends React.Component<Props, State> {
                             selectedIndustries: newValues
                         })}
                     />
-                    <Tiles selectedCompanies={selectedCompanies} selectedYears={selectedYears}/>
+                    <Tiles selectedCompanies={selectedCompanies}
+                           selectedYears={selectedYears}
+                            selectedIndustries={selectedIndustries}/>
                 </div>
             </div>
         )
