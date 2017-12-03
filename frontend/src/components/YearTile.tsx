@@ -24,7 +24,7 @@ type Props = {
 
 type State = {
     isLoading: boolean,
-    price: ''
+    rates: object
 }
 
 
@@ -33,15 +33,16 @@ class YearTile extends React.Component<Props, State> {
         super(props);
         this.state = {
             isLoading: false,
-            price: ''
+            rates: {}
         }
     }
 
     async componentWillMount() {
-        const p = await fetchData('/price/',
-            {'ticker': this.props.company.ticker});
+        const rates = await fetchData('/company-rates/',
+            {'ticker': this.props.company.ticker,
+                     'year': this.props.year});
         this.setState({
-            price: p.price
+            rates: rates
         })
     }
 
@@ -59,7 +60,7 @@ class YearTile extends React.Component<Props, State> {
                     border: 'solid 2px black'
                 }}>
                     <div>{this.props.year}</div>
-                    {/*<div>{this.state.price}</div>*/}
+                    <div>{JSON.stringify(this.state.rates)}</div>
                     {/*<div>*/}
                     {/*{Object.keys(value.ratios).map((ratio: string) =>*/}
                     {/*<RatiosSubGroup title={ratio} items={value.ratios[ratio]}/>*/}
