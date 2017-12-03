@@ -20,8 +20,8 @@ import YearTile from './YearTile'
 const CompanyTile = ({company, selectedYears}: { company: Company, selectedYears: string[] }) => (
     <div style={{
         display: 'inline-block',
-        width: '30%',
-        minWidth: '200px',
+        width: '95%',
+        minWidth: '400px',
         // maxWidth: '300px',
         margin: '10px',
         border: 'solid 2px black'

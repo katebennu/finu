@@ -20,8 +20,8 @@ const YearTile = ({company, year}: { company: Company, year: string }) => (
     <div style={{
         display: 'inline-block',
         width: '30%',
-        minWidth: '50px',
-        maxWidth: '300px',
+        minWidth: '200px',
+        maxWidth: '500px',
         margin: '10px',
         border: 'solid 2px black'
     }}>
