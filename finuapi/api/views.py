@@ -21,7 +21,7 @@ def company(request):
 
 
 def all_companies(request):
-    return HttpResponse(json.dumps({'companies': [{'ticker': c.ticker, 'name': c.name} for c in Company.objects.all()]}))
+    return HttpResponse(json.dumps({'companies': [{'ticker': c.ticker, 'name': c.name, 'industries': c.get_industries()} for c in Company.objects.all()]}))
 
 
 def company_rates(request):

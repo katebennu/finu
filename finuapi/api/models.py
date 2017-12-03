@@ -1,9 +1,14 @@
-from django.db.models import Model, CharField, ForeignKey, IntegerField, DecimalField, DateTimeField
+from django.db.models import Model, CharField, ForeignKey, IntegerField, DecimalField, DateTimeField, ManyToManyField
+
+
+class Industry(Model):
+    name = CharField(max_length=100, unique=True)
 
 
 class Company(Model):
     ticker = CharField(max_length=20, unique=True)
     name = CharField(max_length=256)
+    industries = ManyToManyField(Industry)
 
     def get_report(self, year):
         report = {}
@@ -22,6 +27,8 @@ class Company(Model):
                 rates[t][entry.name] = str(float(entry.value))
         return rates
 
+    def get_industries(self):
+        return [i.name for i in self.industries.all()]
 
 class ReportedEntry(Model):
     company = ForeignKey('Company')

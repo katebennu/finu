@@ -11,7 +11,7 @@
       "ticker": "AAPL",
       "name": "Apple Inc",
       "industries": [
-        "Electronics"
+        "Electronics", "Software"
       ]
     },
     {
@@ -32,7 +32,7 @@
       "ticker": "ORCL",
       "name": "Oracle Corp",
       "industries": [
-        "Electronics"
+        "Electronics", "Software"
       ]
     },
     {
@@ -46,7 +46,7 @@
       "ticker": "MSFT",
       "name": "Microsoft Corp",
       "industries": [
-        "Electronics"
+        "Electronics", "Software"
       ]
     },
     {
