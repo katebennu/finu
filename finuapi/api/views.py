@@ -24,6 +24,12 @@ def all_companies(request):
     return HttpResponse(json.dumps({'companies': [{'ticker': c.ticker, 'name': c.name} for c in Company.objects.all()]}))
 
 
+def company_rates(request):
+    c = Company.objects.get(ticker=request.GET.get('ticker'))
+    year = request.GET.get('year')
+    return HttpResponse(json.dumps(c.get_rates(year)))
+
+
 def price(request):
     if request.method == 'GET':
         ticker = request.GET.get('ticker')

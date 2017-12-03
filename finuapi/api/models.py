@@ -11,6 +11,12 @@ class Company(Model):
             report[entry.name] = entry.value
         return report
 
+    def get_rates(self, year):
+        rates = {}
+        for entry in AnalyticEntry.objects.filter(company=self, year=year):
+            rates[entry.name] = str(float(entry.value))
+        return rates
+
 
 class ReportedEntry(Model):
     company = ForeignKey('Company')
