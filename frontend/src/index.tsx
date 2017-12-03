@@ -4,7 +4,7 @@ import App from './App';
 import fetchData from './utils/fetchData';
 
 async function init() {
-    const data = await fetchData('/all-companies/');
+    const data = await fetchData('/all-companies/', {'bla': 42});
     ReactDOM.render(<App companies={data.companies}/>, document.getElementById('root'));
 }
 
