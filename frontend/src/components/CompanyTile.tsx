@@ -17,6 +17,7 @@ import YearTile from './YearTile'
 // );
 
 
+
 const CompanyTile = ({company, selectedYears}: { company: Company, selectedYears: string[] }) => (
     <div style={{
         display: 'inline-block',
@@ -28,7 +29,12 @@ const CompanyTile = ({company, selectedYears}: { company: Company, selectedYears
     }}>
         <div>{company.ticker} - {company.name} </div>
         <div>
-            {selectedYears.map(year => <YearTile key={company.ticker} company={company} year={year}/>)}
+            {selectedYears.map(year => (
+                <YearTile
+                    key={company.ticker+'-'+year}
+                    company={company}
+                    year={year}/>
+            ))}
         </div>
         {/*<div>*/}
             {/*{Object.keys(value.ratios).map((ratio: string) =>*/}
