@@ -1,8 +1,0 @@
-python-dateutil==2.6.1
-pytz==2017.2
-six==1.10.0
-Flask==0.12.2
-Flask-RESTful==0.3.6
-flask-cors
-psycopg2
-SQLAlchemy
