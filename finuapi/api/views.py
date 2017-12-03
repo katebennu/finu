@@ -19,8 +19,10 @@ def company(request):
         c.save()
         return HttpResponse("PUT success: " + ticker + ' ' + name)
 
+
 def all_companies(request):
-    return HttpResponse(json.dumps({'companies': [c.ticker for c in Company.objects.all()]}))
+    return HttpResponse(json.dumps({'companies': [{'ticker': c.ticker, 'name': c.name} for c in Company.objects.all()]}))
+
 
 def price(request):
     if request.method == 'GET':

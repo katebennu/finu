@@ -5,7 +5,7 @@ import fetchData from './utils/fetchData';
 
 async function init() {
     const data = await fetchData();
-    ReactDOM.render(<App companies={data}/>, document.getElementById('root'));
+    ReactDOM.render(<App companies={data.companies}/>, document.getElementById('root'));
 }
 
 init();
