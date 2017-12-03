@@ -1,12 +1,12 @@
 import * as React from 'react';
-import Tile from './Tile'
+import CompanyTile from './CompanyTile'
 
 
-const Tiles = ({data}: {data: StatementRatios[]}) => (
+const Tiles = ({selectedCompanies, selectedYears}: {selectedCompanies: Company[], selectedYears: string[]}) => (
     <div style={{
         border: 'solid 1px'
     }}>
-        {data.map(statement => <Tile key={statement.company+'-'+statement.year} value={statement}/>)}
+        {selectedCompanies.map(company => <CompanyTile key={company.ticker} company={company} selectedYears={selectedYears}/>)}
     </div>
 );
 

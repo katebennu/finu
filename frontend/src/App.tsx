@@ -1,7 +1,7 @@
 import * as React from 'react';
 // import { connect, PromiseState } from 'react-refetch';
 import Menu from './components/Menu'
-// import Tiles from './components/Tiles'
+import Tiles from './components/Tiles'
 // import {isUndefined} from "util";
 
 // type Companies = {
@@ -53,17 +53,7 @@ export default class App extends React.Component<Props, State> {
                             selectedYears: newValues
                         })}
                     />
-                    {/*<Tiles data={*/}
-                        {/*allData.filter((statement: StatementRatios) =>*/}
-                            {/*!isUndefined(*/}
-                                {/*selectedCompanies.find(*/}
-                                    {/*(company: Company) => company.ticker === statement.company*/}
-                            {/*)) &&*/}
-                            {/*!isUndefined(*/}
-                                {/*selectedYears.find(*/}
-                                    {/*(year: string) => year === statement.year.toString()))*/}
-                        {/*)*/}
-                    {/*} />*/}
+                    <Tiles selectedCompanies={selectedCompanies} selectedYears={selectedYears}/>
                 </div>
             </div>
         )
