@@ -7,6 +7,9 @@ import SelectableOptions from './Selectables';
 //     </div>
 // );
 
+// TODO: sync selected tickers of the companies with the industries
+
+
 const Menu = ({
                   companies,
                   selectedCompanies,
@@ -46,22 +49,23 @@ const Menu = ({
             margin: '20px'
         }}>
             <SelectableOptions
-                options={years}
-                selectedOptions={selectedYears}
-                selectedOptionsOnChange={selectedYearsOnChange}
-                stringify={year => year}
-            />
-        </div>
-        <div style={{
-            margin: '20px'
-        }}>
-            <SelectableOptions
                 options={industries}
                 selectedOptions={selectedIndustries}
                 selectedOptionsOnChange={selectedIndustriesOnChange}
                 stringify={industry => industry}
             />
         </div>
+        <div style={{
+            margin: '20px'
+        }}>
+            <SelectableOptions
+                options={years}
+                selectedOptions={selectedYears}
+                selectedOptionsOnChange={selectedYearsOnChange}
+                stringify={year => year}
+            />
+        </div>
+
     </div>
 );
 

@@ -19,7 +19,7 @@ type State = {
 
 const allYears = ['2014', '2015', '2016'];
 
-// TODO: fetch together with companies data
+// TODO: fetch together with companies data,
 const allIndustries = ['Electronics', 'Software', 'Internet', 'Food', 'Pharma', 'Auto'];
 
 // const sortOptions = []
